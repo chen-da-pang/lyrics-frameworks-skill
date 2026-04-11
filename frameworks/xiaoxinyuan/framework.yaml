@@ -1,0 +1,557 @@
+meta:
+  song_id: xiaoxinyuan-v1
+  song_name: 小心願
+  language: Cantonese
+  total_lines: 44
+  total_segments: 7
+  rounds: 3
+  rhyme_style: 言前辙主韵（uan/yuan）贯穿全曲，S1散→S2收→S3锁，副歌一韵到底
+  main_rhyme_vowel: uan/yuan（言前辙：圓/願/段/緣/暖/端/遠/完）
+  tags:
+    - 粤语流行
+    - 情歌
+    - 三轮结构
+    - 预副歌
+    - 圆缺意象
+    - 小心願Hook
+
+segments:
+  - segment_id: S1
+    name: 第一轮·主歌
+    round: 1
+    role: 主歌
+    line_range: L01-L08
+    summary: 以「圓」与「完」的汉字谐音对比，建立完满与缺憾的双重意象
+    rhyme_pattern: 散韵为主，言前辙宽韵，L05缺（乜斜辙）为掺韵
+    lines:
+      - id: L01
+        text: 圓是美滿
+        char_count: 4
+        line_type: 导入短句
+        semantic_role: 建立场景
+        rhyme_char: 滿
+        rhyme_vowel: an（言前辙）
+        rhyme_group: 言前辙散韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 散韵
+      - id: L02
+        text: 圓是那個令人甜蜜笑臉
+        char_count: 10
+        line_type: 叙述推进句
+        semantic_role: 铺垫状态
+        rhyme_char: 臉
+        rhyme_vowel: ian（言前辙）
+        rhyme_group: 言前辙散韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 散韵
+      - id: L03
+        text: 圓是翩翩起舞轉的圈圈
+        char_count: 10
+        line_type: 叙述推进句
+        semantic_role: 深化状态
+        rhyme_char: 圈
+        rhyme_vowel: uan（言前辙）
+        rhyme_group: 言前辙散韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 散韵
+      - id: L04
+        text: 轉出一圈圈眷戀
+        char_count: 7
+        line_type: 局部收束句
+        semantic_role: 局部收束
+        rhyme_char: 戀
+        rhyme_vowel: ian（言前辙）
+        rhyme_group: 言前辙散韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 散韵
+      - id: L05
+        text: 完是欠缺
+        char_count: 4
+        line_type: 导入短句
+        semantic_role: 情感转折
+        rhyme_char: 缺
+        rhyme_vowel: üe（乜斜辙）
+        rhyme_group: 掺韵组
+        in_main_rhyme: false
+        rhyme_length: 单押
+        rhyme_stability: 掺韵插句
+      - id: L06
+        text: 完是那句令人難受再見
+        char_count: 10
+        line_type: 叙述推进句
+        semantic_role: 深化状态
+        rhyme_char: 見
+        rhyme_vowel: ian（言前辙）
+        rhyme_group: 言前辙散韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 散韵
+      - id: L07
+        text: 最怕最愛已經不會再見
+        char_count: 10
+        line_type: 叙述推进句
+        semantic_role: 深化状态
+        rhyme_char: 見
+        rhyme_vowel: ian（言前辙）
+        rhyme_group: 言前辙散韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 散韵
+      - id: L08
+        text: 歡欣都只靠悼念
+        char_count: 7
+        line_type: 局部收束句
+        semantic_role: 局部收束
+        rhyme_char: 念
+        rhyme_vowel: ian（言前辙）
+        rhyme_group: 言前辙散韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 散韵
+
+  - segment_id: S2
+    name: 第一轮·预副歌
+    round: 1
+    role: 预副歌
+    line_range: L09-L12
+    summary: 「誰等/誰怕」排比叠字句抬升，末句「結尾才是新的開端」导入副歌
+    rhyme_pattern: 言前辙排韵，uan/an主韵收紧，四句全押
+    lines:
+      - id: L09
+        text: 誰等 等 等 等不到月圓
+        char_count: 9
+        line_type: 排比叠字抬升句
+        semantic_role: 抬升
+        rhyme_char: 圓
+        rhyme_vowel: uan（言前辙）
+        rhyme_group: 言前辙主韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 主韵连押
+        note: 叠字「等等等」制造节奏停顿感
+      - id: L10
+        text: 誰怕 怕 怕 快樂快用完
+        char_count: 9
+        line_type: 排比叠字抬升句
+        semantic_role: 抬升
+        rhyme_char: 完
+        rhyme_vowel: an（言前辙）
+        rhyme_group: 言前辙主韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 主韵连押
+        note: 与L09平行结构，叠字「怕怕怕」
+      - id: L11
+        text: 可知有情人永遠
+        char_count: 7
+        line_type: 叙述推进句
+        semantic_role: 抬升
+        rhyme_char: 遠
+        rhyme_vowel: uan（言前辙）
+        rhyme_group: 言前辙主韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 主韵连押
+      - id: L12
+        text: 結尾才是新的開端
+        char_count: 8
+        line_type: 过渡收束句
+        semantic_role: 过渡
+        rhyme_char: 端
+        rhyme_vowel: uan（言前辙）
+        rhyme_group: 言前辙主韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 主韵连押
+
+  - segment_id: S3
+    name: 第一轮·副歌
+    round: 1
+    role: 副歌
+    line_range: L13-L21
+    summary: 「小心願」Hook贯穿，圓/願/段/緣/暖主韵锁定，末句以「線」收束
+    rhyme_pattern: 掺韵式准排韵，uan/yuan主韵，L16「見」L21「線」为掺韵
+    hook_lines: [L13, L17]
+    lines:
+      - id: L13
+        text: 情人團聚的小心願
+        char_count: 8
+        line_type: Hook宣言句
+        semantic_role: Hook
+        rhyme_char: 願
+        rhyme_vowel: uan（言前辙）
+        rhyme_group: 言前辙主韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 主韵连押
+        is_hook: true
+        hook_label: Hook-A
+      - id: L14
+        text: 離開一段開一段新一段
+        char_count: 10
+        line_type: 叙述推进句
+        semantic_role: 扩展确认
+        rhyme_char: 段
+        rhyme_vowel: uan（言前辙）
+        rhyme_group: 言前辙主韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 主韵连押
+        note: 「一段」三次重复，节奏感强
+      - id: L15
+        text: 人間的圓雖則是不夠緣
+        char_count: 10
+        line_type: 叙述推进句
+        semantic_role: 扩展确认
+        rhyme_char: 緣
+        rhyme_vowel: uan（言前辙）
+        rhyme_group: 言前辙主韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 主韵连押
+      - id: L16
+        text: 而有生一天會遇見
+        char_count: 8
+        line_type: 叙述推进句
+        semantic_role: 扩展确认
+        rhyme_char: 見
+        rhyme_vowel: ian（言前辙宽韵）
+        rhyme_group: 掺韵组
+        in_main_rhyme: false
+        rhyme_length: 单押
+        rhyme_stability: 掺韵插句
+      - id: L17
+        text: 成為遺憾的小心願
+        char_count: 8
+        line_type: Hook宣言句
+        semantic_role: Hook
+        rhyme_char: 願
+        rhyme_vowel: uan（言前辙）
+        rhyme_group: 言前辙主韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 主韵连押
+        is_hook: true
+        hook_label: Hook-B
+        note: Hook变体，「情人團聚」→「成為遺憾」，情感反转
+      - id: L18
+        text: 誠心許願一千段都甘願
+        char_count: 10
+        line_type: 叙述推进句
+        semantic_role: 扩展确认
+        rhyme_char: 願
+        rhyme_vowel: uan（言前辙）
+        rhyme_group: 言前辙主韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 主韵连押
+      - id: L19
+        text: 如果保存幸福一段
+        char_count: 8
+        line_type: 叙述推进句
+        semantic_role: 扩展确认
+        rhyme_char: 段
+        rhyme_vowel: uan（言前辙）
+        rhyme_group: 言前辙主韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 主韵连押
+      - id: L20
+        text: 這一段都一樣暖
+        char_count: 7
+        line_type: 局部收束句
+        semantic_role: 局部收束
+        rhyme_char: 暖
+        rhyme_vowel: uan（言前辙）
+        rhyme_group: 言前辙主韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 主韵连押
+      - id: L21
+        text: 縱使譜不上美滿的圓的線
+        char_count: 11
+        line_type: 收束句
+        semantic_role: 收束
+        rhyme_char: 線
+        rhyme_vowel: ian（言前辙宽韵）
+        rhyme_group: 掺韵组
+        in_main_rhyme: false
+        rhyme_length: 单押
+        rhyme_stability: 掺韵收束
+
+  - segment_id: S4
+    name: 第二轮·主歌
+    round: 2
+    role: 主歌
+    line_range: L22-L25
+    summary: 「誰走/誰痛」排比叠字，平行S2结构但更短，直接导入第二轮副歌
+    rhyme_pattern: 言前辙宽韵，L22园/L23元为主韵，L24遠/L25邊为掺韵
+    note: S4是S1+S2的压缩回返，仅保留预副歌的排比叠字结构，省略主歌叙事
+    lines:
+      - id: L22
+        text: 誰走 走 走 走出了樂園
+        char_count: 9
+        line_type: 排比叠字抬升句
+        semantic_role: 抬升
+        rhyme_char: 園
+        rhyme_vowel: uan（言前辙）
+        rhyme_group: 言前辙主韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 主韵连押
+        note: 平行L09结构，叠字「走走走」
+      - id: L23
+        text: 誰痛 痛 痛 痛恨裏復元
+        char_count: 9
+        line_type: 排比叠字抬升句
+        semantic_role: 抬升
+        rhyme_char: 元
+        rhyme_vowel: uan（言前辙）
+        rhyme_group: 言前辙主韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 主韵连押
+        note: 平行L10结构，叠字「痛痛痛」
+      - id: L24
+        text: 即使距離還太遠
+        char_count: 7
+        line_type: 叙述推进句
+        semantic_role: 深化状态
+        rhyme_char: 遠
+        rhyme_vowel: uan（言前辙）
+        rhyme_group: 言前辙主韵组
+        in_main_rhyme: true
+        rhyme_length: 单押
+        rhyme_stability: 主韵连押
+      - id: L25
+        text: 我信緣份安於身邊
+        char_count: 8
+        line_type: 情感宣言句
+        semantic_role: 情感转折
+        rhyme_char: 邊
+        rhyme_vowel: ian（言前辙宽韵）
+        rhyme_group: 掺韵组
+        in_main_rhyme: false
+        rhyme_length: 单押
+        rhyme_stability: 掺韵收束
+
+  - segment_id: S5
+    name: 第二轮·副歌
+    round: 2
+    role: 副歌
+    line_range: L26-L34
+    summary: 副歌完整重复，末句由「圓的線」变为「缺了的圓圈」，意象从缺憾到接受
+    rhyme_pattern: 同S3，掺韵式准排韵，末句L34「圈」回归主韵
+    hook_lines: [L26, L30]
+    note: S5是S3的完整回返，L26=L13，L27=L14，L28=L15，L29=L16，L30=L17，L31=L18，L32=L19，L33=L20，L34≈L21（末句变体）
+    lines:
+      - id: L26
+        text: 情人團聚的小心願
+        char_count: 8
+        line_type: Hook宣言句
+        semantic_role: 回返
+        rhyme_char: 願
+        rhyme_vowel: uan（言前辙）
+        in_main_rhyme: true
+        is_hook: true
+        hook_label: Hook-A
+      - id: L27
+        text: 離開一段開一段新一段
+        char_count: 10
+        line_type: 叙述推进句
+        semantic_role: 回返
+        rhyme_char: 段
+        rhyme_vowel: uan（言前辙）
+        in_main_rhyme: true
+      - id: L28
+        text: 人間的圓雖則是不夠緣
+        char_count: 10
+        line_type: 叙述推进句
+        semantic_role: 回返
+        rhyme_char: 緣
+        rhyme_vowel: uan（言前辙）
+        in_main_rhyme: true
+      - id: L29
+        text: 而有生一天會遇見
+        char_count: 8
+        line_type: 叙述推进句
+        semantic_role: 回返
+        rhyme_char: 見
+        rhyme_vowel: ian（掺韵）
+        in_main_rhyme: false
+      - id: L30
+        text: 成為遺憾的小心願
+        char_count: 8
+        line_type: Hook宣言句
+        semantic_role: 回返
+        rhyme_char: 願
+        rhyme_vowel: uan（言前辙）
+        in_main_rhyme: true
+        is_hook: true
+        hook_label: Hook-B
+      - id: L31
+        text: 誠心許願一千段都甘願
+        char_count: 10
+        line_type: 叙述推进句
+        semantic_role: 回返
+        rhyme_char: 願
+        rhyme_vowel: uan（言前辙）
+        in_main_rhyme: true
+      - id: L32
+        text: 如果保存幸福一段
+        char_count: 8
+        line_type: 叙述推进句
+        semantic_role: 回返
+        rhyme_char: 段
+        rhyme_vowel: uan（言前辙）
+        in_main_rhyme: true
+      - id: L33
+        text: 這一段都一樣暖
+        char_count: 7
+        line_type: 局部收束句
+        semantic_role: 回返
+        rhyme_char: 暖
+        rhyme_vowel: uan（言前辙）
+        in_main_rhyme: true
+      - id: L34
+        text: 縱使少一塊缺了的圓圈
+        char_count: 11
+        line_type: 收束句
+        semantic_role: 收束
+        rhyme_char: 圈
+        rhyme_vowel: uan（言前辙）
+        in_main_rhyme: true
+        note: L21变体，「線」→「圓圈」，从缺憾意象转向接受圆缺
+
+  - segment_id: S6
+    name: 桥段
+    round: 3
+    role: 桥段
+    line_range: L35-L39
+    summary: 「悲觀的豁達點」哲理转折，长句散韵，情绪从遗憾转向豁达，引入最终副歌
+    rhyme_pattern: 散韵为主，L35遠/L38圓/L39點为宽韵呼应
+    lines:
+      - id: L35
+        text: 悲觀的豁達點 給生命望更遠
+        char_count: 12
+        line_type: 哲理宣言句
+        semantic_role: 情感转折
+        rhyme_char: 遠
+        rhyme_vowel: uan（言前辙）
+        in_main_rhyme: true
+        rhyme_stability: 散韵
+      - id: L36
+        text: 別介意永遠差一點的歡笑差一點的温暖差一點好好發展
+        char_count: 24
+        line_type: 长句散韵叙述句
+        semantic_role: 扩展确认
+        rhyme_char: 展
+        rhyme_vowel: an（言前辙宽韵）
+        in_main_rhyme: true
+        rhyme_stability: 散韵
+        note: 超长句，三次「差一點的X」排比，口语化
+      - id: L37
+        text: Oh 小心願 離開一段開一段新一段
+        char_count: 14
+        line_type: 过渡Hook句
+        semantic_role: 过渡
+        rhyme_char: 段
+        rhyme_vowel: uan（言前辙）
+        in_main_rhyme: true
+        rhyme_stability: 主韵连押
+        note: 「Oh 小心願」为过渡呼唤，引入最终副歌
+      - id: L38
+        text: 人間的緣可繪畫一個圓
+        char_count: 10
+        line_type: 叙述推进句
+        semantic_role: 扩展确认
+        rhyme_char: 圓
+        rhyme_vowel: uan（言前辙）
+        in_main_rhyme: true
+        rhyme_stability: 主韵连押
+      - id: L39
+        text: 從前那一些小缺陷會令世界美滿點
+        char_count: 15
+        line_type: 哲理收束句
+        semantic_role: 扩展确认
+        rhyme_char: 點
+        rhyme_vowel: ian（言前辙宽韵）
+        in_main_rhyme: false
+        rhyme_stability: 掺韵收束
+
+  - segment_id: S7
+    name: 结尾
+    round: 3
+    role: 结尾
+    line_range: L40-L44
+    summary: 最终副歌变体，Hook变为「仍然懷着的小心願」，末句「至少今天你欠缺的明天見」开放收束
+    rhyme_pattern: 言前辙主韵，末句「見」掺韵收束
+    hook_lines: [L40]
+    note: S7是S3/S5的压缩变体，L40=Hook-C变体，L41≈L14变体，L42=L19/L32，L43=L20/L33，L44为全新收束句
+    lines:
+      - id: L40
+        text: 仍然懷着的小心願
+        char_count: 8
+        line_type: Hook宣言句
+        semantic_role: 回返
+        rhyme_char: 願
+        rhyme_vowel: uan（言前辙）
+        in_main_rhyme: true
+        is_hook: true
+        hook_label: Hook-C
+        note: Hook第三变体，「情人團聚」→「成為遺憾」→「仍然懷着」，情感递进
+      - id: L41
+        text: 求新一年多一年新一段
+        char_count: 10
+        line_type: 叙述推进句
+        semantic_role: 扩展确认
+        rhyme_char: 段
+        rhyme_vowel: uan（言前辙）
+        in_main_rhyme: true
+      - id: L42
+        text: 如果保存幸福一段
+        char_count: 8
+        line_type: 叙述推进句
+        semantic_role: 回返
+        rhyme_char: 段
+        rhyme_vowel: uan（言前辙）
+        in_main_rhyme: true
+      - id: L43
+        text: 這一段都一樣暖
+        char_count: 7
+        line_type: 局部收束句
+        semantic_role: 回返
+        rhyme_char: 暖
+        rhyme_vowel: uan（言前辙）
+        in_main_rhyme: true
+      - id: L44
+        text: 至少今天你欠缺的明天見
+        char_count: 11
+        line_type: 开放收束句
+        semantic_role: 收束
+        rhyme_char: 見
+        rhyme_vowel: ian（言前辙宽韵）
+        in_main_rhyme: false
+        rhyme_stability: 掺韵收束
+        note: 全曲唯一直接点题「你」的句子，开放式结尾
+
+deep_rhyme_analysis:
+  main_rhyme: 言前辙（uan/yuan/an/ian）
+  main_rhyme_chars: 圓/願/段/緣/暖/端/遠/完/園/元
+  rhyme_style_summary: >
+    位置与疏密上副歌区主韵连押推进，主歌散韵铺垫；字数上以单押为主，
+    双音节词尾（心願/一段/不夠緣）承载单押；韵母关系上整体以uan/yuan音区集中，
+    夹入ian（見/線/邊）掺韵形成宽韵偏移；特殊技巧上属于掺韵式准排韵，
+    Hook「小心願」形成全曲遥韵回返；数量规律上表现为副歌区主韵集中、接近一韵到底
+  special_techniques:
+    - 遥韵: Hook「小心願」在L13/L17/L26/L30/L40五次出现，形成全曲遥韵锁定
+    - 掺韵: 「見」（ian）在L16/L25/L29/L44插入uan主韵段，制造宽韵偏移
+    - 叠字排比: 「誰等等等」「誰怕怕怕」「誰走走走」「誰痛痛痛」节奏停顿技巧
+    - Hook变体: 「[X]的小心願」三变（情人團聚→成為遺憾→仍然懷着），情感递进
+    - 圓/完谐音: 主歌以汉字谐音「圓」（完满）vs「完」（结束）建立双重意象
+  辙口: 言前辙（an/ian/uan/üan）
+  情感倾向: 清晰、明朗中带遗憾，言前辙的明朗感与歌词的遗憾情绪形成张力

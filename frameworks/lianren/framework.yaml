@@ -1,0 +1,148 @@
+framework_id: lianren-v1
+song_name: 恋人
+artist: 李荣浩
+total_lines: 43
+total_segments: 9
+rounds: 3
+rhyme_style: 主歌散韵（衣期辙）→预副歌怀来辙散韵→副歌叠字内韵+灰堆辙锁韵（ai），桥段江阳辙
+tags:
+- 流行
+- 情歌
+- 三轮结构
+- 单副歌
+- 桥段
+- 双主歌结构
+- 非标准顺序（预副歌先于副歌）
+- 副歌含叠字预热段
+segments:
+- segment_id: S1
+  name: 第一轮·主歌一
+  role: 主歌一
+  round_id: R1
+  line_range: L01-L03
+  line_count: 3
+  structural_task: 以雨比喻爱，拟声叠字，引入回忆
+  rhyme_pattern: 散韵，L01/L03押衣期辙宽韵（雨/忆）
+  rhyme_jie: 衣期辙
+- segment_id: S2
+  name: 第一轮·主歌二
+  role: 主歌二
+  round_id: R1
+  line_range: L04-L07
+  line_count: 4
+  structural_task: 以旅行比喻爱，与主歌一平行对称，引出相遇
+  rhyme_pattern: 散韵，L04/L07押衣期辙宽韵（行/迹）
+  rhyme_jie: 衣期辙
+- segment_id: S3
+  name: 第一轮·预副歌
+  role: 预副歌
+  round_id: R1
+  line_range: L08-L11
+  line_count: 4
+  structural_task: 直接对"你"发问，具体生活细节，句型切换导入副歌
+  rhyme_pattern: 散韵，L09/L11押怀来辙（改/开）
+  rhyme_jie: 怀来辙
+- segment_id: S4
+  name: 第一轮·副歌
+  role: 副歌
+  round_id: R1
+  line_range: L12-L18
+  line_count: 7
+  structural_task: 叠字磁带意象抬升（L12-L15）+ Hook宣言收束（L16-L18），同一旋律段
+  rhyme_pattern: L12-L15叠字内韵（带/带/遍/来），L16-L18灰堆辙主韵（来/徊/徊）
+  rhyme_jie: 灰堆辙
+  hook_line: L16
+  hook_text: 昨天的爱 已回不来
+- segment_id: S5
+  name: 第二轮·主歌二回返
+  role: 主歌二
+  round_id: R2
+  line_range: L19-L22
+  line_count: 4
+  structural_task: 主歌二完整回返，省略主歌一
+  rhyme_pattern: 同S2
+  rhyme_jie: 衣期辙
+  returns_to: S2
+- segment_id: S6
+  name: 第二轮·预副歌回返
+  role: 预副歌
+  round_id: R2
+  line_range: L23-L26
+  line_count: 4
+  structural_task: 预副歌完整回返
+  rhyme_pattern: 同S3
+  rhyme_jie: 怀来辙
+  returns_to: S3
+- segment_id: S7
+  name: 第二轮·副歌回返
+  role: 副歌
+  round_id: R2
+  line_range: L27-L33
+  line_count: 7
+  structural_task: 副歌完整回返
+  rhyme_pattern: 同S4
+  rhyme_jie: 灰堆辙
+  returns_to: S4
+- segment_id: S8
+  name: 第三轮·桥段
+  role: 桥段
+  round_id: R3
+  line_range: L34-L38
+  line_count: 5
+  structural_task: 哲理宣言，凶手/恋人意象，全曲最长行，引入最终副歌
+  rhyme_pattern: 江阳辙排韵（场/狂/想/往/场）
+  rhyme_jie: 江阳辙
+- segment_id: S9
+  name: 第三轮·副歌变体
+  role: 副歌变体
+  round_id: R3
+  line_range: L39-L43
+  line_count: 5
+  structural_task: 副歌压缩变体，叠字段合并为2句，Hook三次收束
+  rhyme_pattern: L39-L40叠字内韵压缩，L41-L43灰堆辙主韵
+  rhyme_jie: 灰堆辙
+  returns_to: S4
+lines:
+- {line_id: L01, segment_id: S1, char_count: 7, is_hook: false}
+- {line_id: L02, segment_id: S1, char_count: 6, is_hook: false}
+- {line_id: L03, segment_id: S1, char_count: 5, is_hook: false}
+- {line_id: L04, segment_id: S2, char_count: 8, is_hook: false}
+- {line_id: L05, segment_id: S2, char_count: 6, is_hook: false}
+- {line_id: L06, segment_id: S2, char_count: 6, is_hook: false}
+- {line_id: L07, segment_id: S2, char_count: 6, is_hook: false}
+- {line_id: L08, segment_id: S3, char_count: 13, is_hook: false}
+- {line_id: L09, segment_id: S3, char_count: 7, is_hook: false}
+- {line_id: L10, segment_id: S3, char_count: 13, is_hook: false}
+- {line_id: L11, segment_id: S3, char_count: 7, is_hook: false}
+- {line_id: L12, segment_id: S4, char_count: 8, is_hook: false}
+- {line_id: L13, segment_id: S4, char_count: 9, is_hook: false}
+- {line_id: L14, segment_id: S4, char_count: 9, is_hook: false}
+- {line_id: L15, segment_id: S4, char_count: 9, is_hook: false}
+- {line_id: L16, segment_id: S4, char_count: 9, is_hook: true}
+- {line_id: L17, segment_id: S4, char_count: 9, is_hook: false}
+- {line_id: L18, segment_id: S4, char_count: 9, is_hook: false}
+- {line_id: L19, segment_id: S5, char_count: 8, is_hook: false}
+- {line_id: L20, segment_id: S5, char_count: 6, is_hook: false}
+- {line_id: L21, segment_id: S5, char_count: 6, is_hook: false}
+- {line_id: L22, segment_id: S5, char_count: 6, is_hook: false}
+- {line_id: L23, segment_id: S6, char_count: 13, is_hook: false}
+- {line_id: L24, segment_id: S6, char_count: 7, is_hook: false}
+- {line_id: L25, segment_id: S6, char_count: 13, is_hook: false}
+- {line_id: L26, segment_id: S6, char_count: 7, is_hook: false}
+- {line_id: L27, segment_id: S7, char_count: 8, is_hook: false}
+- {line_id: L28, segment_id: S7, char_count: 9, is_hook: false}
+- {line_id: L29, segment_id: S7, char_count: 9, is_hook: false}
+- {line_id: L30, segment_id: S7, char_count: 9, is_hook: false}
+- {line_id: L31, segment_id: S7, char_count: 9, is_hook: true}
+- {line_id: L32, segment_id: S7, char_count: 9, is_hook: false}
+- {line_id: L33, segment_id: S7, char_count: 9, is_hook: false}
+- {line_id: L34, segment_id: S8, char_count: 16, is_hook: false}
+- {line_id: L35, segment_id: S8, char_count: 16, is_hook: false}
+- {line_id: L36, segment_id: S8, char_count: 14, is_hook: false}
+- {line_id: L37, segment_id: S8, char_count: 10, is_hook: false}
+- {line_id: L38, segment_id: S8, char_count: 10, is_hook: false}
+- {line_id: L39, segment_id: S9, char_count: 14, is_hook: false}
+- {line_id: L40, segment_id: S9, char_count: 16, is_hook: false}
+- {line_id: L41, segment_id: S9, char_count: 9, is_hook: true}
+- {line_id: L42, segment_id: S9, char_count: 9, is_hook: false}
+- {line_id: L43, segment_id: S9, char_count: 9, is_hook: false}

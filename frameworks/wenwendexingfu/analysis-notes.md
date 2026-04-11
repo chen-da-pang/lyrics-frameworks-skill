@@ -1,0 +1,3 @@
+- Step 1 使用固定 11 段切段规则。
+- Step 2 韵脚字段来自 rhyme audit JSON。
+- Step 3 输出 YAML 与 HTML 框架库条目。

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>稳稳的幸福 framework</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1f2937;
+      --muted: #475569;
+      --panel: #ffffff;
+      --panel-alt: #f8fafc;
+      --line: #d1d5db;
+      --accent: #0f766e;
+      --accent-soft: #ccfbf1;
+      --bg: linear-gradient(180deg, #f7f4ed 0%, #eef6ff 100%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "PingFang SC", "Noto Sans SC", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+    }
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.82);
+      backdrop-filter: blur(14px);
+      border: 1px solid rgba(209, 213, 219, 0.8);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+    }
+    h1, h2, h3 {
+      margin: 0;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin-bottom: 16px;
+    }
+    section {
+      margin-top: 24px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid rgba(209, 213, 219, 0.85);
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: 0 14px 36px rgba(15, 23, 42, 0.05);
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+      color: var(--muted);
+    }
+    .meta {
+      color: var(--muted);
+      line-height: 1.7;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+    .segment-card, .line-card {
+      border-radius: 20px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+    }
+    .segment-card {
+      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    }
+    .line-card {
+      background: var(--panel-alt);
+    }
+    .line-card.main-rhyme {
+      border-color: rgba(15, 118, 110, 0.4);
+      background: linear-gradient(180deg, var(--accent-soft) 0%, #f0fdfa 100%);
+    }
+    p {
+      margin: 10px 0 0;
+      line-height: 1.6;
+      color: var(--muted);
+    }
+    strong {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>稳稳的幸福 框架</h1>
+      <p class="meta">wenwendexingfu-v1-v1 · 共 11 段 · 39 句 · 3 轮</p>
+      <p class="meta">韵律风格：散→收→锁，副歌集中 u 音区（姑苏辙）</p>
+    </header>
+    <section>
+      <h2>全曲结构概览</h2>
+      <ul><li>S1 · 第一轮·主歌 · L01-L04</li><li>S2 · 第一轮·预副歌 · L05-L07</li><li>S3 · 第一轮·副歌一 · L08-L11</li><li>S4 · 第一轮·副歌二 · L12-L15</li><li>S5 · 第二轮·主歌 · L16-L18</li><li>S6 · 第二轮·预副歌 · L19-L21</li><li>S7 · 第二轮·副歌一 · L22-L25</li><li>S8 · 第二轮·副歌二 · L26-L29</li><li>S9 · 扩展副歌一 · L30-L33</li><li>S10 · 扩展副歌二 · L34-L37</li><li>S11 · 结尾 · L38-L39</li></ul>
+    </section>
+    <section>
+      <h2>段级参数</h2>
+      <div class="grid">
+        <article class="segment-card">
+          <h3>第一轮·主歌</h3>
+          <p>主歌 · R1 · L01-L04</p>
+          <p>结构任务：建立起点，铺垫状态</p>
+          <p>押韵模式：散韵开场，主歌区自由换韵，无稳定主韵</p>
+          <p>韵组织：自由韵 · 混辙</p>
+        </article>
+        
+        <article class="segment-card">
+          <h3>第一轮·预副歌</h3>
+          <p>预副歌 · R1 · L05-L07</p>
+          <p>结构任务：抬升并导入主韵</p>
+          <p>押韵模式：收韵过渡，末句导入 u 主韵</p>
+          <p>韵组织：随韵 · 混辙</p>
+        </article>
+        
+        <article class="segment-card">
+          <h3>第一轮·副歌一</h3>
+          <p>副歌一 · R1 · L08-L11</p>
+          <p>结构任务：首次主题宣言并锁定 Hook</p>
+          <p>押韵模式：主韵连押推进，中途夹入掺韵</p>
+          <p>韵组织：掺韵式准排韵 · 姑苏辙</p>
+        </article>
+        
+        <article class="segment-card">
+          <h3>第一轮·副歌二</h3>
+          <p>副歌二 · R1 · L12-L15</p>
+          <p>结构任务：扩写副歌命题并保持主韵</p>
+          <p>押韵模式：主韵连押推进，中途夹入掺韵</p>
+          <p>韵组织：掺韵式准排韵 · 姑苏辙</p>
+        </article>
+        
+        <article class="segment-card">
+          <h3>第二轮·主歌</h3>
+          <p>主歌 · R2 · L16-L18</p>
+          <p>结构任务：回返主歌并重启散韵</p>
+          <p>押韵模式：第二轮主歌重新散开</p>
+          <p>韵组织：自由韵 · 混辙</p>
+        </article>
+        
+        <article class="segment-card">
+          <h3>第二轮·预副歌</h3>
+          <p>预副歌 · R2 · L19-L21</p>
+          <p>结构任务：再次抬升并导入副歌</p>
+          <p>押韵模式：再次收韵并导入副歌</p>
+          <p>韵组织：随韵 · 混辙</p>
+        </article>
+        
+        <article class="segment-card">
+          <h3>第二轮·副歌一</h3>
+          <p>副歌一 · R2 · L22-L25</p>
+          <p>结构任务：回返 Hook 并重复主题宣言</p>
+          <p>押韵模式：回返 Hook，主韵再度集中</p>
+          <p>韵组织：掺韵式准排韵 · 姑苏辙</p>
+        </article>
+        
+        <article class="segment-card">
+          <h3>第二轮·副歌二</h3>
+          <p>副歌二 · R2 · L26-L29</p>
+          <p>结构任务：扩写副歌并继续回返</p>
+          <p>押韵模式：回返 Hook，主韵再度集中</p>
+          <p>韵组织：掺韵式准排韵 · 姑苏辙</p>
+        </article>
+        
+        <article class="segment-card">
+          <h3>扩展副歌一</h3>
+          <p>扩展副歌 · R3 · L30-L33</p>
+          <p>结构任务：进入扩展副歌并强化确认</p>
+          <p>押韵模式：扩展副歌锁定 u 主韵</p>
+          <p>韵组织：排韵 · 姑苏辙</p>
+        </article>
+        
+        <article class="segment-card">
+          <h3>扩展副歌二</h3>
+          <p>扩展副歌 · R3 · L34-L37</p>
+          <p>结构任务：继续扩展副歌并推高稳定度</p>
+          <p>押韵模式：扩展副歌锁定 u 主韵</p>
+          <p>韵组织：排韵 · 姑苏辙</p>
+        </article>
+        
+        <article class="segment-card">
+          <h3>结尾</h3>
+          <p>结尾 · R3 · L38-L39</p>
+          <p>结构任务：终段回收，完成收束</p>
+          <p>押韵模式：终段两句连押封口</p>
+          <p>韵组织：排韵 · 姑苏辙</p>
+        </article>
+        </div>
+    </section>
+    <section>
+      <h2>句级卡片</h2>
+      <div class="grid">
+        <article class="line-card loose-rhyme">
+          <h3>L01</h3>
+          <p>句式：时间引子短句</p>
+          <p>语义角色：建立时间锚点</p>
+          <p>字数：3</p>
+          <p>押韵：ian / ian散韵组</p>
+        </article>
+        
+        <article class="line-card loose-rhyme">
+          <h3>L02</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：铺垫状态</p>
+          <p>字数：11</p>
+          <p>押韵：ou / ou散韵组</p>
+        </article>
+        
+        <article class="line-card loose-rhyme">
+          <h3>L03</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：铺垫状态</p>
+          <p>字数：10</p>
+          <p>押韵：ang / ang散韵组</p>
+        </article>
+        
+        <article class="line-card loose-rhyme">
+          <h3>L04</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：局部收束</p>
+          <p>字数：8</p>
+          <p>押韵：u / u散韵组</p>
+        </article>
+        
+        <article class="line-card loose-rhyme">
+          <h3>L05</h3>
+          <p>句式：时间起拍长句</p>
+          <p>语义角色：建立时间锚点</p>
+          <p>字数：14</p>
+          <p>押韵：e / e散韵组</p>
+        </article>
+        
+        <article class="line-card loose-rhyme">
+          <h3>L06</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：铺垫状态</p>
+          <p>字数：10</p>
+          <p>押韵：ang / ang散韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L07</h3>
+          <p>句式：导入短句</p>
+          <p>语义角色：抬升</p>
+          <p>字数：5</p>
+          <p>押韵：u / 福收韵导入组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L08</h3>
+          <p>句式：Hook宣言句</p>
+          <p>语义角色：Hook</p>
+          <p>字数：7</p>
+          <p>押韵：u / 福Hook遥韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L09</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：铺垫状态</p>
+          <p>字数：8</p>
+          <p>押韵：u / u主韵组</p>
+        </article>
+        
+        <article class="line-card loose-rhyme">
+          <h3>L10</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：铺垫状态</p>
+          <p>字数：6</p>
+          <p>押韵：ie / ie掺韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L11</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：局部收束</p>
+          <p>字数：5</p>
+          <p>押韵：u / u主韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L12</h3>
+          <p>句式：Hook宣言句</p>
+          <p>语义角色：回返</p>
+          <p>字数：7</p>
+          <p>押韵：u / 福Hook遥韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L13</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：铺垫状态</p>
+          <p>字数：7</p>
+          <p>押韵：u / u主韵组</p>
+        </article>
+        
+        <article class="line-card loose-rhyme">
+          <h3>L14</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：铺垫状态</p>
+          <p>字数：7</p>
+          <p>押韵：ong / ong掺韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L15</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：局部收束</p>
+          <p>字数：5</p>
+          <p>押韵：u / u主韵组</p>
+        </article>
+        
+        <article class="line-card loose-rhyme">
+          <h3>L16</h3>
+          <p>句式：时间起拍长句</p>
+          <p>语义角色：建立时间锚点</p>
+          <p>字数：14</p>
+          <p>押韵：ou / ou散韵组</p>
+        </article>
+        
+        <article class="line-card loose-rhyme">
+          <h3>L17</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：铺垫状态</p>
+          <p>字数：10</p>
+          <p>押韵：ang / ang散韵组</p>
+        </article>
+        
+        <article class="line-card loose-rhyme">
+          <h3>L18</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：局部收束</p>
+          <p>字数：8</p>
+          <p>押韵：u / u散韵组</p>
+        </article>
+        
+        <article class="line-card loose-rhyme">
+          <h3>L19</h3>
+          <p>句式：时间起拍长句</p>
+          <p>语义角色：建立时间锚点</p>
+          <p>字数：14</p>
+          <p>押韵：e / e散韵组</p>
+        </article>
+        
+        <article class="line-card loose-rhyme">
+          <h3>L20</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：铺垫状态</p>
+          <p>字数：10</p>
+          <p>押韵：ang / ang散韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L21</h3>
+          <p>句式：导入短句</p>
+          <p>语义角色：抬升</p>
+          <p>字数：5</p>
+          <p>押韵：u / 福收韵导入组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L22</h3>
+          <p>句式：Hook宣言句</p>
+          <p>语义角色：回返</p>
+          <p>字数：7</p>
+          <p>押韵：u / 福Hook遥韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L23</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：铺垫状态</p>
+          <p>字数：8</p>
+          <p>押韵：u / u主韵组</p>
+        </article>
+        
+        <article class="line-card loose-rhyme">
+          <h3>L24</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：铺垫状态</p>
+          <p>字数：6</p>
+          <p>押韵：ie / ie掺韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L25</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：局部收束</p>
+          <p>字数：5</p>
+          <p>押韵：u / u主韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L26</h3>
+          <p>句式：Hook宣言句</p>
+          <p>语义角色：回返</p>
+          <p>字数：7</p>
+          <p>押韵：u / 福Hook遥韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L27</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：铺垫状态</p>
+          <p>字数：7</p>
+          <p>押韵：u / u主韵组</p>
+        </article>
+        
+        <article class="line-card loose-rhyme">
+          <h3>L28</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：铺垫状态</p>
+          <p>字数：7</p>
+          <p>押韵：ong / ong掺韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L29</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：局部收束</p>
+          <p>字数：5</p>
+          <p>押韵：u / u主韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L30</h3>
+          <p>句式：Hook宣言句</p>
+          <p>语义角色：回返</p>
+          <p>字数：7</p>
+          <p>押韵：u / 福Hook遥韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L31</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：扩展确认</p>
+          <p>字数：8</p>
+          <p>押韵：u / u尾声主韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L32</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：扩展确认</p>
+          <p>字数：6</p>
+          <p>押韵：u / u尾声主韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L33</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：扩展确认</p>
+          <p>字数：5</p>
+          <p>押韵：u / u尾声主韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L34</h3>
+          <p>句式：Hook宣言句</p>
+          <p>语义角色：回返</p>
+          <p>字数：7</p>
+          <p>押韵：u / 福Hook遥韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L35</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：扩展确认</p>
+          <p>字数：7</p>
+          <p>押韵：u / u尾声主韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L36</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：扩展确认</p>
+          <p>字数：7</p>
+          <p>押韵：u / u尾声主韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L37</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：扩展确认</p>
+          <p>字数：5</p>
+          <p>押韵：u / u尾声主韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L38</h3>
+          <p>句式：Hook宣言句</p>
+          <p>语义角色：回返</p>
+          <p>字数：7</p>
+          <p>押韵：u / 福Hook遥韵组</p>
+        </article>
+        
+        <article class="line-card main-rhyme">
+          <h3>L39</h3>
+          <p>句式：叙述推进句</p>
+          <p>语义角色：收束</p>
+          <p>字数：8</p>
+          <p>押韵：u / 福Hook遥韵组</p>
+        </article>
+        </div>
+    </section>
+    <section>
+      <h2>押韵密度</h2>
+      <p><strong>高亮卡片</strong>表示进入当前段主韵的句子；其余卡片表示散韵、掺韵或过渡句。</p>
+    </section>
+  </main>
+</body>
+</html>
