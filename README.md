@@ -1,6 +1,6 @@
 # lyrics-frameworks-skill
 
-A library of reusable structural frameworks extracted from Chinese pop songs, used with the [lyrics-framework](https://github.com/chen-da-pang/lyrics-framework) Claude Code skill to generate new lyrics.
+A library of reusable structural frameworks extracted from Chinese-language pop songs, used with the [lyrics-framework](https://github.com/chen-da-pang/lyrics-framework) Claude Code skill to generate new lyrics.
 
 ## What's in here
 
@@ -10,16 +10,16 @@ This library works as the data layer for the `lyrics-framework` skill. The skill
 
 ## Framework library
 
-| Song | Artist | Segments | Lines | Structure highlights |
-|------|--------|----------|-------|----------------------|
-| 稳稳的幸福 | 陈奕迅 | 11 | — | Standard 3-round baseline, pre-chorus + dual chorus |
-| 小心願 | 謝安琪 | 7 | 43 | Cantonese, dual-verse symmetry, dual-Hook alternating |
-| 从不主动示弱 | 邓紫棋 | 9 | 66 | Dual chorus, bridge, 转折词 pre-chorus signal |
-| 恋人 | 李荣浩 | 9 | 43 | Pre-chorus before chorus (non-standard), stutter pre-chorus |
-| 幻想中的行星 | 林俊杰 | 9 | 36 | Cantonese, R2 skips pre-chorus, single chorus |
-| 雨过后的风景 | 周杰伦 | 15 | 41 | Post-chorus, dual-Hook + title-line remote rhyme |
-| 一半一半 | 张信哲 | 8 | 88 | Rap structure, R2 has no chorus, stacked-syllable chorus |
-| 我没转身 | 周杰伦 | 9 | 86 | Inverted structure (chorus opens), English Hook, call-back ending |
+| Framework ID | Segments | Lines | Structure highlights |
+|---|---|---|---|
+| wenwendexingfu | 11 | — | Standard 3-round baseline, pre-chorus + dual chorus |
+| xiaoxinyuan (圆) | 7 | 43 | Cantonese, dual-verse symmetry, dual-Hook alternating |
+| congbuzhudongshiruo | 9 | 66 | Dual chorus, bridge, 转折词 pre-chorus signal |
+| lianren | 9 | 43 | Pre-chorus before chorus (non-standard), stutter pre-chorus |
+| huanxiangzhongdexingxing | 9 | 36 | Cantonese, R2 skips pre-chorus, single chorus |
+| yuguohoudefengjing | 15 | 41 | Post-chorus, dual-Hook + title-line remote rhyme |
+| yibanyiban | 8 | 88 | Rap structure, R2 has no chorus, stacked-syllable chorus |
+| womeizhuanshen | 9 | 86 | Inverted structure (chorus opens), English Hook, call-back ending |
 
 ## File structure
 
