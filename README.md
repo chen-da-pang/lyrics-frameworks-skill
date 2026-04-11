@@ -10,16 +10,7 @@ This library works as the data layer for the `lyrics-framework` skill. The skill
 
 ## Framework library
 
-| Framework ID | Segments | Lines | Structure highlights |
-|---|---|---|---|
-| wenwendexingfu | 11 | — | Standard 3-round baseline, pre-chorus + dual chorus |
-| xiaoxinyuan (圆) | 7 | 43 | Cantonese, dual-verse symmetry, dual-Hook alternating |
-| congbuzhudongshiruo | 9 | 66 | Dual chorus, bridge, 转折词 pre-chorus signal |
-| lianren | 9 | 43 | Pre-chorus before chorus (non-standard), stutter pre-chorus |
-| huanxiangzhongdexingxing | 9 | 36 | Cantonese, R2 skips pre-chorus, single chorus |
-| yuguohoudefengjing | 15 | 41 | Post-chorus, dual-Hook + title-line remote rhyme |
-| yibanyiban | 8 | 88 | Rap structure, R2 has no chorus, stacked-syllable chorus |
-| womeizhuanshen | 9 | 86 | Inverted structure (chorus opens), English Hook, call-back ending |
+8 frameworks covering standard 3-round pop, dual-chorus, rap structure, Cantonese pop, inverted structure, and more. Browse the `frameworks/` directory for details.
 
 ## File structure
 
