@@ -1,5 +1,6 @@
 - framework_id: wenwendexingfu-v1
   song_name: 稳稳的幸福
+  artist: 陈奕迅
   total_segments: 11
   rounds: 3
   rhyme_style: 散→收→锁
@@ -97,6 +98,7 @@
   path: frameworks/lianren/framework.yaml
 - framework_id: congbuzhudongshiruo-v1
   song_name: 从不主动示弱
+  artist: Cole先生（海屿你）
   total_segments: 9
   total_lines: 66
   rounds: 3
