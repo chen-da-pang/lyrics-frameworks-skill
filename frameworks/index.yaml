@@ -97,8 +97,8 @@
   - 非标准顺序
   path: frameworks/lianren/framework.yaml
 - framework_id: congbuzhudongshiruo-v1
-  song_name: 从不主动示弱
-  artist: Cole先生（海屿你）
+  song_name: 海屿你
+  artist: Cole先生
   total_segments: 9
   total_lines: 66
   rounds: 3
