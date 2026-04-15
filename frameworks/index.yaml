@@ -113,7 +113,8 @@
   - 双主歌结构
   path: frameworks/congbuzhudongshiruo/framework.yaml
 - framework_id: yantian-v2
-  song_name: 炎天
+  song_name: 炎炎夏日
+  artist: 曾舜晞
   language: zh-yue
   total_segments: 5
   total_lines: 30
