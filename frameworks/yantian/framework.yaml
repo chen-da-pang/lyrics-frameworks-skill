@@ -1,87 +1,109 @@
 meta:
   song_id: yantian
-  song_name: 炎天（分析曲）
+  song_name: 炎天
   artist: unknown
-  language: 粤语
-  structure: 3轮 9段 30句
-  rhyme_style: 散韵为主，S2中东辙(-ong)，S8/S9中东辙+衣期辙混用(-ei/-ui/-i)
-  hook_sentence: 你怎睡难寐 怎醉寻味 怎会锁眉 怎会欢喜
+  language: zh-yue
+  total_lines: 30
+  total_segments: 5
+  rounds: 2
+  rhyme_style: "全曲主韵灰堆辙（ei/ui），副歌掺韵式准排韵，主歌自由韵/随韵，预副歌一字韵倾向（焰×3）"
+  main_rhyme_vowel: "ei/ui"
+  main_rhyme_zhe: "灰堆辙"
+  special_techniques:
+    - "一字韵倾向（苗焰×3，S3末三句）"
+    - "头韵链（怎×4，S4副歌）"
+    - "掺韵（L26 喜 i，打破ei主韵）"
+    - "句内内韵（L01 炎/天 ian）"
+    - "跨轮次遥韵（L07 热 / L22 烈，乜斜辙）"
+  mood: "怀旧与释怀，遗憾但不凄凉"
+  structure_note: "R2极度压缩，仅保留副歌回返（S5=S4完全重复）"
+  hook_sentence: "你怎睡难寐 怎醉寻味 怎会锁眉 怎会欢喜"
 
 segments:
-  - id: S1
-    role: Verse
+  - segment_id: S1
+    role: 主歌一
     round: R1
-    lines: [L01, L02]
-    note: 回忆引入，7字句，言前辙(-ian)
-  - id: S2
-    role: Pre-Chorus
+    line_range: [L01, L06]
+    line_count: 6
+    rhyme_pattern: "自由韵/多韵并用，无主韵"
+    dominant_zhe: "多辙（言前/中东/姑苏/灰堆）"
+    char_pattern: "8-8-5-5-5-6"
+    notes: "两句长句（8字）开场，后四句短句（5-6字）收束，节奏由宽到紧"
+
+  - segment_id: S2
+    role: 主歌二
     round: R1
-    lines: [L03, L04, L05, L06]
-    note: 情绪递进，短句+长句交替，中东辙(-ong)
-  - id: S3
-    role: Chorus
+    line_range: [L07, L14]
+    line_count: 8
+    rhyme_pattern: "随韵（ao组L11-L12，an组L13-L14，前半散韵）"
+    dominant_zhe: "遥条辙+言前辙"
+    char_pattern: "4-7-5-6-7-7-6-6"
+    notes: "4字时间引子短句开场，后接7字意象句，中段两组偶韵收束"
+
+  - segment_id: S3
+    role: 预副歌
     round: R1
-    lines: [L07, L08, L09, L10]
-    note: 主歌核心，意象密集，散韵
-  - id: S4
-    role: Chorus延续
+    line_range: [L15, L21]
+    line_count: 7
+    rhyme_pattern: "末三句一字韵倾向（焰×3），前四句散韵"
+    dominant_zhe: "言前辙（末三句）"
+    char_pattern: "6-7-7-5-7-7-7"
+    notes: "前四句超现实行为句抬升，末三句叠字苗焰顿挫，强预副歌信号"
+
+  - segment_id: S4
+    role: 副歌
     round: R1
-    lines: [L11, L12, L13, L14]
-    note: 情绪高潮，散韵
-  - id: S5
-    role: Verse
+    line_range: [L22, L26]
+    line_count: 5
+    rhyme_pattern: "掺韵式准排韵（ei主韵L23-L25，L26喜掺韵）"
+    dominant_zhe: "灰堆辙（ei/ui）"
+    char_pattern: "4-5-4-4-4"
+    notes: "4字时间引子短句开场，后四句Hook组（怎×4头韵），L26掺韵"
+    hook_lines: [L23, L24, L25, L26]
+
+  - segment_id: S5
+    role: 副歌回返
     round: R2
-    lines: [L15, L16, L17, L18]
-    note: S1压缩回返，意象从"记忆"转向"行动"，6/6/7/5字
-  - id: S6
-    role: Pre-Chorus
-    round: R2
-    lines: [L19, L20, L21]
-    note: S2压缩回返，三重复句"苗焰"，7字×3
-  - id: S7
-    role: Bridge
-    round: R3
-    lines: [L22]
-    note: 单句转折，4字，引入疑问情绪
-  - id: S8
-    role: Chorus变体
-    round: R3
-    lines: [L23, L24, L25, L26]
-    note: Hook段，疑问句式四连，中东辙+衣期辙
-  - id: S9
-    role: Outro
-    round: R3
-    lines: [L27, L28, L29, L30]
-    note: 完全重复S8，回环收尾
+    line_range: [L27, L30]
+    line_count: 4
+    rhyme_pattern: "完全回返S4 L23-L26"
+    dominant_zhe: "灰堆辙（ei/ui）"
+    char_pattern: "5-4-4-4"
+    notes: "S5 = S4的L23-L26完全重复，省略时间引子短句L22"
+    return_mapping:
+      L27: "= L23 完全重复"
+      L28: "= L24 完全重复"
+      L29: "= L25 完全重复"
+      L30: "= L26 完全重复"
 
 lines:
-  L01: {char_count: 7, line_type: 叙述推进句, semantic_role: 时间锚点, rhyme_end: "天(-ian)", rhyme_type: 散韵}
-  L02: {char_count: 7, line_type: 叙述推进句, semantic_role: 场景切换, rhyme_end: "见(-ian)", rhyme_type: 散韵}
-  L03: {char_count: 5, line_type: 导入短句, semantic_role: 感官触发, rhyme_end: "钟(-ong)", rhyme_type: 押主韵}
-  L04: {char_count: 5, line_type: 情绪递进句, semantic_role: 情绪命名, rhyme_end: "痛(-ong)", rhyme_type: 押主韵}
-  L05: {char_count: 5, line_type: 行动句, semantic_role: 逃离意象, rhyme_end: "去(-u)", rhyme_type: 散韵}
-  L06: {char_count: 6, line_type: 叙述推进句, semantic_role: 现实回落, rhyme_end: "归(-ui)", rhyme_type: 散韵}
-  L07: {char_count: 4, line_type: Hook宣言句, semantic_role: 意象锚点, rhyme_end: "热(-ie)", rhyme_type: 散韵}
-  L08: {char_count: 7, line_type: 叙述推进句, semantic_role: 具象化, rhyme_end: "衣(-i)", rhyme_type: 散韵}
-  L09: {char_count: 5, line_type: 导入短句, semantic_role: 感官细节, rhyme_end: "冻(-ong)", rhyme_type: 掺韵}
-  L10: {char_count: 6, line_type: 情绪递进句, semantic_role: 情绪命名, rhyme_end: "结(-ie)", rhyme_type: 散韵}
-  L11: {char_count: 7, line_type: 行动句, semantic_role: 行为描述, rhyme_end: "糕(-ao)", rhyme_type: 散韵}
-  L12: {char_count: 7, line_type: 行动句, semantic_role: 情感诉求, rhyme_end: "抱(-ao)", rhyme_type: 散韵}
-  L13: {char_count: 6, line_type: 叙述推进句, semantic_role: 情绪释放, rhyme_end: "遍(-ian)", rhyme_type: 散韵}
-  L14: {char_count: 6, line_type: 意象句, semantic_role: 意象转化, rhyme_end: "烟(-ian)", rhyme_type: 散韵}
-  L15: {char_count: 6, line_type: 行动句, semantic_role: 隐喻行为, rhyme_end: "衫(-an)", rhyme_type: 散韵, note: "L01+L02压缩，意象升华"}
-  L16: {char_count: 7, line_type: 叙述推进句, semantic_role: 永恒意象, rhyme_end: "世(-i)", rhyme_type: 散韵}
-  L17: {char_count: 7, line_type: 叙述推进句, semantic_role: 感官转化, rhyme_end: "要(-ao)", rhyme_type: 散韵}
-  L18: {char_count: 5, line_type: 导入短句, semantic_role: 感官细节, rhyme_end: "清(-ing)", rhyme_type: 散韵}
-  L19: {char_count: 7, line_type: 意象句, semantic_role: 意象叠加, rhyme_end: "焰(-ian)", rhyme_type: 散韵, note: "三重复句第1"}
-  L20: {char_count: 7, line_type: 意象句, semantic_role: 意象叠加, rhyme_end: "焰(-ian)", rhyme_type: 散韵, note: "三重复句第2"}
-  L21: {char_count: 7, line_type: 意象句, semantic_role: 意象叠加, rhyme_end: "焰(-ian)", rhyme_type: 散韵, note: "三重复句第3"}
-  L22: {char_count: 4, line_type: 导入短句, semantic_role: 情绪转折, rhyme_end: "烈(-ie)", rhyme_type: 散韵}
-  L23: {char_count: 5, line_type: Hook宣言句, semantic_role: 情绪追问, rhyme_end: "寐(-ei)", rhyme_type: 押主韵, hook: true}
-  L24: {char_count: 4, line_type: Hook宣言句, semantic_role: 情绪追问, rhyme_end: "味(-ui)", rhyme_type: 押主韵, hook: true}
-  L25: {char_count: 4, line_type: Hook宣言句, semantic_role: 情绪追问, rhyme_end: "眉(-ei)", rhyme_type: 押主韵, hook: true}
-  L26: {char_count: 4, line_type: Hook宣言句, semantic_role: 情绪追问, rhyme_end: "喜(-i)", rhyme_type: 掺韵, hook: true}
-  L27: {char_count: 5, line_type: Hook宣言句, semantic_role: 情绪追问, rhyme_end: "寐(-ei)", rhyme_type: 押主韵, hook: true, note: "完全重复L23"}
-  L28: {char_count: 4, line_type: Hook宣言句, semantic_role: 情绪追问, rhyme_end: "味(-ui)", rhyme_type: 押主韵, hook: true, note: "完全重复L24"}
-  L29: {char_count: 4, line_type: Hook宣言句, semantic_role: 情绪追问, rhyme_end: "眉(-ei)", rhyme_type: 押主韵, hook: true, note: "完全重复L25"}
-  L30: {char_count: 4, line_type: Hook宣言句, semantic_role: 情绪追问, rhyme_end: "喜(-i)", rhyme_type: 掺韵, hook: true, note: "完全重复L26"}
+  L01: {char_count: 8, line_type: 时间引子句, semantic_role: 建立时间锚点, rhyme_end: "天(ian)", zhe: 言前辙, in_main_rhyme: false, inner_rhyme: "炎/天(ian)句内内韵", head_rhyme: null, rhyme_length: 单押}
+  L02: {char_count: 8, line_type: 叙述推进句, semantic_role: 铺垫状态, rhyme_end: "见(ian)", zhe: 言前辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L03: {char_count: 5, line_type: 意象比喻句, semantic_role: 深化状态, rhyme_end: "钟(ong)", zhe: 中东辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L04: {char_count: 5, line_type: 情感陈述句, semantic_role: 情感转折, rhyme_end: "痛(ong)", zhe: 中东辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L05: {char_count: 5, line_type: 意象行为句, semantic_role: 深化状态, rhyme_end: "去(ü)", zhe: 姑苏辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L06: {char_count: 6, line_type: 叙述推进句, semantic_role: 铺垫状态, rhyme_end: "归(ui)", zhe: 灰堆辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L07: {char_count: 4, line_type: 时间引子短句, semantic_role: 建立时间锚点, rhyme_end: "热(e)", zhe: 乜斜辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L08: {char_count: 7, line_type: 意象叙述句, semantic_role: 建立场景, rhyme_end: "衣(i)", zhe: 衣期辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L09: {char_count: 5, line_type: 意象叙述句, semantic_role: 深化状态, rhyme_end: "冻(ong)", zhe: 中东辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L10: {char_count: 6, line_type: 情感陈述句, semantic_role: 铺垫状态, rhyme_end: "结(ie)", zhe: 乜斜辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L11: {char_count: 7, line_type: 超现实行为句, semantic_role: 深化状态, rhyme_end: "糕(ao)", zhe: 遥条辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L12: {char_count: 7, line_type: 情感宣言句, semantic_role: 情感转折, rhyme_end: "抱(ao)", zhe: 遥条辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L13: {char_count: 6, line_type: 叙述推进句, semantic_role: 深化状态, rhyme_end: "遍(ian)", zhe: 言前辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L14: {char_count: 6, line_type: 意象比喻句, semantic_role: 局部收束, rhyme_end: "烟(ian)", zhe: 言前辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L15: {char_count: 6, line_type: 超现实行为句, semantic_role: 抬升, rhyme_end: "衫(an)", zhe: 言前辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L16: {char_count: 7, line_type: 超现实行为句, semantic_role: 抬升, rhyme_end: "世(i)", zhe: 衣期辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L17: {char_count: 7, line_type: 情感宣言句, semantic_role: 抬升, rhyme_end: "要(ao)", zhe: 遥条辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L18: {char_count: 5, line_type: 叙述推进句, semantic_role: 过渡, rhyme_end: "清(ing)", zhe: 人辰辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L19: {char_count: 7, line_type: 叠字意象句, semantic_role: 抬升, rhyme_end: "焰(ian)", zhe: 言前辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: "苗焰×3", rhyme_length: "单押/一字韵"}
+  L20: {char_count: 7, line_type: 叠字意象句, semantic_role: 抬升, rhyme_end: "焰(ian)", zhe: 言前辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: "苗焰×3", rhyme_length: "单押/一字韵"}
+  L21: {char_count: 7, line_type: 叠字意象句, semantic_role: 过渡, rhyme_end: "焰(ian)", zhe: 言前辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: "苗焰×3", rhyme_length: "单押/一字韵"}
+  L22: {char_count: 4, line_type: 时间引子短句, semantic_role: 建立时间锚点, rhyme_end: "烈(ie)", zhe: 乜斜辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: null, rhyme_length: 单押}
+  L23: {char_count: 5, line_type: Hook宣言句, semantic_role: Hook, rhyme_end: "寐(ei)", zhe: 灰堆辙, in_main_rhyme: true, inner_rhyme: null, head_rhyme: "怎×4", rhyme_length: 单押, hook: true}
+  L24: {char_count: 4, line_type: Hook宣言句, semantic_role: Hook, rhyme_end: "味(ei)", zhe: 灰堆辙, in_main_rhyme: true, inner_rhyme: null, head_rhyme: "怎×4", rhyme_length: 单押, hook: true}
+  L25: {char_count: 4, line_type: Hook宣言句, semantic_role: Hook, rhyme_end: "眉(ei)", zhe: 灰堆辙, in_main_rhyme: true, inner_rhyme: null, head_rhyme: "怎×4", rhyme_length: 单押, hook: true}
+  L26: {char_count: 4, line_type: Hook宣言句, semantic_role: Hook, rhyme_end: "喜(i)", zhe: 衣期辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: "怎×4", rhyme_length: "单押（掺韵）", hook: true}
+  L27: {char_count: 5, line_type: Hook宣言句, semantic_role: 回返, rhyme_end: "寐(ei)", zhe: 灰堆辙, in_main_rhyme: true, inner_rhyme: null, head_rhyme: "怎×4", rhyme_length: 单押, hook: true, note: "完全重复L23"}
+  L28: {char_count: 4, line_type: Hook宣言句, semantic_role: 回返, rhyme_end: "味(ei)", zhe: 灰堆辙, in_main_rhyme: true, inner_rhyme: null, head_rhyme: "怎×4", rhyme_length: 单押, hook: true, note: "完全重复L24"}
+  L29: {char_count: 4, line_type: Hook宣言句, semantic_role: 回返, rhyme_end: "眉(ei)", zhe: 灰堆辙, in_main_rhyme: true, inner_rhyme: null, head_rhyme: "怎×4", rhyme_length: 单押, hook: true, note: "完全重复L25"}
+  L30: {char_count: 4, line_type: Hook宣言句, semantic_role: 回返, rhyme_end: "喜(i)", zhe: 衣期辙, in_main_rhyme: false, inner_rhyme: null, head_rhyme: "怎×4", rhyme_length: "单押（掺韵）", hook: true, note: "完全重复L26"}

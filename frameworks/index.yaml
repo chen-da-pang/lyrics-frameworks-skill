@@ -112,21 +112,23 @@
   - 桥段
   - 双主歌结构
   path: frameworks/congbuzhudongshiruo/framework.yaml
-- framework_id: yantian-v1
-  song_name: 炎天（分析曲）
-  language: 粤语
-  total_segments: 9
+- framework_id: yantian-v2
+  song_name: 炎天
+  language: zh-yue
+  total_segments: 5
   total_lines: 30
-  rounds: 3
-  rhyme_style: 散韵为主，S2中东辙(-ong)，S8/S9疑问Hook四连(-ei/-ui/-i)，S9完全重复S8
-  main_rhyme_vowel: ei/ui（中东辙）
+  rounds: 2
+  rhyme_style: 主歌散韵/随韵→预副歌一字韵倾向（焰×3）→副歌灰堆辙掺韵式准排韵（ei/ui），R2极度压缩仅副歌回返
+  main_rhyme_vowel: ei/ui（灰堆辙）
   tags:
   - 粤语流行
   - 意识流
-  - 三轮结构
+  - 两轮结构
   - 疑问Hook
   - 三重复句
-  - 散韵
+  - 头韵链（怎×4）
+  - 散韵主歌
+  - 极简R2
   path: frameworks/yantian/framework.yaml
 - framework_id: xiaoxinyuan-v1
   song_name: 小心願
