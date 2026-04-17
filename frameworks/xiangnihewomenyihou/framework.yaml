@@ -1,0 +1,454 @@
+meta:
+  framework_id: xiangnihewomenyihou-v1
+  song_name: 想你和我们以后
+  artist: 苏运莹
+  language: zh
+  total_segments: 6
+  total_lines: 27
+  rounds: 3
+  rhyme_style: 散韵基底，"忙"字遥韵链贯穿全曲（L01/L03/L21/L24/L26），桥段"你不在"一字韵锁定，副歌言前辙/怀来辙稀疏双辙回环
+  main_rhyme_vowel: ang（江阳辙，遥韵链）
+  tags:
+    - 流行
+    - 情歌
+    - 三轮结构
+    - 单副歌
+    - 桥段
+    - 主歌收尾
+    - 遥韵链
+    - 一字韵倾向
+    - R2无主歌
+    - 叠字副歌开头
+
+segments:
+  - segment_id: S1
+    role: 主歌
+    round: R1
+    line_range: L01-L04
+    lines: 4
+    rhyme_pattern: 散韵（ang/ian/ang/e）
+    notes: Hook宣言句×2夹叙述推进句，L01=L03完全重复
+
+  - segment_id: S2
+    role: 副歌
+    round: R1
+    line_range: L05-L10
+    lines: 6
+    rhyme_pattern: 散韵（ian/ou/an/ai/ian/ai），言前辙与怀来辙交替
+    notes: 叠字开头"以后以后"，以对比宣言句收尾
+
+  - segment_id: S3
+    role: 副歌
+    round: R2
+    line_range: L11-L16
+    lines: 6
+    rhyme_pattern: 同S2
+    notes: S2完整重复，R2无主歌直接进入副歌
+
+  - segment_id: S4
+    role: 桥段
+    round: R3
+    line_range: L17-L20
+    lines: 4
+    rhyme_pattern: 偶韵倾向（L18/L20押怀来辙"在"，一字韵锁定）
+    notes: 现实对照，"你不在"重复两次形成桥段内锁韵
+
+  - segment_id: S5
+    role: 预副歌
+    round: R3
+    line_range: L21-L23
+    lines: 3
+    rhyme_pattern: 散韵（ang/e/eng）
+    notes: 叠字顿挫句开头，反问句推进，L23为全曲最长行（16字）
+
+  - segment_id: S6
+    role: 主歌变体
+    round: R3
+    line_range: L24-L27
+    lines: 4
+    rhyme_pattern: 散韵（ang/ao/ang/iou）
+    notes: S1变体回返，细节升级（吃饭聊天→聊天打闹，拥抱亲吻→对视害羞），全曲以主歌收尾
+
+lines:
+  - id: L01
+    text: 我好想你可是我们都忙
+    char_count: 11
+    line_type: Hook宣言句
+    semantic_role: Hook
+    rhyme_char: 忙
+    rhyme_vowel: ang
+    rhyme_group: 忙遥韵链
+    rhyme_zhe: 江阳辙
+    in_main_rhyme: true
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L02
+    text: 好想见你想和你吃饭聊天
+    char_count: 12
+    line_type: 叙述推进句
+    semantic_role: 深化状态
+    rhyme_char: 天
+    rhyme_vowel: ian
+    rhyme_group: 言前辙散韵
+    rhyme_zhe: 言前辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L03
+    text: 我好想你可是我们都忙
+    char_count: 11
+    line_type: Hook宣言句（回返）
+    semantic_role: 回返
+    rhyme_char: 忙
+    rhyme_vowel: ang
+    rhyme_group: 忙遥韵链
+    rhyme_zhe: 江阳辙
+    in_main_rhyme: true
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L04
+    text: 太想见你拥抱和亲吻还有别的
+    char_count: 14
+    line_type: 叙述推进句（升级）
+    semantic_role: 深化状态
+    rhyme_char: 的
+    rhyme_vowel: e
+    rhyme_group: 散韵
+    rhyme_zhe: 梭波辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L05
+    text: 以后以后我们会散步聊天
+    char_count: 12
+    line_type: 时间引子句
+    semantic_role: 主题宣言
+    rhyme_char: 天
+    rhyme_vowel: ian
+    rhyme_group: 言前辙散韵
+    rhyme_zhe: 言前辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+    notes: 叠字"以后以后"为副歌标志性开头
+
+  - id: L06
+    text: 讲一讲年轻时候
+    char_count: 8
+    line_type: 叙述推进句
+    semantic_role: 铺垫状态
+    rhyme_char: 候
+    rhyme_vowel: ou
+    rhyme_group: 散韵
+    rhyme_zhe: 由求辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L07
+    text: 我的倔强和你的不安
+    char_count: 10
+    line_type: 对比陈述句
+    semantic_role: 深化状态
+    rhyme_char: 安
+    rhyme_vowel: an
+    rhyme_group: 言前辙散韵
+    rhyme_zhe: 言前辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L08
+    text: 然后相拥 经过那片花园停下来
+    char_count: 14
+    line_type: 叙述推进句
+    semantic_role: 建立场景
+    rhyme_char: 来
+    rhyme_vowel: ai
+    rhyme_group: 怀来辙散韵
+    rhyme_zhe: 怀来辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押（双音节词尾"下来"承载）
+
+  - id: L09
+    text: 回忆着当年
+    char_count: 6
+    line_type: 时间引子短句
+    semantic_role: 建立时间锚点
+    rhyme_char: 年
+    rhyme_vowel: ian
+    rhyme_group: 言前辙散韵
+    rhyme_zhe: 言前辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L10
+    text: 你是忧伤少年我是阳光女孩
+    char_count: 14
+    line_type: 对比宣言句
+    semantic_role: 主题宣言
+    rhyme_char: 孩
+    rhyme_vowel: ai
+    rhyme_group: 怀来辙散韵
+    rhyme_zhe: 怀来辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押（双音节词尾"女孩"承载）
+
+  - id: L11
+    text: 以后以后 我们会散步聊天
+    char_count: 12
+    line_type: 时间引子句（回返）
+    semantic_role: 回返
+    rhyme_char: 天
+    rhyme_vowel: ian
+    rhyme_group: 言前辙散韵
+    rhyme_zhe: 言前辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L12
+    text: 讲一讲年轻时候
+    char_count: 8
+    line_type: 叙述推进句（回返）
+    semantic_role: 回返
+    rhyme_char: 候
+    rhyme_vowel: ou
+    rhyme_group: 散韵
+    rhyme_zhe: 由求辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L13
+    text: 我的倔强和你的不安
+    char_count: 10
+    line_type: 对比陈述句（回返）
+    semantic_role: 回返
+    rhyme_char: 安
+    rhyme_vowel: an
+    rhyme_group: 言前辙散韵
+    rhyme_zhe: 言前辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L14
+    text: 然后相拥 经过那片花园停下来
+    char_count: 14
+    line_type: 叙述推进句（回返）
+    semantic_role: 回返
+    rhyme_char: 来
+    rhyme_vowel: ai
+    rhyme_group: 怀来辙散韵
+    rhyme_zhe: 怀来辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L15
+    text: 回忆着当年
+    char_count: 6
+    line_type: 时间引子短句（回返）
+    semantic_role: 回返
+    rhyme_char: 年
+    rhyme_vowel: ian
+    rhyme_group: 言前辙散韵
+    rhyme_zhe: 言前辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L16
+    text: 你是忧伤少年我是阳光女孩
+    char_count: 14
+    line_type: 对比宣言句（回返）
+    semantic_role: 回返
+    rhyme_char: 孩
+    rhyme_vowel: ai
+    rhyme_group: 怀来辙散韵
+    rhyme_zhe: 怀来辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L17
+    text: 那天我经过一片花园
+    char_count: 10
+    line_type: 时间引子句
+    semantic_role: 建立时间锚点
+    rhyme_char: 园
+    rhyme_vowel: uan
+    rhyme_group: 言前辙散韵
+    rhyme_zhe: 言前辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L18
+    text: 可是 你不在
+    char_count: 5
+    line_type: 情感转折句
+    semantic_role: 情感转折
+    rhyme_char: 在
+    rhyme_vowel: ai
+    rhyme_group: 桥段一字韵（在）
+    rhyme_zhe: 怀来辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L19
+    text: 现在我看着浪漫电影
+    char_count: 10
+    line_type: 建立场景句
+    semantic_role: 建立场景
+    rhyme_char: 影
+    rhyme_vowel: ing
+    rhyme_group: 散韵
+    rhyme_zhe: 人辰辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L20
+    text: 喔 可是 你不在
+    char_count: 6
+    line_type: 情感转折句（强化）
+    semantic_role: 情感转折
+    rhyme_char: 在
+    rhyme_vowel: ai
+    rhyme_group: 桥段一字韵（在）
+    rhyme_zhe: 怀来辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L21
+    text: 我们在忙 我们都忙
+    char_count: 9
+    line_type: 叠字顿挫句
+    semantic_role: 抬升
+    rhyme_char: 忙
+    rhyme_vowel: ang
+    rhyme_group: 忙遥韵链
+    rhyme_zhe: 江阳辙
+    in_main_rhyme: true
+    inner_rhyme: true
+    inner_rhyme_note: 句内"忙"字两次出现，形成内部回响
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L22
+    text: 我们到底在忙什么
+    char_count: 9
+    line_type: 反问句
+    semantic_role: 抬升
+    rhyme_char: 么
+    rhyme_vowel: e
+    rhyme_group: 散韵
+    rhyme_zhe: 梭波辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: true
+    head_rhyme_note: L21/L22/L23均以"我们"/"忙着"开头，w/m声母头韵链
+    rhyme_length: 单押
+
+  - id: L23
+    text: 忙着追求 还是忙着不一样的人生
+    char_count: 16
+    line_type: 反问推进句
+    semantic_role: 抬升
+    rhyme_char: 生
+    rhyme_vowel: eng
+    rhyme_group: 散韵
+    rhyme_zhe: 人辰辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: true
+    head_rhyme_note: 同L22
+    rhyme_length: 单押
+    notes: 全曲最长行，16字
+
+  - id: L24
+    text: 我好想你可是我们都忙
+    char_count: 11
+    line_type: Hook宣言句（回返）
+    semantic_role: 回返
+    rhyme_char: 忙
+    rhyme_vowel: ang
+    rhyme_group: 忙遥韵链
+    rhyme_zhe: 江阳辙
+    in_main_rhyme: true
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L25
+    text: 好想见你想和你聊天打闹
+    char_count: 12
+    line_type: 叙述推进句（变体）
+    semantic_role: 深化状态
+    rhyme_char: 闹
+    rhyme_vowel: ao
+    rhyme_group: 散韵
+    rhyme_zhe: 遥条辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L26
+    text: 我好想你可是我们都忙
+    char_count: 11
+    line_type: Hook宣言句（回返）
+    semantic_role: 回返
+    rhyme_char: 忙
+    rhyme_vowel: ang
+    rhyme_group: 忙遥韵链
+    rhyme_zhe: 江阳辙
+    in_main_rhyme: true
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押
+
+  - id: L27
+    text: 太想见你想要对视到彼此害羞
+    char_count: 14
+    line_type: 叙述推进句（升级收束）
+    semantic_role: 收束
+    rhyme_char: 羞
+    rhyme_vowel: iou
+    rhyme_group: 散韵
+    rhyme_zhe: 由求辙
+    in_main_rhyme: false
+    inner_rhyme: false
+    head_rhyme: false
+    rhyme_length: 单押

@@ -131,6 +131,26 @@
   - 散韵主歌
   - 极简R2
   path: frameworks/yantian/framework.yaml
+- framework_id: xiangnihewomenyihou-v1
+  song_name: 想你和我们以后
+  artist: 苏运莹
+  total_segments: 6
+  total_lines: 27
+  rounds: 3
+  rhyme_style: 散韵基底，"忙"字遥韵链贯穿全曲（L01/L03/L21/L24/L26），桥段"你不在"一字韵锁定，副歌言前辙/怀来辙稀疏双辙回环
+  main_rhyme_vowel: ang（江阳辙，遥韵链）
+  tags:
+    - 流行
+    - 情歌
+    - 三轮结构
+    - 单副歌
+    - 桥段
+    - 主歌收尾
+    - 遥韵链
+    - 一字韵倾向
+    - R2无主歌
+    - 叠字副歌开头
+  path: frameworks/xiangnihewomenyihou/framework.yaml
 - framework_id: xiaoxinyuan-v1
   song_name: 小心願
   language: Cantonese
