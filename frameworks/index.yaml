@@ -1,3 +1,20 @@
+- framework_id: zhufu-zhangxueyou-v1
+  song_name: 祝福
+  artist: 张学友
+  total_segments: 9
+  total_lines: 43
+  rounds: 2
+  rhyme_style: 主歌一散韵（梭波辙倾向）→预副歌中东辙严韵→主歌二由求辙主韵+中东辙掺韵→副歌言前辙掺韵式准排韵，结尾回返主歌一+压缩预副歌
+  main_rhyme_vowel: an/ian/uan（言前辙）
+  tags:
+    - 流行
+    - 离别
+    - 两轮结构
+    - 双主歌结构
+    - 预副歌双出现
+    - 叠字副歌
+    - 结尾回返主歌
+  path: frameworks/zhufu-zhangxueyou/framework.yaml
 - framework_id: wenwendexingfu-v1
   song_name: 稳稳的幸福
   artist: 陈奕迅

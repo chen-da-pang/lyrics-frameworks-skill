@@ -1,0 +1,304 @@
+meta:
+  framework_id: zhufu-zhangxueyou-v1
+  song_name: 祝福
+  artist: 张学友
+  language: zh
+  total_segments: 9
+  total_lines: 43
+  rounds: 2
+  rhyme_style: 主歌一散韵（梭波辙倾向uo/e）→预副歌中东辙严韵（ong）→主歌二由求辙主韵（ou）+中东辙掺韵→副歌言前辙掺韵式准排韵（an/ian/uan）末句乜斜辙掺韵，结尾回返主歌一+压缩预副歌
+  main_rhyme_vowel: an/ian/uan（言前辙，副歌主韵）
+  tags:
+    - 流行
+    - 离别
+    - 两轮结构
+    - 双主歌结构
+    - 预副歌双出现
+    - 叠字副歌
+    - 结尾回返主歌
+    - 背景人声
+    - 对仗平行结构
+    - 长句爆发
+
+segments:
+  - segment_id: intro
+    role: 引子（背景人声）
+    round: 0
+    line_range: L01-L04
+    lines: 4
+    notes: 背景人声"朋友我永远祝福你"×3，不计入主填词框架
+
+  - segment_id: S1
+    role: 主歌一
+    round: 1
+    line_range: L05-L11
+    lines: 7
+    rhyme_summary: 散韵，梭波辙倾向（uo/e），L05/L09禁止句对仗，L11为全段最长句（10字）情感转折
+    inner_rhyme: 无
+    head_rhyme: L05"不要问/不要说"与L09"莫挥手/莫回头"形成禁止句平行头韵链
+
+  - segment_id: S2
+    role: 预副歌
+    round: 1
+    line_range: L12-L13
+    lines: 2
+    rhyme_summary: 中东辙严韵排韵（ong），容/冬，一韵到底
+
+  - segment_id: S3
+    role: 主歌二
+    round: 1
+    line_range: L14-L19
+    lines: 6
+    rhyme_summary: 由求辙主韵（ou）4/6句，中东辙掺韵（ong）2/6句，L14/L17叠字对仗，L16为全段最长句（15字）感悟爆发
+    inner_rhyme: 无
+    head_rhyme: L14"几许愁几许忧"与L17"情难舍人难留"形成叠字对仗链
+
+  - segment_id: S4
+    role: 预副歌回返
+    round: 1
+    line_range: L20-L21
+    lines: 2
+    notes: S2的完全重复，一字不差
+
+  - segment_id: S5
+    role: 副歌
+    round: 1
+    line_range: L22-L25
+    lines: 4
+    rhyme_summary: 言前辙主韵（an/ian/uan）3/4句，末句乜斜辙掺韵（ie），掺韵式准排韵
+    inner_rhyme: L22"离别离别"、L23"再见再见"、L24"有缘有缘"三连叠字回环
+    head_rhyme: 无
+
+  - segment_id: S6
+    role: 副歌回返
+    round: 2
+    line_range: L26-L29
+    lines: 4
+    notes: S5的完全重复，一字不差
+
+  - segment_id: S7
+    role: 扩展副歌
+    round: 2
+    line_range: L30-L35
+    lines: 6
+    notes: L30-L33背景人声重复副歌前两句，L34-L35主唱唱后两句
+
+  - segment_id: S8
+    role: 结尾
+    round: 2
+    line_range: L36-L43
+    lines: 8
+    notes: L36-L41完全回返S1前6句，L42压缩自L12（11字→7字），L43修改自L13（11字→10字）
+
+lines:
+  - id: L05
+    text: 不要问不要说
+    char_count: 6
+    line_type: 禁止克制句
+    semantic_role: 建立场景
+    rhyme_end: 说
+    rhyme_vowel: uo
+    rhyme_group: 梭波辙散韵组
+    in_main_rhyme: false
+    rhyme_stability: 散韵插句
+
+  - id: L06
+    text: 一切尽在不言中
+    char_count: 7
+    line_type: 状态描述句
+    semantic_role: 铺垫状态
+    rhyme_end: 中
+    rhyme_vowel: ong
+    rhyme_group: 中东辙散韵组
+    in_main_rhyme: false
+    rhyme_stability: 散韵插句
+
+  - id: L07
+    text: 这一刻偎着烛光
+    char_count: 7
+    line_type: 时间场景句
+    semantic_role: 建立时间锚点
+    rhyme_end: 光
+    rhyme_vowel: ang
+    rhyme_group: 江阳辙散韵组
+    in_main_rhyme: false
+    rhyme_stability: 散韵插句
+
+  - id: L08
+    text: 让我们静静地度过
+    char_count: 8
+    line_type: 祈愿句
+    semantic_role: 深化状态
+    rhyme_end: 过
+    rhyme_vowel: uo
+    rhyme_group: 梭波辙散韵组
+    in_main_rhyme: false
+    rhyme_stability: 散韵插句
+
+  - id: L09
+    text: 莫挥手莫回头
+    char_count: 6
+    line_type: 禁止克制句
+    semantic_role: 局部收束
+    rhyme_end: 头
+    rhyme_vowel: ou
+    rhyme_group: 由求辙散韵组
+    in_main_rhyme: false
+    rhyme_stability: 散韵插句
+
+  - id: L10
+    text: 当我唱起这首歌
+    char_count: 7
+    line_type: 时间引子句
+    semantic_role: 过渡
+    rhyme_end: 歌
+    rhyme_vowel: e
+    rhyme_group: 梭波辙散韵组
+    in_main_rhyme: false
+    rhyme_stability: 散韵插句
+
+  - id: L11
+    text: 怕只怕泪水轻轻地滑落
+    char_count: 10
+    line_type: 情感宣泄句（全段最长）
+    semantic_role: 情感转折
+    rhyme_end: 落
+    rhyme_vowel: uo
+    rhyme_group: 梭波辙散韵组
+    in_main_rhyme: false
+    rhyme_stability: 散韵插句
+
+  - id: L12
+    text: 愿心中永远留着我的笑容
+    char_count: 11
+    line_type: 祈愿宣言句
+    semantic_role: 抬升
+    rhyme_end: 容
+    rhyme_vowel: ong
+    rhyme_group: 中东辙主韵组
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+
+  - id: L13
+    text: 伴你走过每一个春夏秋冬
+    char_count: 11
+    line_type: 陪伴宣言句
+    semantic_role: 主题宣言
+    rhyme_end: 冬
+    rhyme_vowel: ong
+    rhyme_group: 中东辙主韵组
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+
+  - id: L14
+    text: 几许愁几许忧
+    char_count: 6
+    line_type: 情感叠字句
+    semantic_role: 铺垫状态
+    rhyme_end: 忧
+    rhyme_vowel: ou
+    rhyme_group: 由求辙主韵组
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+
+  - id: L15
+    text: 人生难免苦与痛
+    char_count: 7
+    line_type: 人生感悟句
+    semantic_role: 深化状态
+    rhyme_end: 痛
+    rhyme_vowel: ong
+    rhyme_group: 中东辙掺韵组
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L16
+    text: 失去过才能真正懂得去珍惜和拥有
+    char_count: 15
+    line_type: 长句感悟（全段最长）
+    semantic_role: 情感转折
+    rhyme_end: 有
+    rhyme_vowel: ou
+    rhyme_group: 由求辙主韵组
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+
+  - id: L17
+    text: 情难舍人难留
+    char_count: 6
+    line_type: 对仗短句
+    semantic_role: 局部收束
+    rhyme_end: 留
+    rhyme_vowel: ou
+    rhyme_group: 由求辙主韵组
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+
+  - id: L18
+    text: 今朝一别各西东
+    char_count: 7
+    line_type: 离别叙事句
+    semantic_role: 建立场景
+    rhyme_end: 东
+    rhyme_vowel: ong
+    rhyme_group: 中东辙掺韵组
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L19
+    text: 冷和热点点滴滴在心头
+    char_count: 10
+    line_type: 情感积累句
+    semantic_role: 深化状态
+    rhyme_end: 头
+    rhyme_vowel: ou
+    rhyme_group: 由求辙主韵组
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+
+  - id: L22
+    text: 伤离别离别虽然在眼前
+    char_count: 10
+    line_type: Hook宣言句（叠字）
+    semantic_role: Hook
+    rhyme_end: 前
+    rhyme_vowel: ian
+    rhyme_group: 言前辙主韵组
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+    inner_rhyme: 离别/离别叠字回环
+
+  - id: L23
+    text: 说再见再见不会太遥远
+    char_count: 10
+    line_type: Hook宣言句（叠字）
+    semantic_role: Hook
+    rhyme_end: 远
+    rhyme_vowel: uan
+    rhyme_group: 言前辙主韵组
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+    inner_rhyme: 再见/再见叠字回环
+
+  - id: L24
+    text: 若有缘有缘就能期待明天
+    char_count: 11
+    line_type: 希望宣言句（叠字）
+    semantic_role: 扩展确认
+    rhyme_end: 天
+    rhyme_vowel: ian
+    rhyme_group: 言前辙主韵组
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+    inner_rhyme: 有缘/有缘叠字回环
+
+  - id: L25
+    text: 你和我重逢在灿烂的季节
+    char_count: 11
+    line_type: 意象收束句
+    semantic_role: 收束
+    rhyme_end: 节
+    rhyme_vowel: ie
+    rhyme_group: 乜斜辙掺韵组
+    in_main_rhyme: false
+    rhyme_stability: 掺韵末句收束
