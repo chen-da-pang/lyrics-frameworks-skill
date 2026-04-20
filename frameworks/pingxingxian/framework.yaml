@@ -1,0 +1,474 @@
+meta:
+  framework_id: pingxingxian-v1
+  song_name: 平行线
+  artist: 郑润泽
+  language: zh
+  total_segments: 8
+  total_lines: 35
+  rounds: 2
+  outro: true
+  rhyme_style: 主歌散韵（衣期辙→梭波辙换韵）→副歌由求辙掺韵式准排韵，双Hook平行结构，ou遥韵链贯穿两轮副歌
+  main_rhyme_vowel: ou（由求辙）
+  tags:
+    - 流行
+    - 情歌
+    - 两轮结构
+    - 双副歌
+    - 双主歌结构
+    - 双Hook平行
+    - 遥韵链
+    - 掺韵式准排韵
+    - 结尾单句
+
+segments:
+  - segment_id: S1
+    label: 第一轮·主歌一
+    round: R1
+    role: 主歌一
+    line_range: L01-L02
+    lines: 2
+    notes: 唯一出现，R2不回返；场景铺垫，散韵
+
+  - segment_id: S2
+    label: 第一轮·主歌二
+    round: R1
+    role: 主歌二
+    line_range: L03-L08
+    lines: 6
+    notes: R2以S5回返（L19-L24），L23有微变（"打算了最坏"→"选择了最好"）；衣期辙→梭波辙换韵
+
+  - segment_id: S3
+    label: 第一轮·副歌一
+    round: R1
+    role: 副歌一
+    line_range: L09-L13
+    lines: 5
+    notes: Hook句L09"有一种奢求不能直说"；主韵由求辙（ou），L09掺韵梭波辙
+
+  - segment_id: S4
+    label: 第一轮·副歌二
+    round: R1
+    role: 副歌二
+    line_range: L14-L18
+    lines: 5
+    notes: Hook句L14"有一种伤口不能喊痛"，与S3 Hook句型完全对称；多韵并用，由求辙为主
+
+  - segment_id: S5
+    label: 第二轮·主歌二回返
+    round: R2
+    role: 主歌二回返
+    line_range: L19-L24
+    lines: 6
+    notes: S2的压缩回返（跳过S1），L23微变；结构与S2完全对应
+
+  - segment_id: S6
+    label: 第二轮·副歌一回返
+    round: R2
+    role: 副歌一回返
+    line_range: L25-L29
+    lines: 5
+    notes: S3的完整回返，一字不差
+
+  - segment_id: S7
+    label: 第二轮·副歌二回返
+    round: R2
+    role: 副歌二回返
+    line_range: L30-L34
+    lines: 5
+    notes: S4的完整回返，一字不差
+
+  - segment_id: S8
+    label: 结尾
+    round: Outro
+    role: 结尾
+    line_range: L35
+    lines: 1
+    notes: 全曲唯一结尾句，由求辙（求 qiú → ou），收束全曲
+
+lines:
+  - id: L01
+    text: 两颗心似乎那么近
+    char_count: 8
+    segment: S1
+    line_type: 铺垫状态句
+    semantic_role: 建立场景
+    rhyme_end: 近（jìn）
+    rhyme_vowel: in
+    rhyme_group: 人辰辙
+    in_main_rhyme: false
+    rhyme_stability: 散韵
+
+  - id: L02
+    text: 若即若离你毫不在意
+    char_count: 9
+    segment: S1
+    line_type: 深化状态句
+    semantic_role: 深化状态
+    rhyme_end: 意（yì）
+    rhyme_vowel: i
+    rhyme_group: 衣期辙
+    in_main_rhyme: false
+    rhyme_stability: 散韵
+
+  - id: L03
+    text: 怎么后悔了遇见你
+    char_count: 8
+    segment: S2
+    line_type: 情感疑问句
+    semantic_role: 情感转折
+    rhyme_end: 你（nǐ）
+    rhyme_vowel: i
+    rhyme_group: 衣期辙
+    in_main_rhyme: false
+    rhyme_stability: 局部押韵（S2前段衣期辙）
+
+  - id: L04
+    text: 现在暂停但愿还来的及
+    char_count: 10
+    segment: S2
+    line_type: 情感宣言句
+    semantic_role: 铺垫状态
+    rhyme_end: 及（jí）
+    rhyme_vowel: i
+    rhyme_group: 衣期辙
+    in_main_rhyme: false
+    rhyme_stability: 局部押韵（S2前段衣期辙）
+
+  - id: L05
+    text: 或许是时间犯错
+    char_count: 7
+    segment: S2
+    line_type: 自我开解句
+    semantic_role: 深化状态
+    rhyme_end: 错（cuò）
+    rhyme_vowel: uo
+    rhyme_group: 梭波辙
+    in_main_rhyme: false
+    rhyme_stability: 换韵（衣期辙→梭波辙）
+    head_rhyme: 或许（与L07头韵对句）
+
+  - id: L06
+    text: 在消耗着我的不舍和所有执著
+    char_count: 13
+    segment: S2
+    line_type: 长句叙述推进
+    semantic_role: 深化状态
+    rhyme_end: 著（zhe）
+    rhyme_vowel: e
+    rhyme_group: 梭波辙（宽韵）
+    in_main_rhyme: false
+    rhyme_stability: 宽韵延续梭波辙
+    inner_rhyme: 消耗（ao）/执著（e）局部近韵
+
+  - id: L07
+    text: 或许你打算了最坏结果
+    char_count: 10
+    segment: S2
+    line_type: 推测句
+    semantic_role: 局部收束
+    rhyme_end: 果（guǒ）
+    rhyme_vowel: uo
+    rhyme_group: 梭波辙
+    in_main_rhyme: false
+    rhyme_stability: 梭波辙连押
+    head_rhyme: 或许（与L05头韵对句）
+
+  - id: L08
+    text: 所以微笑沉默
+    char_count: 6
+    segment: S2
+    line_type: 短句收束
+    semantic_role: 局部收束
+    rhyme_end: 默（mò）
+    rhyme_vowel: o
+    rhyme_group: 梭波辙
+    in_main_rhyme: false
+    rhyme_stability: 梭波辙收束
+
+  - id: L09
+    text: 有一种奢求不能直说
+    char_count: 9
+    segment: S3
+    line_type: Hook宣言句
+    semantic_role: Hook
+    rhyme_end: 说（shuō）
+    rhyme_vowel: uo
+    rhyme_group: 梭波辙
+    in_main_rhyme: false
+    rhyme_stability: 掺韵（梭波辙插入由求辙主韵段）
+    is_hook: true
+    hook_pattern: 有一种X 不能Y（X=奢求，Y=直说）
+
+  - id: L10
+    text: 懂得情人不能长久
+    char_count: 8
+    segment: S3
+    line_type: 扩展确认句
+    semantic_role: 扩展确认
+    rhyme_end: 久（jiǔ）
+    rhyme_vowel: ou
+    rhyme_group: 由求辙
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+
+  - id: L11
+    text: 总有人像你像我似平行的轴只能在左右
+    char_count: 16
+    segment: S3
+    line_type: 长句意象展开
+    semantic_role: 主题宣言
+    rhyme_end: 右（yòu）
+    rhyme_vowel: ou
+    rhyme_group: 由求辙
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+    inner_rhyme: 你（i）/我（o）局部内韵
+
+  - id: L12
+    text: 如果说这就是最后
+    char_count: 8
+    segment: S3
+    line_type: 假设导入句
+    semantic_role: 过渡
+    rhyme_end: 后（hòu）
+    rhyme_vowel: ou
+    rhyme_group: 由求辙
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+
+  - id: L13
+    text: 言不由衷口是心非的接受
+    char_count: 11
+    segment: S3
+    line_type: 收束句
+    semantic_role: 局部收束
+    rhyme_end: 受（shòu）
+    rhyme_vowel: ou
+    rhyme_group: 由求辙
+    in_main_rhyme: true
+    rhyme_stability: 主韵收束
+
+  - id: L14
+    text: 有一种伤口不能喊痛
+    char_count: 9
+    segment: S4
+    line_type: Hook宣言句
+    semantic_role: Hook
+    rhyme_end: 痛（tòng）
+    rhyme_vowel: ong
+    rhyme_group: 中东辙
+    in_main_rhyme: false
+    rhyme_stability: 掺韵（中东辙插入由求辙主韵段）
+    is_hook: true
+    hook_pattern: 有一种X 不能Y（X=伤口，Y=喊痛）
+
+  - id: L15
+    text: 陪伴是仅存的拥有
+    char_count: 8
+    segment: S4
+    line_type: 扩展确认句
+    semantic_role: 扩展确认
+    rhyme_end: 有（yǒu）
+    rhyme_vowel: ou
+    rhyme_group: 由求辙
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+
+  - id: L16
+    text: 朋友说我们两个像一对恋友听起来不错
+    char_count: 16
+    segment: S4
+    line_type: 长句叙述推进
+    semantic_role: 主题宣言
+    rhyme_end: 错（cuò）
+    rhyme_vowel: uo
+    rhyme_group: 梭波辙
+    in_main_rhyme: false
+    rhyme_stability: 掺韵（梭波辙）
+    inner_rhyme: 朋友（ou）/恋友（ou）句中双叠由求辙
+
+  - id: L17
+    text: 夜太浓盖过了寂寞
+    char_count: 8
+    segment: S4
+    line_type: 场景收束句
+    semantic_role: 建立场景
+    rhyme_end: 寞（mò）
+    rhyme_vowel: o
+    rhyme_group: 梭波辙
+    in_main_rhyme: false
+    rhyme_stability: 掺韵（梭波辙）
+
+  - id: L18
+    text: 你会想我是我想你的借口
+    char_count: 11
+    segment: S4
+    line_type: 收束句
+    semantic_role: 收束
+    rhyme_end: 口（kǒu）
+    rhyme_vowel: ou
+    rhyme_group: 由求辙
+    in_main_rhyme: true
+    rhyme_stability: 主韵收束
+    inner_rhyme: 你（i）/我（o）/你（i）句中回环
+
+  - id: L19
+    text: 怎么后悔了遇见你
+    char_count: 8
+    segment: S5
+    line_type: 情感疑问句
+    semantic_role: 回返
+    rhyme_end: 你（nǐ）
+    rhyme_vowel: i
+    notes: S2/L03回返
+
+  - id: L20
+    text: 现在暂停但愿还来的及
+    char_count: 10
+    segment: S5
+    line_type: 情感宣言句
+    semantic_role: 回返
+    rhyme_end: 及（jí）
+    rhyme_vowel: i
+    notes: S2/L04回返
+
+  - id: L21
+    text: 或许是时间犯错
+    char_count: 7
+    segment: S5
+    line_type: 自我开解句
+    semantic_role: 回返
+    rhyme_end: 错（cuò）
+    rhyme_vowel: uo
+    notes: S2/L05回返
+
+  - id: L22
+    text: 在消耗着我的不舍和所有执著
+    char_count: 13
+    segment: S5
+    line_type: 长句叙述推进
+    semantic_role: 回返
+    rhyme_end: 著（zhe）
+    rhyme_vowel: e
+    notes: S2/L06回返
+
+  - id: L23
+    text: 或许你选择了最好结果
+    char_count: 10
+    segment: S5
+    line_type: 推测句（微变）
+    semantic_role: 回返
+    rhyme_end: 果（guǒ）
+    rhyme_vowel: uo
+    notes: S2/L07微变（"打算了最坏"→"选择了最好"，情绪从悲观转向接受）
+
+  - id: L24
+    text: 所以微笑沉默
+    char_count: 6
+    segment: S5
+    line_type: 短句收束
+    semantic_role: 回返
+    rhyme_end: 默（mò）
+    rhyme_vowel: o
+    notes: S2/L08回返
+
+  - id: L25
+    text: 有一种奢求不能直说
+    char_count: 9
+    segment: S6
+    line_type: Hook宣言句
+    semantic_role: 回返
+    notes: S3/L09完整回返
+
+  - id: L26
+    text: 懂得情人不能长久
+    char_count: 8
+    segment: S6
+    semantic_role: 回返
+    notes: S3/L10完整回返
+
+  - id: L27
+    text: 总有人像你像我似平行的轴只能在左右
+    char_count: 16
+    segment: S6
+    semantic_role: 回返
+    notes: S3/L11完整回返
+
+  - id: L28
+    text: 如果说这就是最后
+    char_count: 8
+    segment: S6
+    semantic_role: 回返
+    notes: S3/L12完整回返
+
+  - id: L29
+    text: 言不由衷口是心非的接受
+    char_count: 11
+    segment: S6
+    semantic_role: 回返
+    notes: S3/L13完整回返
+
+  - id: L30
+    text: 有一种伤口不能喊痛
+    char_count: 9
+    segment: S7
+    line_type: Hook宣言句
+    semantic_role: 回返
+    notes: S4/L14完整回返
+
+  - id: L31
+    text: 陪伴是仅存的拥有
+    char_count: 8
+    segment: S7
+    semantic_role: 回返
+    notes: S4/L15完整回返
+
+  - id: L32
+    text: 朋友说我们两个像一对恋友听起来不错
+    char_count: 16
+    segment: S7
+    semantic_role: 回返
+    notes: S4/L16完整回返
+
+  - id: L33
+    text: 夜太浓盖过了寂寞
+    char_count: 8
+    segment: S7
+    semantic_role: 回返
+    notes: S4/L17完整回返
+
+  - id: L34
+    text: 你会想我是我想你的借口
+    char_count: 11
+    segment: S7
+    semantic_role: 回返
+    notes: S4/L18完整回返
+
+  - id: L35
+    text: 维系现有当作最后的请求
+    char_count: 11
+    segment: S8
+    line_type: 结尾宣言句
+    semantic_role: 收束
+    rhyme_end: 求（qiú）
+    rhyme_vowel: ou
+    rhyme_group: 由求辙
+    in_main_rhyme: true
+    notes: 全曲唯一结尾句，由求辙收束，与副歌主韵遥韵呼应
+
+rhyme_audit:
+  main_rhyme: ou（由求辙）
+  main_rhyme_lines: [L10, L11, L12, L13, L15, L18, L26, L27, L28, L29, L31, L34, L35]
+  verse_rhyme_pattern: 衣期辙（L03-L04）→梭波辙（L05-L08），分段换韵
+  chorus_rhyme_pattern: 掺韵式准排韵（Hook句掺韵，其余由求辙排韵）
+  special_techniques:
+    - 双Hook平行结构（有一种X 不能Y，S3/S4各一句）
+    - ou遥韵链贯穿两轮副歌（L10-L13-L15-L18-L26-L29-L31-L34-L35）
+    - 头韵对句（L05/L07均以"或许"开头）
+    - L16句中内韵（朋友/恋友，ou叠韵）
+    - L18句中回环（你/我/你）
+  segment_rhyme_summary: >
+    位置上以句尾韵为主；字数上单押为主，双音节词尾承载单押（如"长久/拥有/借口"）；
+    韵母关系上副歌区由求辙（ou）严韵为主，Hook句以梭波辙/中东辙掺韵；
+    特殊技巧上属掺韵式准排韵，双Hook平行结构，ou遥韵链贯穿全曲；
+    数量规律上主歌分段换韵，副歌接近一韵到底（ou）

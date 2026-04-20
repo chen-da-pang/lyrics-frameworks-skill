@@ -167,3 +167,22 @@
   - 圆缺意象
   - Hook变体三进
   path: frameworks/xiaoxinyuan/framework.yaml
+- framework_id: pingxingxian-v1
+  song_name: 平行线
+  artist: 郑润泽
+  total_segments: 8
+  total_lines: 35
+  rounds: 2
+  rhyme_style: 主歌散韵（衣期辙→梭波辙换韵）→副歌由求辙掺韵式准排韵，双Hook平行结构，ou遥韵链贯穿两轮副歌
+  main_rhyme_vowel: ou（由求辙）
+  tags:
+    - 流行
+    - 情歌
+    - 两轮结构
+    - 双副歌
+    - 双主歌结构
+    - 双Hook平行
+    - 遥韵链
+    - 掺韵式准排韵
+    - 结尾单句
+  path: frameworks/pingxingxian/framework.yaml
