@@ -1,3 +1,20 @@
+- framework_id: beautyandabeat-v1
+  song_name: Beauty And A Beat
+  artist: Justin Bieber / Nicki Minaj
+  total_segments: 9
+  rounds: 3
+  rhyme_style: 主歌偶韵（aw/ai音），副歌ee音掺韵式准排韵，Rap段密集三押
+  main_rhyme_vowel: ee（对应中文衣期辙）
+  tags:
+  - 流行
+  - 舞曲
+  - 三轮结构
+  - 预副歌
+  - 双主歌结构
+  - Rap桥段
+  - 三押技巧
+  - 英文
+  path: frameworks/beautyandabeat/framework.yaml
 - framework_id: zhufu-zhangxueyou-v1
   song_name: 祝福
   artist: 张学友

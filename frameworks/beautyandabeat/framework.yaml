@@ -1,0 +1,96 @@
+meta:
+  framework_id: beautyandabeat-v1
+  song_name: Beauty And A Beat
+  artist: Justin Bieber / Nicki Minaj
+  language: en
+  total_segments: 9
+  rounds: 3
+  rhyme_style: 主歌偶韵（aw/ai音），副歌ee音掺韵式准排韵，Rap段ai/ee音密集排韵+三押
+  main_rhyme_vowel: ee（对应中文衣期辙）
+  tags:
+    - 流行
+    - 舞曲
+    - 三轮结构
+    - 预副歌
+    - 双主歌结构
+    - Rap桥段
+    - 三押技巧
+    - 英文
+
+segments:
+  - segment_id: S1
+    role: 主歌一
+    round: R1
+    line_range: L01-L08
+    char_pattern: 短句/长句交替，2+4行结构
+    rhyme_summary: 偶韵，aw音（off/bought）+ ai音（tonight/life/tonight），宽韵
+
+  - segment_id: S2
+    role: 预副歌
+    round: R1
+    line_range: L09-L12
+    char_pattern: 4行长句，字数均匀
+    rhyme_summary: ai音排韵（tonight/life/tonight），末句散韵，动能堆叠
+
+  - segment_id: S3
+    role: 副歌
+    round: R1
+    line_range: L13-L19
+    char_pattern: 7行，短长交替
+    rhyme_summary: ee音主韵（need/beat/complete），掺入oo音（you/do），掺韵式准排韵
+
+  - segment_id: S4
+    role: 主歌二
+    round: R2
+    line_range: L20-L25
+    char_pattern: 短句/长句交替，同S1结构
+    rhyme_summary: aw音（rock/rock），偶韵，宽韵
+
+  - segment_id: S5
+    role: 预副歌
+    round: R2
+    line_range: L26-L29
+    char_pattern: 4行长句
+    rhyme_summary: 同S2，完全重复
+
+  - segment_id: S6
+    role: 副歌
+    round: R2
+    line_range: L30-L36
+    char_pattern: 同S3
+    rhyme_summary: 同S3，完全重复
+
+  - segment_id: S7
+    role: 桥段/Rap
+    round: R3
+    line_range: L37-L51
+    char_pattern: 长句密集，说唱节奏
+    rhyme_summary: ai音排韵（lines/incline/mine/sign）+ ee音密集三押（ether/wiener/Selener；beast/East/priest/streets/deceased/eats），双韵区交替
+
+  - segment_id: S8
+    role: 后主歌
+    round: R3
+    line_range: L52-L55
+    char_pattern: 4行，简化版主歌
+    rhyme_summary: 散韵，过渡功能
+
+  - segment_id: S9
+    role: 副歌
+    round: R3
+    line_range: L56-L62
+    char_pattern: 同S3，含括号内声部
+    rhyme_summary: 同S3，收束全曲
+
+rhyme_audit:
+  main_rhyme: ee音（对应中文衣期辙）
+  main_rhyme_pattern: 掺韵式准排韵（副歌ee主韵，掺入oo音）
+  verse_rhyme: 偶韵，aw/ai音，宽韵
+  special_techniques:
+    - 三押（Rap段末尾音节三字全押）
+    - 密集排韵（Rap段ee音6行连押）
+    - 双韵区交替（Rap段ai区→ee区）
+    - 括号内声部（副歌R3含和声括号）
+  zh_transfer_value:
+    - ee音→衣期辙，副歌掺韵结构可直接移植中文
+    - 三押→中文双音节词尾押韵技巧
+    - 预副歌长句堆叠动能结构可借鉴
