@@ -1,0 +1,62 @@
+meta:
+  framework_id: gashina-sunmi-v1
+  song_name: 가시나 (Gashina)
+  artist: 宣美 (SUNMI)
+  language: ko
+  total_segments: 6
+  rounds: 3
+  rhyme_style: 韩文押/i/和/e/音区，"가시나"为核心锚点叠咏，英文段"Can't nobody stop me now"为对比锚点
+  main_rhyme_vowel: /i/（韩文 이 音区）/ 가시나锚点
+  tags: [K-pop, 女团, 韩英混排, 双锚点, 情感对比]
+
+segments:
+  - segment_id: S1
+    role: 主歌一
+    round: R1
+    line_range: L01-L04
+    char_pattern: 韩文短句×4
+    rhyme_summary: 押/i/和/e/音区（죽이네/불꽃은/남았니），偶韵，情感受伤意象
+
+  - segment_id: S2
+    role: 副歌一（가시나锚点）
+    round: R1
+    line_range: L05-L08
+    char_pattern: 韩文短句×4，两句一组
+    rhyme_summary: "가시나"锚点×4，押/i/音区（됐니/건지），偶韵叠咏
+
+  - segment_id: S3
+    role: 预副歌（英文段）
+    round: R1
+    line_range: L09-L12
+    char_pattern: 英文短句×4，两句一组
+    rhyme_summary: "Can't nobody stop me now"锚点×2，"No, try me"×4，/aʊ/和/iː/音区
+
+  - segment_id: S4
+    role: 主歌二
+    round: R2
+    line_range: L13-L16
+    char_pattern: 韩文短句×4
+    rhyme_summary: 押/a/和/a/音区（해/해/나/나），排韵，内心挣扎意象
+
+  - segment_id: S5
+    role: 副歌二+英文段（复现）
+    round: R2
+    line_range: L17-L24
+    char_pattern: 与S2+S3相同
+    rhyme_summary: 가시나锚点+英文锚点完整复现
+
+  - segment_id: S6
+    role: 桥段+副歌终
+    round: R3
+    line_range: L25-L40
+    char_pattern: 英文短句×8 + 英文锚点×4 + 가시나锚点×4 + 英文锚点×4
+    rhyme_summary: "I'm a bad bad girl"×4，英文锚点×4，가시나锚点×4，英文锚点×4，三层叠加收尾
+
+rhyme_audit:
+  main_rhyme: /i/音区（韩文，对应中文"一七辙"）
+  main_rhyme_pattern: 主歌偶韵，副歌锚点叠咏
+  special_techniques:
+    - 双锚点对比：韩文"가시나"（女孩/你这个女孩）与英文"Can't nobody stop me now"形成情感对比（受伤→反抗）
+    - 情感弧线：主歌受伤→副歌质问→英文段宣示独立，三段情感递进
+    - "I'm a bad bad girl"桥段：英文自我宣言，与韩文脆弱形成反差
+    - 三层收尾：桥段英文宣言→英文锚点→가시나锚点→英文锚点，层层叠加

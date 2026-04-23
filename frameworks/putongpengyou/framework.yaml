@@ -1,0 +1,77 @@
+meta:
+  framework_id: putongpengyou-v1
+  song_name: 普通朋友
+  artist: 陶喆
+  language: zh-en
+  total_segments: 8
+  rounds: 2
+  rhyme_style: 中英混合，主歌押"ai/ai"（怀来辙），副歌以"朋友/friend"为锚点，掺韵式准排韵
+  main_rhyme_vowel: ai（怀来辙）
+  tags: [情歌, 失恋, 中英混合, 台湾流行, R&B, 单相思]
+
+segments:
+  - segment_id: S1
+    role: 主歌一
+    round: R1
+    line_range: L01-L05
+    char_pattern: 2/8/7/7/3
+    rhyme_summary: 等待/依赖/疑问/爱，押"ai"韵（怀来辙），排韵
+
+  - segment_id: S2
+    role: 主歌二
+    round: R1
+    line_range: L06-L10
+    char_pattern: 2/7/7/8/3
+    rhyme_summary: 猜/说明白/失败/深渊/无奈，押"ai"韵，排韵
+
+  - segment_id: S3
+    role: 预副歌
+    round: R1
+    line_range: L11-L12
+    char_pattern: 9/9
+    rhyme_summary: 改变/再来一遍，押"an"韵（言前辙），掺韵过渡
+
+  - segment_id: S4
+    role: 副歌一
+    round: R1
+    line_range: L13-L20
+    char_pattern: 8/6/7/4/8/4/8/8
+    rhyme_summary: 朋友/深/放手/friend/朋友/friend/坦白/收不回来，中英混合押韵，"friend"为锚点
+
+  - segment_id: S5
+    role: 主歌二复现
+    round: R2
+    line_range: L21-L25
+    char_pattern: 同S2
+    rhyme_summary: 同S2，押"ai"韵
+
+  - segment_id: S6
+    role: 预副歌复现
+    round: R2
+    line_range: L26-L27
+    char_pattern: 同S3
+    rhyme_summary: 同S3，押"an"韵
+
+  - segment_id: S7
+    role: 副歌二（复现）
+    round: R2
+    line_range: L28-L35
+    char_pattern: 同S4
+    rhyme_summary: 同S4，中英混合押韵
+
+  - segment_id: S8
+    role: 尾段（Outro）
+    round: R2
+    line_range: L36-L38
+    char_pattern: 3/8/7
+    rhyme_summary: no×3/不能只是做你的朋友/不能做普通朋友，押"ou"韵（遥条辙），收尾
+
+rhyme_audit:
+  main_rhyme: 怀来辙（ai）
+  main_rhyme_pattern: 主歌排韵（AAAA式）；副歌中英混合掺韵
+  special_techniques:
+    - 中英语码切换（what can I do/just give me a chance/I only wanna be your friend）
+    - 括号内英文注释式插入
+    - 单字起句（等待/我猜）制造停顿感
+    - 副歌"朋友/friend"双语锚点
+    - 尾段no×3情绪爆发

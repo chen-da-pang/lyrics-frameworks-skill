@@ -1,0 +1,70 @@
+meta:
+  framework_id: uptownfunk-v1
+  song_name: Uptown Funk
+  artist: Mark Ronson / Bruno Mars
+  language: en
+  total_segments: 7
+  rounds: 3
+  rhyme_style: 英文押/æ/和/ɪ/音区为主，副歌以"Uptown Funk gon' give it to you"为锚点，"Don't believe me just watch"叠咏收束
+  main_rhyme_vowel: /æ/ (man/damn) + /ɪ/ (city/pretty)
+  tags: [funk, pop, 英文, 叠咏副歌, 多段结构]
+
+segments:
+  - segment_id: S1
+    role: 引子/主歌一
+    round: R1
+    line_range: L01-L11
+    char_pattern: 英文短句×11，散文式
+    rhyme_summary: 散韵为主，/ɪ/音区偶韵（city/pretty），意象堆叠式开场
+
+  - segment_id: S2
+    role: 预副歌（I'm too hot段）
+    round: R1
+    line_range: L12-L19
+    char_pattern: 英文短句×8，两句一组
+    rhyme_summary: /æ/音区排韵（damn/fireman/man/am），"I'm too hot"为锚点，每组重复
+
+  - segment_id: S3
+    role: 副歌
+    round: R1
+    line_range: L20-L31
+    char_pattern: 英文句×12
+    rhyme_summary: /uː/音区（hallelujah/you×3），"Don't believe me just watch"叠咏×6收束
+
+  - segment_id: S4
+    role: 主歌二（Stop段）
+    round: R2
+    line_range: L32-L40
+    char_pattern: 英文短句×9，口语化
+    rhyme_summary: /ɪ/音区偶韵（minute/liquor/check/stretch/Mississippi/skippy），口语押韵
+
+  - segment_id: S5
+    role: 预副歌+副歌（R2复现）
+    round: R2
+    line_range: L41-L62
+    char_pattern: 与S2+S3相同
+    rhyme_summary: 预副歌+副歌完整复现
+
+  - segment_id: S6
+    role: 桥段（Uptown Funk you up段）
+    round: R2
+    line_range: L63-L71
+    char_pattern: 英文句×9
+    rhyme_summary: "Uptown Funk you up"锚点叠咏×8，/ʌ/音区（up），过渡段
+
+  - segment_id: S7
+    role: 副歌终（Come on dance段+尾奏）
+    round: R3
+    line_range: L72-L103
+    char_pattern: 舞蹈指令段×8 + 副歌×12 + Funk you up×8
+    rhyme_summary: 舞蹈指令押/ɪ/音区（it/it/me），副歌复现，"Funk you up"叠咏收尾
+
+rhyme_audit:
+  main_rhyme: /æ/ (damn/man) 预副歌主韵，/uː/ (you) 副歌主韵
+  main_rhyme_pattern: 预副歌排韵，副歌锚点叠咏，主歌散韵
+  special_techniques:
+    - 双锚点结构：预副歌"I'm too hot"锚点 + 副歌"Don't believe me just watch"叠咏
+    - 口语押韵：主歌二"Skippy/Mississippi"等非正式押韵，增加funk质感
+    - 舞蹈指令段：桥段用"Come on dance/Jump on it"等动作指令，互动性强
+    - 叠咏递进：副歌"Don't believe me just watch"重复6次，情绪递进
+    - 尾奏"say whaa?!"：最终段插入感叹词，增加现场感

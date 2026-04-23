@@ -1,0 +1,70 @@
+meta:
+  framework_id: comebackhome-2ne1-v1
+  song_name: Come Back Home
+  artist: 2NE1
+  language: ko+en
+  total_segments: 7
+  rounds: 3
+  rhyme_style: 韩英混合，副歌以"Come Back Home"标题锚点排韵，主歌以-와/-아韩语尾音为主，Chant段以"come"重复制造律动
+  main_rhyme_vowel: oʊm（home重复锚）/ -아/-와（韩语尾音区）
+  tags: [K-pop, 2NE1, 思念, 韩英混合, 副歌重复锚点, 等待]
+
+segments:
+  - segment_id: S1
+    role: 主歌一
+    round: R1
+    line_range: L01-L09
+    char_pattern: 数字引入+韩语中句
+    rhyme_summary: 들려와/그립다(아区) + 숨소리/향기(이区) — 韩语-아/-와排韵，数字"one two three"引入
+
+  - segment_id: S2
+    role: 预副歌一
+    round: R1
+    line_range: L10-L13
+    char_pattern: 短句，韩英混合
+    rhyme_summary: 말/돌아섰던(韩语-던区) + gone away(英文eɪ区) — 掺韵式准排韵
+
+  - segment_id: S3
+    role: 副歌
+    round: R1
+    line_range: L14-L22
+    char_pattern: 重复句式，韩英交替
+    rhyme_summary: Come Back Home(oʊm锚) + 내곁으로/기다려(아/여区) — 标题词排韵锚点
+
+  - segment_id: S4
+    role: Chant段
+    round: R1
+    line_range: L23-L30
+    char_pattern: 极短重复句
+    rhyme_summary: COME BACK HOME(oʊm) + come/baby(ʌ/eɪ区) — 重复锚点强化
+
+  - segment_id: S5
+    role: 主歌二
+    round: R2
+    line_range: L31-L38
+    char_pattern: 韩语中句
+    rhyme_summary: 밉지만/그리워할까(까/만区) + 두려워/갇혀버린(워/린区) — 韩语-워/-까散韵
+
+  - segment_id: S6
+    role: 预副歌二
+    round: R2
+    line_range: L39-L42
+    char_pattern: 韩英混合
+    rhyme_summary: 날들이/것만같아(아区) + away(英文eɪ区) — 掺韵式准排韵
+
+  - segment_id: S7
+    role: 副歌（终）+ Chant（终）
+    round: R3
+    line_range: L43-L62
+    char_pattern: 同S3+S4
+    rhyme_summary: 重复S3+S4押韵结构，Come Back Home三轮收束
+
+rhyme_audit:
+  main_rhyme: oʊm（Come Back Home锚）+ 韩语-아/-와尾音
+  main_rhyme_pattern: 主歌排韵(-아/-와) → 预副歌掺韵(-던/eɪ) → 副歌锚点(home) → Chant重复(home/come)
+  special_techniques:
+    - "Come Back Home"作全曲标题锚点，副歌+Chant段密集重复
+    - 数字"One two three / Four five six"作主歌节奏引入，制造律动感
+    - Chant段"Come baby baby come come baby"极简重复制造催眠效果
+    - 副歌"차가운 세상 끝에 날 버리지 말고"(冷酷世界尽头别抛弃我)情感核心句
+    - 主歌二"아무 대답 없는 니가 너무 밉지만"(你没有回答我很恨你但)情感转折

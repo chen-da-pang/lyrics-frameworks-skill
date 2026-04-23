@@ -1,0 +1,71 @@
+meta:
+  framework_id: biezaipianwo-v1
+  song_name: 别再骗我
+  artist: 斯外戈
+  language: zh
+  total_segments: 7
+  rounds: 2
+  rhyme_summary: 以"ou/ong"（遥条辙/中东辙）为主韵，副歌"别再骗我"为排韵锚点，主歌偶韵
+  rhyme_style: 副歌"别再骗我"密集排韵锚点，主歌押"ou/ong"偶韵，桥段押"ou"韵
+  main_rhyme_vowel: ou（遥条辙）
+  tags: [情歌, 暧昧, 疑惑, 国风流行, 疑问句式, 单恋]
+
+segments:
+  - segment_id: S1
+    role: 副歌一（Hook - 先出）
+    round: R1
+    line_range: L01-L06
+    char_pattern: 12/12/12/10/4/4
+    rhyme_summary: 宇宙/说说/捉弄/发疯，押"ong"韵（中东辙）；别再骗我×2为锚点
+
+  - segment_id: S2
+    role: 主歌一
+    round: R1
+    line_range: L07-L14
+    char_pattern: 9/8/8/8/7/8/10/5
+    rhyme_summary: 四周/经过/头痛/明说/看着我/属于我/能够/牵你的手，押"ou"韵（遥条辙），排韵
+
+  - segment_id: S3
+    role: 副歌二（Hook Repeat）
+    round: R1
+    line_range: L15-L19
+    char_pattern: 同S1
+    rhyme_summary: 同S1，押"ong"韵，别再骗我×1
+
+  - segment_id: S4
+    role: 主歌二
+    round: R2
+    line_range: L20-L27
+    char_pattern: 8/8/9/8/7/8/10/5
+    rhyme_summary: 看我/心动/不说/算什么/看着我/属于我/能够/牵你的手，押"ou"韵，排韵
+
+  - segment_id: S5
+    role: 副歌三（Hook Repeat）
+    round: R2
+    line_range: L28-L32
+    char_pattern: 同S1
+    rhyme_summary: 同S1，押"ong"韵，别再骗我×1
+
+  - segment_id: S6
+    role: 副歌四（Hook Final）
+    round: R2
+    line_range: L33-L37
+    char_pattern: 同S1
+    rhyme_summary: 同S1，押"ong"韵，别再骗我×1
+
+  - segment_id: S7
+    role: 尾段叠句（Outro）
+    round: R2
+    line_range: L38-L41
+    char_pattern: 4/4/4/4
+    rhyme_summary: 别再骗我×4，押"ou"韵密集排韵收尾
+
+rhyme_audit:
+  main_rhyme: 遥条辙（ou）+ 中东辙（ong）交替
+  main_rhyme_pattern: 副歌押"ong"排韵；主歌押"ou"排韵；尾段"ou"密集收尾
+  special_techniques:
+    - 副歌先出结构（Hook-first）
+    - 主歌"ou"韵密集排韵（四周/经过/头痛/明说/看着我/属于我/能够/牵你的手）
+    - 尾段叠句情绪爆发（别再骗我×4）
+    - 暧昧意象（温柔的眼神/谎言穿过/牵你的手）
+    - 对比句式（你说/可是/或许是我）

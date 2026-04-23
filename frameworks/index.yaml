@@ -319,3 +319,177 @@
     - 经典
     - 粤语
   path: frameworks/haikuotiankong/framework.yaml
+- framework_id: haiyulian-v1
+  song_name: 海芋恋
+  artist: 萧敬腾
+  total_segments: 8
+  rounds: 2
+  rhyme_style: 以"意/气/丽/力"等"一七辙"为主韵，偶韵为主，副歌转入"言前辙"
+  main_rhyme_vowel: i（一七辙）
+  tags: [情歌, 季节意象, 花卉, 暗恋, 台湾流行]
+  path: frameworks/haiyulian/framework.yaml
+- framework_id: wokeup-xg-v1
+  song_name: WOKE UP
+  artist: XG
+  total_segments: 8
+  rounds: 3
+  rhyme_style: 英文说唱流，AABB尾韵为主，密集内韵与多音节押韵，副歌以"this/skin"等短元音i收尾
+  main_rhyme_vowel: ɪ（short-i，对应中文一七辙）
+  tags: [说唱, 女团, 自信宣言, 英文, K-pop]
+  path: frameworks/wokeup-xg/framework.yaml
+- framework_id: likejennie-v1
+  song_name: like JENNIE
+  artist: JENNIE
+  total_segments: 6
+  rounds: 2
+  rhyme_style: 英韩混合，副歌以"JENNIE"自我指涉为押韵锚点，主歌英文AABB+韩文偶韵
+  main_rhyme_vowel: iː（long-i/ee，对应中文一七辙）
+  tags: [说唱, 自信宣言, 英韩混合, K-pop, 女团, 自我指涉]
+  path: frameworks/likejennie/framework.yaml
+- framework_id: goldenhour-jvke-v1
+  song_name: golden hour
+  artist: JVKE
+  total_segments: 6
+  rounds: 2
+  rhyme_style: 叙事流行，主歌AABB叙事押韵，副歌以"hour/time"为锚点，意象诗意（glitter/radiant/golden）
+  main_rhyme_vowel: aʊ（ow音，对应中文遥条辙）
+  tags: [流行, 爱情, 黄金时刻, 意象诗意, 叙事, 英文]
+  path: frameworks/goldenhour-jvke/framework.yaml
+- framework_id: putongpengyou-v1
+  song_name: 普通朋友
+  artist: 陶喆
+  total_segments: 8
+  rounds: 2
+  rhyme_style: 中英混合，主歌押"ai/ai"（怀来辙），副歌以"朋友/friend"为锚点，掺韵式准排韵
+  main_rhyme_vowel: ai（怀来辙）
+  tags: [情歌, 失恋, 中英混合, 台湾流行, R&B, 单相思]
+  path: frameworks/putongpengyou/framework.yaml
+- framework_id: youmeiyou-weibird-v1
+  song_name: 有没有
+  artist: 韦礼安
+  total_segments: 6
+  rounds: 2
+  rhyme_style: 中英交替，主歌英文散韵+中文偶韵，副歌以"有没有"为排韵锚点，押"ou"韵（遥条辙）
+  main_rhyme_vowel: ou（遥条辙）
+  tags: [情歌, 暗恋, 中英混合, 台湾流行, 疑问句式, 独白]
+  path: frameworks/youmeiyou-weibird/framework.yaml
+- framework_id: biezaipianwo-v1
+  song_name: 别再骗我
+  artist: 斯外戈
+  total_segments: 7
+  rounds: 2
+  rhyme_style: 副歌"别再骗我"密集排韵锚点，主歌押"ou/ong"偶韵，桥段押"ou"韵
+  main_rhyme_vowel: ou（遥条辙）
+  tags: [情歌, 暧昧, 疑惑, 国风流行, 疑问句式, 单恋]
+  path: frameworks/biezaipianwo/framework.yaml
+- framework_id: zhejushiai-zhangjie-v1
+  song_name: 这，就是爱
+  artist: 张杰
+  language: zh
+  total_segments: 7
+  rounds: 2
+  rhyme_style: 偶韵为主，尾字统一押"ai"韵（怀来辙），副歌单字叠咏
+  main_rhyme_vowel: "ai（怀来辙）"
+  tags:
+    - 情歌
+    - 流行
+    - 叙事
+    - 叠咏副歌
+    - 张杰
+  path: frameworks/zhejushiai-zhangjie/framework.yaml
+- framework_id: yinseyekong-v1
+  song_name: 银色夜空
+  artist: 斯外戈
+  language: zh
+  total_segments: 6
+  rounds: 3
+  rhyme_style: 中英混排，主歌押"ong/ong"韵（中东辙），散文段自由散韵，副歌英文押/iː/音区
+  main_rhyme_vowel: "ong（中东辙）"
+  tags:
+    - 流行
+    - 中英混排
+    - 意象派
+    - 散文段
+    - 斯外戈
+  path: frameworks/yinseyekong/framework.yaml
+- framework_id: yitianyitian-swg-v1
+  song_name: 一天一天
+  artist: 斯外戈
+  language: zh
+  total_segments: 5
+  rounds: 3
+  rhyme_style: 主歌押"i"韵（一七辙），副歌押"an/ian"韵（言前辙），叠字排比开头
+  main_rhyme_vowel: "i（一七辙）/ an（言前辙）"
+  tags:
+    - 流行
+    - 甜蜜
+    - 叠字排比
+    - 日常叙事
+    - 斯外戈
+  path: frameworks/yitianyitian-swg/framework.yaml
+- framework_id: bangbangbang-bigbang-v1
+  song_name: BANG BANG BANG (뱅뱅뱅)
+  artist: BIGBANG
+  language: ko
+  total_segments: 7
+  rounds: 2
+  rhyme_style: 韩文押/e/和/a/音区，副歌以"BANG"音节为锚点叠咏，英文段押/ʌ/音区
+  main_rhyme_vowel: "/e/（韩文 에/애 音区）/ BANG锚点"
+  tags:
+    - kpop
+    - 힙합
+    - 多人分段
+    - 英韩混排
+    - 叠咏副歌
+    - bigbang
+  path: frameworks/bangbangbang-bigbang/framework.yaml
+- framework_id: uptownfunk-v1
+  song_name: Uptown Funk
+  artist: Mark Ronson / Bruno Mars
+  language: en
+  total_segments: 7
+  rounds: 3
+  rhyme_style: 英文押/æ/和/ɪ/音区为主，副歌以"Uptown Funk gon' give it to you"为锚点，"Don't believe me just watch"叠咏收束
+  main_rhyme_vowel: "/æ/ (man/damn) + /ɪ/ (city/pretty)"
+  tags:
+    - funk
+    - pop
+    - english
+    - 叠咏副歌
+    - 多段结构
+    - bruno-mars
+  path: frameworks/uptownfunk/framework.yaml
+- framework_id: gashina-sunmi-v1
+  song_name: 가시나 (Gashina)
+  artist: 宣美 (SUNMI)
+  language: ko
+  total_segments: 6
+  rounds: 3
+  rhyme_style: 韩文押/i/和/e/音区，"가시나"为核心锚点叠咏，英文段"Can't nobody stop me now"为对比锚点
+  main_rhyme_vowel: "/i/（韩文 이 音区）/ 가시나锚点"
+  tags:
+    - kpop
+    - 女团
+    - 韩英混排
+    - 双锚点
+    - 情感对比
+    - sunmi
+  path: frameworks/gashina-sunmi/framework.yaml
+- framework_id: bangbang-jessiej-v1
+  song_name: Bang Bang
+  artist: Jessie J / Ariana Grande / Nicki Minaj
+  language: en
+  total_segments: 8
+  rounds: 4
+  rhyme_style: 英文押/aɪm/和/eɪt/音区，副歌以"Bang bang"为锚点，三位艺人各有专属段落风格
+  main_rhyme_vowel: "/aɪm/ (time) + /ɪt/ (want it/have it)"
+  tags:
+    - pop
+    - english
+    - 三人合唱
+    - 叠咏副歌
+    - rap段
+    - jessie-j
+    - ariana-grande
+    - nicki-minaj
+  path: frameworks/bangbang-jessiej/framework.yaml

@@ -1,0 +1,63 @@
+meta:
+  framework_id: youmeiyou-weibird-v1
+  song_name: 有没有
+  artist: 韦礼安
+  language: zh-en
+  total_segments: 6
+  rounds: 2
+  rhyme_style: 中英交替，主歌英文散韵+中文偶韵，副歌以"有没有"为排韵锚点，押"ou"韵（遥条辙）
+  main_rhyme_vowel: ou（遥条辙）
+  tags: [情歌, 暗恋, 中英混合, 台湾流行, 疑问句式, 独白]
+
+segments:
+  - segment_id: S1
+    role: 主歌一
+    round: R1
+    line_range: L01-L09
+    char_pattern: 英文行+中文7-8字行交替
+    rhyme_summary: 英文散韵（radio/lights/know）；中文押"ong"韵（痛/动/重），掺韵
+
+  - segment_id: S2
+    role: 主歌二
+    round: R1
+    line_range: L10-L18
+    char_pattern: 英文行+中文7-8字行交替
+    rhyme_summary: 英文散韵（song/wrong）；中文押"ang"韵（伤/旁/想/量），掺韵
+
+  - segment_id: S3
+    role: 副歌（Hook）
+    round: R1/R2
+    line_range: L19-L25
+    char_pattern: 中文为主，7-12字行
+    rhyme_summary: 有没有/想过我/心动/时候/说不出口/后悔/只有我，押"ou"韵（遥条辙），排韵
+
+  - segment_id: S4
+    role: 主歌三
+    round: R2
+    line_range: L26-L34
+    char_pattern: 英文行+中文7-8字行交替
+    rhyme_summary: 英文散韵（radio/anymore）；中文押"ong"韵（承诺/轻松/枷锁），掺韵
+
+  - segment_id: S5
+    role: 主歌四
+    round: R2
+    line_range: L35-L43
+    char_pattern: 英文行+中文7-8字行交替
+    rhyme_summary: 英文散韵（song/wrong）；中文押"ang"韵（一长/遗忘/一场），掺韵
+
+  - segment_id: S6
+    role: 副歌延伸+尾段
+    round: R2
+    line_range: L44-L55
+    char_pattern: 同副歌+英文收尾
+    rhyme_summary: 重复副歌押"ou"韵；尾段Turn off the radio散韵收尾
+
+rhyme_audit:
+  main_rhyme: 遥条辙（ou）
+  main_rhyme_pattern: 副歌排韵（有没有×重复）；主歌中文掺韵+英文散韵
+  special_techniques:
+    - 英中交替结构（Turn on/off + 中文情感行）
+    - 疑问句式密集排列（有没有×多次）
+    - 对比句式（Turn on/Turn off）
+    - 情绪递进（单恋→疑问→放弃→遗忘）
+    - 尾段英文收尾（Turn off the radio）
