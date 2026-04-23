@@ -1,0 +1,77 @@
+meta:
+  framework_id: bangbang-jessiej-v1
+  song_name: Bang Bang
+  artist: Jessie J / Ariana Grande / Nicki Minaj
+  language: en
+  total_segments: 8
+  rounds: 4
+  rhyme_style: 英文押/aɪm/和/eɪt/音区，副歌以"Bang bang"为锚点，三位艺人各有专属段落风格
+  main_rhyme_vowel: /aɪm/ (time/all the time) + /eɪt/ (graduate/gave)
+  tags: [pop, 英文, 三人合唱, 叠咏副歌, Rap段]
+
+segments:
+  - segment_id: S1
+    role: 主歌一（Jessie J）
+    round: R1
+    line_range: L01-L04
+    char_pattern: 英文长句×4，两句一组
+    rhyme_summary: /aɪm/音区排韵（hourglass/time×2/body/time×2），"all the time"为内部锚点
+
+  - segment_id: S2
+    role: 预副歌一（Jessie J）
+    round: R1
+    line_range: L05-L08
+    char_pattern: 英文长句×4
+    rhyme_summary: /eɪt/音区偶韵（school/graduate/talk/gave），节奏切换，引出副歌
+
+  - segment_id: S3
+    role: 副歌（Jessie J & Ariana Grande）
+    round: R1
+    line_range: L09-L16
+    char_pattern: 英文句×8，两句一组
+    rhyme_summary: "Bang bang"锚点×4，/ɪt/音区（want it/have it×4），"Wait a minute"×4，/ɑː/音区（ah×4）
+
+  - segment_id: S4
+    role: 主歌二（Ariana Grande）
+    round: R2
+    line_range: L17-L22
+    char_pattern: 英文句×6，变体重复
+    rhyme_summary: /ɒk/音区（clock×4），"ticking like a clock"内部锚点，与S1形成对比
+
+  - segment_id: S5
+    role: 预副歌二+副歌（R2复现）
+    round: R2
+    line_range: L23-L34
+    char_pattern: 与S2+S3相同
+    rhyme_summary: 预副歌+副歌完整复现
+
+  - segment_id: S6
+    role: 桥段（Jessie J）
+    round: R3
+    line_range: L35-L42
+    char_pattern: 英文句×8
+    rhyme_summary: /æk/音区（Cadillac/back/bat），散韵收束，"blow your mind"为情感顶点
+
+  - segment_id: S7
+    role: 副歌（R3复现）
+    round: R3
+    line_range: L43-L50
+    char_pattern: 与S3相同
+    rhyme_summary: 副歌第三次复现
+
+  - segment_id: S8
+    role: 主歌三+预副歌三+副歌终（Nicki Minaj）
+    round: R4
+    line_range: L51-L66
+    char_pattern: Rap段×10 + 预副歌×2 + 副歌×8
+    rhyme_summary: Nicki Rap押/iː/音区（ki/counter/groceries×4），预副歌变体，副歌终复现
+
+rhyme_audit:
+  main_rhyme: /aɪm/ (time) 主歌主韵，/ɪt/ (want it/have it) 副歌主韵
+  main_rhyme_pattern: 主歌偶韵，副歌锚点叠咏，Rap段密集押韵
+  special_techniques:
+    - 三人风格对比：Jessie J（流行主歌）/ Ariana Grande（变体重复）/ Nicki Minaj（Rap密集押韵）
+    - "Bang bang"双义锚点：既是枪声拟声词，又是情感冲击的隐喻
+    - 内嵌括号回应：副歌"(I know you want it)/(I'll let you have it)"为第二声部插入
+    - "Wait a minute"节奏减速：副歌中段用"Wait a minute"制造悬停感
+    - Nicki Rap：ki-ki-ki拟声开场，"Kitty on the counter"意象密集，节奏感强

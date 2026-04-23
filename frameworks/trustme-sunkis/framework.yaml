@@ -1,0 +1,63 @@
+meta:
+  framework_id: trustme-sunkis-v1
+  song_name: trust me
+  artist: sunkis 宋秉勤
+  language: zh+en
+  total_segments: 6
+  rounds: 2
+  rhyme_style: 中英混合，副歌以"trust me/you/free/love you"英文排韵，主歌以中文言前辙（-e/-e）为主，预副歌以中文发花辙（-a）收束
+  main_rhyme_vowel: iː（trust me/free/love you的-e/-ee区，对应中文齐微辙）
+  tags: [华语流行, 中英混合, 爱情宣言, 信任主题, 副歌排韵]
+
+segments:
+  - segment_id: S1
+    role: 主歌一
+    round: R1
+    line_range: L01-L04
+    char_pattern: 中句，中文为主
+    rhyme_summary: 情歌/笨的情歌(e区-言前) + 说说的/骗人/误认(en/in区) — 言前辙偶韵
+
+  - segment_id: S2
+    role: 预副歌一
+    round: R1
+    line_range: L05-L06
+    char_pattern: 长句，中英混合
+    rhyme_summary: 男子气/比一比一下了(a区-发花) + 孩子气/girl(散韵) — 发花辙偶韵
+
+  - segment_id: S3
+    role: 副歌
+    round: R1
+    line_range: L07-L10
+    char_pattern: 短句，英文排韵
+    rhyme_summary: trust me/trust you/trust free/love you — 英文iː/uː区排韵，四行对称
+
+  - segment_id: S4
+    role: 桥段/Hook延伸
+    round: R1
+    line_range: L11-L12
+    char_pattern: 长句，中文
+    rhyme_summary: 信不信我的爱/保护你/因为爱(ai区-怀来) + 信不信有真爱/试试看/我的爱(ai区) — 怀来辙排韵
+
+  - segment_id: S5
+    role: 主歌二
+    round: R2
+    line_range: L13-L16
+    char_pattern: 同S1结构
+    rhyme_summary: 性格/厉害的角色(e区-言前) + 男生/骗人/误认(en/in区) — 言前辙偶韵，与S1平行
+
+  - segment_id: S6
+    role: 预副歌二 + 副歌（终）+ 桥段（终）
+    round: R2
+    line_range: L17-L24
+    char_pattern: 同S2+S3+S4
+    rhyme_summary: 重复S2+S3+S4押韵结构收束
+
+rhyme_audit:
+  main_rhyme: 英文iː/uː（trust me/free/love you）+ 中文怀来辙（ai：爱/真爱）
+  main_rhyme_pattern: 主歌偶韵(言前-e) → 预副歌偶韵(发花-a) → 副歌排韵(iː/uː) → 桥段排韵(ai)
+  special_techniques:
+    - 副歌"trust me→trust you→trust free→love you"四行递进，构成信任→自由→爱的情感逻辑链
+    - 主歌一/二平行结构：同样的"以为我在骗人 感觉你会误认 我"收束，制造镜像感
+    - 中英无缝切换：主歌中文叙事+副歌英文宣言，形成语言层次对比
+    - 桥段"信不信我的爱/信不信有真爱"问句排比，强化信任主题
+    - "girl girl"英文词嵌入预副歌，制造轻松俏皮感

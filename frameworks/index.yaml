@@ -493,3 +493,73 @@
     - ariana-grande
     - nicki-minaj
   path: frameworks/bangbang-jessiej/framework.yaml
+- framework_id: manman-swg-v1
+  song_name: 慢慢（音频纯享版）
+  artist: 斯外戈
+  language: zh
+  total_segments: 8
+  rounds: 3
+  rhyme_style: 偶韵为主，副歌怀来辙排韵，主歌言前辙偶韵，双线叙事男孩/女孩对照
+  main_rhyme_vowel: ai（怀来辙）
+  tags: [成长, 时光流逝, 双线叙事, 男孩女孩对照, 慢板抒情]
+  path: frameworks/manman-swg/framework.yaml
+- framework_id: standingnexttoyou-v1
+  song_name: Standing Next to You
+  artist: Jung Kook
+  language: en
+  total_segments: 6
+  rounds: 2
+  rhyme_style: 英文funk/R&B，副歌uː/eɪ双韵区交织，预副歌aɪ密集排韵
+  main_rhyme_vowel: uː（you锚）
+  tags: [R&B, funk, 爱情宣言, 副歌重复锚点, 英文]
+  path: frameworks/standingnexttoyou/framework.yaml
+- framework_id: body-meovv-v1
+  song_name: BODY
+  artist: MEOVV
+  language: ko+en
+  total_segments: 6
+  rounds: 3
+  rhyme_style: 韩英混合trap/girl-crush，Hook以BODY单词排韵，主歌-ong/-on韩语尾音排韵
+  main_rhyme_vowel: ɔː（BODY锚）/ -ong（韩语尾音）
+  tags: [K-pop, girl-crush, trap, 韩英混合, 自信宣言, 重复Hook]
+  path: frameworks/body-meovv/framework.yaml
+- framework_id: tail-sunmi-v1
+  song_name: 꼬리 (TAIL)
+  artist: 宣美 (Sunmi)
+  language: ko+en
+  total_segments: 7
+  rounds: 3
+  rhyme_style: 韩英混合，副歌-고/-어尾音排韵，흔들어作锚点，猫咪尾巴双关意象
+  main_rhyme_vowel: ʌ（韩语-어/-고尾音）
+  tags: [K-pop, girl-crush, 猫咪意象, 韩英混合, 挑逗, 副歌重复]
+  path: frameworks/tail-sunmi/framework.yaml
+- framework_id: loveshot-exo-v1
+  song_name: Love Shot
+  artist: EXO
+  language: ko+en
+  total_segments: 7
+  rounds: 3
+  rhyme_style: 韩英混合，副歌love shot标题锚点排韵，主歌-아/-가韩语尾音，饮酒意象双关
+  main_rhyme_vowel: ɔː（shot锚）/ -아/-가（韩语尾音）
+  tags: [K-pop, EXO, 爱恨交织, 韩英混合, 副歌重复锚点, 情感对立]
+  path: frameworks/loveshot-exo/framework.yaml
+- framework_id: comebackhome-2ne1-v1
+  song_name: Come Back Home
+  artist: 2NE1
+  language: ko+en
+  total_segments: 7
+  rounds: 3
+  rhyme_style: 韩英混合，副歌Come Back Home标题锚点排韵，Chant段come重复律动
+  main_rhyme_vowel: oʊm（home锚）/ -아/-와（韩语尾音）
+  tags: [K-pop, 2NE1, 思念, 韩英混合, 副歌重复锚点, 等待]
+  path: frameworks/comebackhome-2ne1/framework.yaml
+- framework_id: trustme-sunkis-v1
+  song_name: trust me
+  artist: sunkis 宋秉勤
+  language: zh+en
+  total_segments: 6
+  rounds: 2
+  rhyme_style: 中英混合，副歌trust me/you/free/love you英文iː/uː排韵，主歌言前辙偶韵
+  main_rhyme_vowel: iː（trust me/free锚）
+  tags: [华语流行, 中英混合, 爱情宣言, 信任主题, 副歌排韵]
+  path: frameworks/trustme-sunkis/framework.yaml
