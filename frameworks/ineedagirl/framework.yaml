@@ -1,0 +1,70 @@
+meta:
+  framework_id: ineedagirl-v1
+  song_name: I Need A Girl
+  artist: TAEYANG / G-DRAGON
+  language: ko
+  total_segments: 7
+  rounds: 2
+  rhyme_style: 韩英混搭R&B，英文段-alone/-single/-girl散韵，韩文段-줄偶韵，副歌英文锚点重复
+  main_rhyme_vowel: "-줄 (韩语/ul/音区，对应中文辙：由求辙) / girl (英文/ɜːl/音区)"
+  tags: [rnb, kpop, korean, taeyang, gdragon, bigbang, 渴望, 爱情]
+
+segments:
+  - segment_id: S1
+    role: 主歌一（英文引入）
+    round: R1
+    line_range: L01-L04
+    char_pattern: 英文短句5-8词/行，4行
+    rhyme_summary: L01/L02行尾-alone/-single散韵，L03/L04行尾-girl重复锚点
+
+  - segment_id: S2
+    role: 主歌一（韩文展开）
+    round: R1
+    line_range: L05-L08
+    char_pattern: 韩文8-12字/行，4行
+    rhyme_summary: L06/L07/L08行尾-줄排韵（감싸안아줄/놀아줄/바라봐줄）
+
+  - segment_id: S3
+    role: 副歌
+    round: R1
+    line_range: L09-L12
+    char_pattern: 英文短句，4行，两行一组重复
+    rhyme_summary: "I need a girl, baby I need you / Girl, you need me too"完全重复对，-you/-too偶韵
+
+  - segment_id: S4
+    role: 主歌二（英文段，G-Dragon）
+    round: R2
+    line_range: L13-L16
+    char_pattern: 英文长句8-12词/行，4行
+    rhyme_summary: L13行尾-adore，L14行尾-own，L15行尾-make up，L16行尾-whatever（散韵）
+
+  - segment_id: S5
+    role: 主歌二（韩文展开，G-Dragon）
+    round: R2
+    line_range: L17-L20
+    char_pattern: 韩文10-14字/行，4行，两行一组对称
+    rhyme_summary: L17/L19行尾-건（건/건）偶韵，L18/L20行尾-여자偶韵（그런 여자×2）
+
+  - segment_id: S6
+    role: 主歌三（Taeyang复现）
+    round: R2
+    line_range: L25-L32
+    char_pattern: 与S1+S2同型
+    rhyme_summary: 与S1/S2同韵型复现
+
+  - segment_id: S7
+    role: 尾声
+    round: R2
+    line_range: L37-L40
+    char_pattern: 英文短句重复，4行
+    rhyme_summary: "I need a girl"纯重复锚点，淡出收尾
+
+rhyme_audit:
+  main_rhyme: "-줄 / girl / -you/-too"
+  main_rhyme_pattern: 韩文段-줄排韵，副歌-you/-too偶韵，英文段散韵
+  special_techniques:
+    - 英韩双语段落交替（英文引入+韩文展开的双层结构）
+    - 两位成员分唱形成对话感
+    - 副歌完全重复对（I need a girl...×2）
+    - 韩文段-줄排韵制造渴望感的语义强化
+    - 尾声纯锚点重复淡出

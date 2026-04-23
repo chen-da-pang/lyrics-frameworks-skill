@@ -1,0 +1,63 @@
+meta:
+  framework_id: likejennie-v1
+  song_name: like JENNIE
+  artist: JENNIE
+  language: en-ko
+  total_segments: 6
+  rounds: 2
+  rhyme_style: 英韩混合，副歌以"JENNIE"自我指涉为押韵锚点，主歌英文AABB+韩文偶韵
+  main_rhyme_vowel: iː（long-i/ee，对应中文一七辙）
+  tags: [说唱, 自信宣言, 英韩混合, K-pop, 女团, 自我指涉]
+
+segments:
+  - segment_id: S1
+    role: 主歌一（Verse 1 - 英文）
+    round: R1
+    line_range: L01-L06
+    char_pattern: 流动说唱行，8-12音节
+    rhyme_summary: hard/copy/hot tea/miss me/tipsy/chorus，押"i"尾韵（copy/tipsy/miss me），散韵过渡
+
+  - segment_id: S2
+    role: 副歌（Hook）
+    round: R1
+    line_range: L07-L15
+    char_pattern: 7-10音节/行，含重复叠句
+    rhyme_summary: JENNIE自我指涉重复押韵，like/JENNIE交替，密集叠字
+
+  - segment_id: S3
+    role: 主歌二（Verse 2 - 韩文+英文混合）
+    round: R2
+    line_range: L16-L27
+    char_pattern: 韩文7-9音节+英文混搭
+    rhyme_summary: 서커스짓/mosh pit押"ɪt"；priceless/DNA散韵；way/전에/bubble/홀에서/shading/frame이/graved it/죄니，掺韵
+
+  - segment_id: S4
+    role: 副歌复现（Hook Repeat）
+    round: R2
+    line_range: L28-L36
+    char_pattern: 同S2
+    rhyme_summary: 同S2，JENNIE重复押韵
+
+  - segment_id: S5
+    role: 副歌延伸（Extended Hook）
+    round: R2
+    line_range: L37-L44
+    char_pattern: 7-10音节/行
+    rhyme_summary: 同S2结构延伸，加入Like JENNIE/Rock with JENNIE变体
+
+  - segment_id: S6
+    role: 尾段叠句（Outro）
+    round: R2
+    line_range: L45-L50
+    char_pattern: 短句重复
+    rhyme_summary: JENNIE密集重复，押"iː"韵收尾
+
+rhyme_audit:
+  main_rhyme: long-ee /iː/（一七辙对应）
+  main_rhyme_pattern: 副歌自我指涉重复押韵；主歌AABB+掺韵
+  special_techniques:
+    - 自我指涉押韵（JENNIE作为韵脚）
+    - 英韩语码切换（code-switching）
+    - 叠字密集重复（JENNIE×多次）
+    - 问句结构（Who wanna/Who else/But have you ever met）
+    - 对比句式（haters vs. JENNIE）

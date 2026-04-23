@@ -1,0 +1,68 @@
+meta:
+  framework_id: zhejushiai-zhangjie-v1
+  song_name: 这，就是爱
+  artist: 张杰
+  language: zh
+  total_segments: 7
+  rounds: 2
+  rhyme_style: 偶韵为主，尾字统一押"ai"韵（怀来辙），副歌单字叠咏
+  main_rhyme_vowel: ai（怀来辙）
+  tags: [情歌, 流行, 叙事, 叠咏副歌]
+
+segments:
+  - segment_id: S1
+    role: 主歌一
+    round: R1
+    line_range: L01-L04
+    char_pattern: 8-8-8-8
+    rhyme_summary: 句句押"ai"韵（海/来/待/开），排韵
+
+  - segment_id: S2
+    role: 主歌二
+    round: R1
+    line_range: L05-L08
+    char_pattern: 8-8-8-8
+    rhyme_summary: 句句押"ai"韵（在/代/憾/海），排韵，第三句"遗憾"为掺韵式准排韵
+
+  - segment_id: S3
+    role: 预副歌
+    round: R1
+    line_range: L09-L15
+    char_pattern: 5-5-9-7-5-5-9
+    rhyme_summary: 偶韵（埋/脑海/对白/小孩），句型由短到长再短，节奏切换明显
+
+  - segment_id: S4
+    role: 副歌
+    round: R1
+    line_range: L16-L20
+    char_pattern: 4-4-4-4-4
+    rhyme_summary: 单句叠咏"这就是爱"×5，纯锚点重复，无押韵变化
+
+  - segment_id: S5
+    role: 主歌三
+    round: R2
+    line_range: L21-L28
+    char_pattern: 8-8-8-8-8-8-8-8
+    rhyme_summary: 前四句押"ai"韵（青睐/意外/晚安/不安），后四句押"ai"韵（厉害/而来/阴天/存在），排韵
+
+  - segment_id: S6
+    role: 预副歌（复现）
+    round: R2
+    line_range: L29-L35
+    char_pattern: 5-5-9-7-5-5-9
+    rhyme_summary: 与S3完全相同，重复预副歌结构
+
+  - segment_id: S7
+    role: 副歌（扩展）
+    round: R2
+    line_range: L36-L44
+    char_pattern: 4×9
+    rhyme_summary: 单句叠咏"这就是爱"×9，情绪递进式叠咏收尾
+
+rhyme_audit:
+  main_rhyme: ai（怀来辙）
+  main_rhyme_pattern: 全曲排韵，主歌每句尾字均押ai韵
+  special_techniques:
+    - 叠咏副歌：副歌仅用"这就是爱"单句重复，极简锚点
+    - 掺韵式准排韵：主歌二第三句"遗憾"（an韵）轻微偏离，整体仍归怀来辙
+    - 预副歌节奏切换：由短句（5字）过渡到长句（9字）再回短句，制造张力

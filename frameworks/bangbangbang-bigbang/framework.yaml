@@ -1,0 +1,70 @@
+meta:
+  framework_id: bangbangbang-bigbang-v1
+  song_name: BANG BANG BANG (뱅뱅뱅)
+  artist: BIGBANG
+  language: ko
+  total_segments: 7
+  rounds: 2
+  rhyme_style: 韩文押/e/和/a/音区，副歌以"BANG"音节为锚点叠咏，英文段押/ʌ/音区
+  main_rhyme_vowel: /e/（韩文 에/애 音区）/ BANG锚点
+  tags: [K-pop, 힙합, 多人分段, 英韩混排, 叠咏副歌]
+
+segments:
+  - segment_id: S1
+    role: 主歌一（TAEYANG）
+    round: R1
+    line_range: L01-L04
+    char_pattern: 韩文长句×4
+    rhyme_summary: 押/e/音区（함께/차례/게릴라/yeah），偶韵，对应中文"一七辙"
+
+  - segment_id: S2
+    role: 主歌二（T.O.P Rap）
+    round: R1
+    line_range: L05-L12
+    char_pattern: 韩文长句×8
+    rhyme_summary: 押/e/音区（전환해/하게해/가식/볼만해/뻔뻔히/알러지/천지/무법지），排韵密集，Rap节奏
+
+  - segment_id: S3
+    role: 预副歌（승리）
+    round: R1
+    line_range: L13-L17
+    char_pattern: 短句×5
+    rhyme_summary: 押/eo/音区（질러/태워/싶어/this/같이），节奏切换，情绪蓄力
+
+  - segment_id: S4
+    role: 副歌（G-DRAGON）
+    round: R1
+    line_range: L18-L27
+    char_pattern: 短句叠咏
+    rhyme_summary: BANG锚点叠咏×6 + 빵야×9，加"꼼짝마라"×4 + "끝장보자"×2，纯节奏锚点
+
+  - segment_id: S5
+    role: 主歌三（대성 + G-DRAGON Rap）
+    round: R2
+    line_range: L28-L37
+    char_pattern: 韩文长句×4 + Rap长句×4
+    rhyme_summary: 대성段押/e/音区，G-DRAGON Rap押/eo/和/i/音区，密集押韵
+
+  - segment_id: S6
+    role: 预副歌+副歌（R2复现）
+    round: R2
+    line_range: L38-L52
+    char_pattern: 与S3+S4相同
+    rhyme_summary: 预副歌+副歌完整复现
+
+  - segment_id: S7
+    role: 桥段/英文段+尾奏
+    round: R2
+    line_range: L53-L68
+    char_pattern: 英文短句×4 + 韩英混排×8 + 纯英文×5
+    rhyme_summary: 英文押/ʌ/音区（what/what），韩英混排"당겨라 bang bang bang"，节奏递进收尾
+
+rhyme_audit:
+  main_rhyme: /e/音区（韩文，对应中文"一七辙"）
+  main_rhyme_pattern: 主歌排韵，副歌BANG锚点叠咏
+  special_techniques:
+    - 多人分段：5位成员各有专属段落，声部对比鲜明
+    - BANG锚点：副歌以"BANG BANG BANG"和"빵야"为纯节奏锚点，无语义负担
+    - Rap密集押韵：T.O.P和G-DRAGON段落押韵密度极高
+    - 英韩混排桥段：桥段英文"Ready or not"与韩文交替，节奏感强
+    - 尾奏递进：最后段落"Let the bass drum go"重复递进，制造高潮

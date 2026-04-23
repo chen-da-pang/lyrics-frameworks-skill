@@ -1,0 +1,62 @@
+meta:
+  framework_id: standingnexttoyou-v1
+  song_name: Standing Next to You
+  artist: Jung Kook
+  language: en
+  total_segments: 6
+  rounds: 2
+  rhyme_style: 英文funk/R&B结构，副歌以"you"尾韵排韵，主歌以-ow/-o元音区为主，桥段以-ime/-ive/-ere押尾
+  main_rhyme_vowel: uː（对应中文鱼模辙）
+  tags: [R&B, funk, 爱情宣言, 副歌重复锚点, 英文]
+
+segments:
+  - segment_id: S1
+    role: 引子/Hook前置
+    round: R1
+    line_range: L01-L01
+    char_pattern: 4词
+    rhyme_summary: "you" — 主韵锚点单行引入
+
+  - segment_id: S2
+    role: 主歌一
+    round: R1
+    line_range: L02-L09
+    char_pattern: 短句+括号应答式
+    rhyme_summary: slow/know/miracles(ow区) + know/control(o区) — 偶韵，括号行作呼应
+
+  - segment_id: S3
+    role: 预副歌/桥段
+    round: R1
+    line_range: L10-L17
+    char_pattern: 中长句堆叠
+    rhyme_summary: this/testify(i区) + time/divide/survive(aɪ区) — 掺韵式准排韵，情绪推进
+
+  - segment_id: S4
+    role: 副歌
+    round: R1
+    line_range: L18-L27
+    char_pattern: 长句+短句交替
+    rhyme_summary: you/you/you(uː) + rain/pain/DNA/away(eɪ区) — 双韵区交织，"you"作排韵锚点
+
+  - segment_id: S5
+    role: 主歌二
+    round: R2
+    line_range: L28-L35
+    char_pattern: 同S2结构
+    rhyme_summary: Afterglow/know(o区) + this/testify(i区) — 与S2平行
+
+  - segment_id: S6
+    role: 副歌（终）+ Outro
+    round: R2
+    line_range: L36-L49
+    char_pattern: 同S4+重复叠句
+    rhyme_summary: 重复S4押韵结构，"Standing next to you"三连收束
+
+rhyme_audit:
+  main_rhyme: uː（you）+ eɪ（rain/pain/DNA/away）
+  main_rhyme_pattern: 主歌偶韵(ow/o) → 预副歌掺韵(i/aɪ) → 副歌双韵区交织(uː+eɪ)
+  special_techniques:
+    - 括号应答句(You already know / Let ya body know)作为呼应声部
+    - "Standing next to you"作全曲标题锚点，副歌结尾三连强化
+    - 预副歌"test of time / deny / divide / survive"构成aɪ音区密集排韵
+    - "Take-take-take-take-take-take off"音节重复制造节奏张力

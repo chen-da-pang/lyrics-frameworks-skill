@@ -1,0 +1,76 @@
+meta:
+  framework_id: haiyulian-v1
+  song_name: 海芋恋
+  artist: 萧敬腾
+  language: zh
+  total_segments: 8
+  rounds: 2
+  rhyme_style: 以"意/气/丽/力"等"一七辙"为主韵，偶韵为主，副歌转入"言前辙"
+  main_rhyme_vowel: i（一七辙）
+  tags: [情歌, 季节意象, 花卉, 暗恋, 台湾流行]
+
+segments:
+  - segment_id: S1
+    role: 主歌一（春）
+    round: R1
+    line_range: L01-L07
+    char_pattern: 5/7/8/7/5/5/4
+    rhyme_summary: 奇句押"i"韵（气息/诗意/美丽），偶韵排韵
+
+  - segment_id: S2
+    role: 主歌二（夏）
+    round: R1
+    line_range: L08-L14
+    char_pattern: 5/7/8/7/5/5/4
+    rhyme_summary: 同S1结构，押"i"韵（气息/凉意/活力），平行复沓
+
+  - segment_id: S3
+    role: 预副歌一
+    round: R1
+    line_range: L15-L18
+    char_pattern: 6/5/9/1
+    rhyme_summary: 转入"言前辙"（季节/相遇），散韵过渡
+
+  - segment_id: S4
+    role: 预副歌二
+    round: R1
+    line_range: L19-L21
+    char_pattern: 6/5/10
+    rhyme_summary: 押"an"韵（暧昧/季节/甜），掺韵式准排韵
+
+  - segment_id: S5
+    role: 主歌二复现（夏）
+    round: R2
+    line_range: L22-L28
+    char_pattern: 5/7/8/7/5/5/4
+    rhyme_summary: 与S2完全重复，押"i"韵
+
+  - segment_id: S6
+    role: 预副歌复现
+    round: R2
+    line_range: L29-L35
+    char_pattern: 6/5/9/1/6/5/10
+    rhyme_summary: S3+S4重复
+
+  - segment_id: S7
+    role: 桥段
+    round: R2
+    line_range: L36-L40
+    char_pattern: 5/4/5/4/1
+    rhyme_summary: 押"i"韵（魔力/奇遇/可思议/可语），密集排韵
+
+  - segment_id: S8
+    role: 副歌（尾段）
+    round: R2
+    line_range: L41-L46
+    char_pattern: 9/5/9/6/5/12
+    rhyme_summary: 转"an"韵（湖面/季节/海芋/夏天/季节/轻描淡写），收尾排韵
+
+rhyme_audit:
+  main_rhyme: 一七辙（i/ì）
+  main_rhyme_pattern: 奇句押韵（ABAB式），主歌段偶韵
+  special_techniques:
+    - 叠字开头（轻轻柔柔、甜甜蜜蜜、缓缓慢慢）
+    - 季节意象平行复沓（春天/初夏）
+    - 感叹词"喔"作为情绪锚点
+    - 主歌一二结构完全对称

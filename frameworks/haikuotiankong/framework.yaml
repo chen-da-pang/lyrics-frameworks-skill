@@ -1,0 +1,64 @@
+meta:
+  framework_id: haikuotiankong-v1
+  song_name: 海阔天空
+  artist: BEYOND
+  language: zh
+  total_segments: 5
+  rounds: 2
+  rhyme_style: 粤语摇滚，主歌遥条辙偶韵（方/遠方/理想/感覺），副歌发花辙排韵（自由/跌倒/可以/共我）
+  main_rhyme_vowel: "遥条辙（ang/ong/iang）主歌 + 发花辙（o/uo）副歌"
+  tags: [rock, cantonese, beyond, 理想, 自由, 经典, 粤语]
+
+segments:
+  - segment_id: S1
+    role: 主歌一
+    round: R1
+    line_range: L01-L06
+    char_pattern: 粤语7-10字/行，6行，含括号内心声
+    rhyme_summary: L01/L02行尾-過/方偶韵（遥条辙），L04/L05行尾-蹤/變偶韵，L06括号内心声（誰沒在變）
+
+  - segment_id: S2
+    role: 主歌二
+    round: R1
+    line_range: L07-L12
+    char_pattern: 粤语7-10字/行，6行，含括号内心声
+    rhyme_summary: L07/L08行尾-笑/想偶韵（遥条辙），L10/L11行尾-覺/淡偶韵，L12括号内心声（誰明白我）
+
+  - segment_id: S3
+    role: 副歌
+    round: R1
+    line_range: L13-L16
+    char_pattern: 粤语10-12字/行，4行
+    rhyme_summary: L13行尾-自由，L14行尾-跌倒，L15行尾-可以，L16行尾-共我（发花辙/o/排韵）
+
+  - segment_id: S4
+    role: 主歌一复现
+    round: R2
+    line_range: L17-L22
+    char_pattern: 与S1完全相同
+    rhyme_summary: 与S1同韵型复现
+
+  - segment_id: S5
+    role: 主歌二复现
+    round: R2
+    line_range: L23-L28
+    char_pattern: 与S2完全相同
+    rhyme_summary: 与S2同韵型复现
+
+  - segment_id: S6
+    role: 副歌复现×2
+    round: R2
+    line_range: L29-L36
+    char_pattern: 副歌重复两次
+    rhyme_summary: 与S3同韵型，第二次为终章强化
+
+rhyme_audit:
+  main_rhyme: "遥条辙（主歌）/ 发花辙（副歌）"
+  main_rhyme_pattern: 主歌偶韵（ABAB），副歌排韵（AAAA），括号内心声为散韵点缀
+  special_techniques:
+    - 括号内心声（誰沒在變/誰明白我）制造内外对话感
+    - 主歌遥条辙→副歌发花辙的辙口转换强化情绪落差
+    - 副歌"原諒我"起句的忏悔式开场
+    - 全曲两轮结构（主歌一+主歌二+副歌）×2，副歌末尾重复一次
+    - 粤语声调天然押韵（飄過/漂遠方同调）
+    - "天空海闊你與我"作为全曲意象锚点

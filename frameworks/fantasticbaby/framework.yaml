@@ -1,0 +1,77 @@
+meta:
+  framework_id: fantasticbaby-v1
+  song_name: FANTASTIC BABY
+  artist: BIGBANG
+  language: ko
+  total_segments: 8
+  rounds: 3
+  rhyme_style: 韩英混搭舞曲，副歌纯英文锚点重复，主歌韩文-어/-아尾音排韵
+  main_rhyme_vowel: "-어 / -아 (韩语开口元音，对应中文辙：发花辙/波梭辙混用)"
+  tags: [dance, kpop, korean, bigbang, party, hype]
+
+segments:
+  - segment_id: S1
+    role: 开场主歌
+    round: R1
+    line_range: L01-L04
+    char_pattern: 8-10字/行，4行，两行一组对称
+    rhyme_summary: 行尾-라라라锚点重复（L02/L04），-어라/-라라라排韵
+
+  - segment_id: S2
+    role: 主歌一
+    round: R1
+    line_range: L05-L08
+    char_pattern: 12-14字/行，4行
+    rhyme_summary: L05/L07行尾-여/-여偶韵，L06/L08散韵（alright/oh）
+
+  - segment_id: S3
+    role: 过渡段（나나나）
+    round: R1
+    line_range: L09-L10
+    char_pattern: 5字×2行
+    rhyme_summary: 纯音节重复，节奏过渡
+
+  - segment_id: S4
+    role: 副歌
+    round: R1
+    line_range: L11-L18
+    char_pattern: 英文短句，8行，Wow/Dance/Ooh ooh锚点交替
+    rhyme_summary: "Wow Fantastic Baby"+"Dance"+"I wanna dance×5"三层锚点循环，AABB结构
+
+  - segment_id: S5
+    role: 主歌二（英文段）
+    round: R2
+    line_range: L19-L23
+    char_pattern: 英文长句10-15词/行，5行
+    rhyme_summary: L19/L20行尾-round/-round同韵，L21/L22/L23散韵（you/ocean/trying）
+
+  - segment_id: S6
+    role: 预副歌（Boy段）
+    round: R2
+    line_range: L24-L27
+    char_pattern: 英文短句，4行，两行一组重复
+    rhyme_summary: "Boy you can do it / Come on move your body"完全重复对
+
+  - segment_id: S7
+    role: 桥段（情感高潮）
+    round: R3
+    line_range: L35-L41
+    char_pattern: 韩文长句12-14字，3行+英文锚点
+    rhyme_summary: L35/L36行尾-어/-어偶韵（하나 되어/기억해），L37/L39 Fantastic Baby锚点
+
+  - segment_id: S8
+    role: 尾声主歌（开场重现）
+    round: R3
+    line_range: L42-L45
+    char_pattern: 与S1同型，4行
+    rhyme_summary: 与S1同韵型复现（-라라라锚点）
+
+rhyme_audit:
+  main_rhyme: "-어 / -라라라"
+  main_rhyme_pattern: 副歌锚点重复为主，主歌偶韵辅助
+  special_techniques:
+    - 三层锚点叠加（Wow/Dance/I wanna dance）
+    - 韩英双语段落交替（韩文主歌+英文主歌+韩文桥段）
+    - 나나나纯音节过渡段
+    - 开场主歌结尾复现（首尾呼应）
+    - 리리리라라라音节锚点贯穿全曲

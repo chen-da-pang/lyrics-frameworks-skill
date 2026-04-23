@@ -1,0 +1,77 @@
+meta:
+  framework_id: wokeup-xg-v1
+  song_name: WOKE UP
+  artist: XG
+  language: en
+  total_segments: 8
+  rounds: 3
+  rhyme_style: 英文说唱流，AABB尾韵为主，密集内韵与多音节押韵，副歌以"this/skin"等短元音i收尾
+  main_rhyme_vowel: ɪ（short-i，对应中文一七辙）
+  tags: [说唱, 女团, 自信宣言, 英文, K-pop]
+
+segments:
+  - segment_id: S1
+    role: 主歌一（Verse 1）
+    round: R1
+    line_range: L01-L13
+    char_pattern: 流动说唱行，8-12音节/行
+    rhyme_summary: AABB尾韵（take it/make it/planet/statement；names right/learn it/turnin'/burnin'；work for us/work for it/perfect/hurt don't it）
+
+  - segment_id: S2
+    role: 预副歌（Pre-Chorus）
+    round: R1
+    line_range: L14-L17
+    char_pattern: 7-9音节/行
+    rhyme_summary: ride/away/right of way/fly away/outer-space，押"ay"韵（对应中文发花辙）
+
+  - segment_id: S3
+    role: 主歌二（Verse 2）
+    round: R1
+    line_range: L18-L24
+    char_pattern: 流动说唱行
+    rhyme_summary: outside/plane/right now/bed/way/great/X，散韵+内韵
+
+  - segment_id: S4
+    role: 主歌三（Verse 3）
+    round: R1
+    line_range: L25-L37
+    char_pattern: 流动说唱行
+    rhyme_summary: ordinary/honorary/broke/jury/hear it/fearin'/low；automated/motivator/merrier/entertainment/fascinated/hilarious，多音节押韵
+
+  - segment_id: S5
+    role: 主歌四（Verse 4）
+    round: R2
+    line_range: L38-L55
+    char_pattern: 流动说唱行，含短句
+    rhyme_summary: uh/yeah/now/down/buss down/bus down/custom now/rushin' out/push me out；motor/kid tho/rip tho/flip phone/intro/64/drift tho，密集内韵
+
+  - segment_id: S6
+    role: 副歌（Hook）
+    round: R1/R2/R3
+    line_range: L56-L63
+    char_pattern: 7-8音节/行，重复结构
+    rhyme_summary: this/skin/this/this（押短i韵），ABAB重复
+
+  - segment_id: S7
+    role: 桥段（Bridge）
+    round: R2
+    line_range: L64-L80
+    char_pattern: 混合短句与流动行
+    rhyme_summary: easy/graffiti/addy/know/all I know；superstitions/do/time/world；ship/it/kids/kin；party/mardi gras/HARVEY/barbie doll；laughin'/blast away/packed away；COCO/mercy/unnie/OG；bags/mags/pack/attack，密集AABB
+
+  - segment_id: S8
+    role: 副歌尾（Outro Hook）
+    round: R3
+    line_range: L81-L88
+    char_pattern: 同副歌
+    rhyme_summary: 同S6，押短i韵收尾
+
+rhyme_audit:
+  main_rhyme: short-i /ɪ/（一七辙对应）
+  main_rhyme_pattern: 副歌ABAB重复押韵；主歌AABB连押+内韵
+  special_techniques:
+    - 多音节押韵（ordinary/honorary，automated/motivator）
+    - 内韵密集（同行内多处押韵）
+    - 说唱flow切换（verse节奏变化）
+    - 自我指涉（XG baby/X/XGALX）
+    - 短句爆发（Surf on 'em / Uh huh）

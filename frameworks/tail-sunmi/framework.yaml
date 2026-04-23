@@ -1,0 +1,70 @@
+meta:
+  framework_id: tail-sunmi-v1
+  song_name: 꼬리 (TAIL)
+  artist: 宣美 (Sunmi)
+  language: ko+en
+  total_segments: 7
+  rounds: 3
+  rhyme_style: 韩英混合，副歌以"흔들어"尾音排韵，主歌以-어/-워韩语尾音为主，预副歌以-라/-야散韵推进
+  main_rhyme_vowel: ʌ（韩语-어/-워尾音区，对应中文波梭辙）
+  tags: [K-pop, girl-crush, 猫咪意象, 韩英混合, 挑逗, 副歌重复]
+
+segments:
+  - segment_id: S1
+    role: 主歌一
+    round: R1
+    line_range: L01-L08
+    char_pattern: 短句，韩英交替
+    rhyme_summary: 봐/세워/서/지/okay — 韩语-봐/-워/-서尾音散韵，英文okay收束
+
+  - segment_id: S2
+    role: 预副歌一
+    round: R1
+    line_range: L09-L16
+    char_pattern: 中句，韩语为主
+    rhyme_summary: 마냥/그냥(ang区) + baby/die(eɪ/aɪ区) + 소리/들려/빨라/알잖아 — 韩语-라/-야散韵推进
+
+  - segment_id: S3
+    role: 副歌
+    round: R1
+    line_range: L17-L24
+    char_pattern: 重复句式，8行对称
+    rhyme_summary: 사랑하고/맞추고/흔들어 — 韩语-고/-어尾音排韵，흔들어作锚点
+
+  - segment_id: S4
+    role: 主歌二
+    round: R2
+    line_range: L25-L35
+    char_pattern: 韩英混合，含问句
+    rhyme_summary: drinker/girl(ɜː区) + 물어대/꼬리치면/거기까지만 — 韩语-대/-면散韵
+
+  - segment_id: S5
+    role: 预副歌二（同S2）
+    round: R2
+    line_range: L36-L43
+    char_pattern: 同S2
+    rhyme_summary: 同S2押韵结构重复
+
+  - segment_id: S6
+    role: 副歌（重复）
+    round: R2
+    line_range: L44-L51
+    char_pattern: 同S3
+    rhyme_summary: 同S3押韵结构重复
+
+  - segment_id: S7
+    role: 桥段 + 预副歌三 + 副歌（终）
+    round: R3
+    line_range: L52-L75
+    char_pattern: 短句桥段+预副歌+副歌
+    rhyme_summary: 세워/예민하게(에区) → 预副歌-라/-야 → 副歌-고/-어排韵收束
+
+rhyme_audit:
+  main_rhyme: 韩语-어/-고尾音（흔들어/사랑하고/맞추고）
+  main_rhyme_pattern: 主歌散韵(-봐/-워) → 预副歌散韵(-라/-야) → 副歌排韵(-고/-어) → 循环
+  special_techniques:
+    - "꼬리(尾巴)"双关：字面意思+挑逗意象，贯穿全曲
+    - 副歌"미친 듯이(疯狂地)"三连作情绪强化前缀
+    - 桥段"꼬리를 높이 세워(高高竖起尾巴)"呼应标题，制造视觉意象
+    - 韩英无缝切换：同行内"I'm not much of a drinker / But I'm a dream girl"
+    - "(흔들어 흔들어)"括号重复作呼应声部

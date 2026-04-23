@@ -1,0 +1,63 @@
+meta:
+  framework_id: body-meovv-v1
+  song_name: BODY
+  artist: MEOVV
+  language: ko+en
+  total_segments: 6
+  rounds: 3
+  rhyme_style: 韩英混合trap/girl-crush结构，Hook以"BODY"单词排韵，主歌以-ong/-ang/-on韩语尾音为主
+  main_rhyme_vowel: ɔː（BODY重复锚）/ -ong（韩语尾音区）
+  tags: [K-pop, girl-crush, trap, 韩英混合, 自信宣言, 重复Hook]
+
+segments:
+  - segment_id: S1
+    role: 主歌一（Pre-chorus含Hook引入）
+    round: R1
+    line_range: L01-L07
+    char_pattern: 短句堆叠，韩英交替
+    rhyme_summary: gone/long/strong/탄탄(tan-tan)/on — 韩英-ong/-on尾音排韵
+
+  - segment_id: S2
+    role: 副歌/Hook
+    round: R1
+    line_range: L08-L16
+    char_pattern: 重复句式
+    rhyme_summary: WHO/YEAH/U/YEAH — 英文uː/eɪ双韵区交替排韵，BODY作锚点词
+
+  - segment_id: S3
+    role: 桥段/Verse
+    round: R2
+    line_range: L17-L20
+    char_pattern: 长句，英韩混合
+    rhyme_summary: catwalk/groundbreak(eɪ区) + soundwave/ate/babe(eɪ区) — 英文eɪ排韵
+
+  - segment_id: S4
+    role: 主歌一（重复）
+    round: R2
+    line_range: L21-L27
+    char_pattern: 同S1
+    rhyme_summary: 同S1押韵结构重复
+
+  - segment_id: S5
+    role: 副歌/Hook（重复）
+    round: R2
+    line_range: L28-L36
+    char_pattern: 同S2
+    rhyme_summary: 同S2押韵结构重复
+
+  - segment_id: S6
+    role: 第二桥段 + 副歌（终）
+    round: R3
+    line_range: L37-L55
+    char_pattern: 长句+短句+重复Hook
+    rhyme_summary: side/like(aɪ区) + up/stick up(ʌ区) + bigger/dinner(ɪ区) → 收束回BODY Hook
+
+rhyme_audit:
+  main_rhyme: BODY（ɔː重复锚）+ -ong/-on（韩语尾音）+ eɪ（英文桥段）
+  main_rhyme_pattern: 主歌排韵(-ong) → Hook双韵交替(uː/eɪ) → 桥段eɪ排韵 → 循环
+  special_techniques:
+    - "BODY"作全曲标题锚点，Hook内密集重复强化
+    - 韩英无缝切换：同一行内韩语句+英语短语
+    - "I BODY BODY WHO/U"的WHO/U谐音双关（Who=U=You）
+    - 第二桥段"uh uh uh"三连作节奏填充，制造律动感
+    - "Servin' it up like some dinner / thinkin' you big / You don't know that we bigger"尾音-er区密集

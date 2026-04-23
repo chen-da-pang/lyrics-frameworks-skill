@@ -1,0 +1,70 @@
+meta:
+  framework_id: loveshot-exo-v1
+  song_name: Love Shot
+  artist: EXO
+  language: ko+en
+  total_segments: 7
+  rounds: 3
+  rhyme_style: 韩英混合，副歌以"love shot"标题锚点排韵，主歌以-아/-아가韩语尾音为主，桥段英韩混合散韵
+  main_rhyme_vowel: ɔː（shot重复锚）/ -아/-가（韩语尾音区）
+  tags: [K-pop, EXO, 爱恨交织, 韩英混合, 副歌重复锚点, 情感对立]
+
+segments:
+  - segment_id: S1
+    role: 主歌一
+    round: R1
+    line_range: L01-L09
+    char_pattern: 中句，韩语为主
+    rhyme_summary: 채/엔/해(에区) + oh/aye(英文散韵) + 그렇게/서로의/하는걸(의/걸区) — 韩语-에/-의散韵
+
+  - segment_id: S2
+    role: 预副歌一
+    round: R1
+    line_range: L10-L15
+    char_pattern: 短句堆叠，情绪推进
+    rhyme_summary: 막혀와/나/담아/넘칠듯한(아区) — 韩语-아/-나排韵，情绪临界
+
+  - segment_id: S3
+    role: 副歌
+    round: R1
+    line_range: L16-L26
+    char_pattern: 重复句式，含哼唱行
+    rhyme_summary: love shot(ɔː锚) + nanana(a区哼唱) + oh(o区) — 标题词排韵锚点
+
+  - segment_id: S4
+    role: 主歌二
+    round: R2
+    line_range: L27-L37
+    char_pattern: 韩英混合，含英文词
+    rhyme_summary: hate/memories(eɪ/iː区英) + 바래어가/calm down/되는말(아/다区) — 掺韵式准排韵
+
+  - segment_id: S5
+    role: 预副歌二
+    round: R2
+    line_range: L38-L44
+    char_pattern: 韩英混合长句
+    rhyme_summary: love/ego/compassion(英文散韵) + 막고/불리고/채워(고/워区) — 韩语-고/-워散韵
+
+  - segment_id: S6
+    role: 副歌（重复）
+    round: R2
+    line_range: L45-L55
+    char_pattern: 同S3
+    rhyme_summary: 同S3押韵结构重复
+
+  - segment_id: S7
+    role: 桥段 + 副歌（终）
+    round: R3
+    line_range: L56-L77
+    char_pattern: 英韩混合桥段+副歌
+    rhyme_summary: go/난(散韵) + 익숙해져가/타/갈라질듯한(아区) → 副歌-shot锚收束
+
+rhyme_audit:
+  main_rhyme: 韩语-아/-가尾音 + love shot（ɔː重复锚）
+  main_rhyme_pattern: 主歌散韵(-에/-의) → 预副歌排韵(-아) → 副歌锚点(shot) → 循环
+  special_techniques:
+    - "love shot"作全曲标题锚点，副歌内三次重复强化
+    - "Na nanana nananana"哼唱行作节奏填充，制造律动感
+    - 主歌二"love & hate / calm down / Where is love?"英文词嵌入制造对比张力
+    - 预副歌"갈증이 나/이 한 잔을 가득히 담아"饮酒意象呼应"shot"双关
+    - 桥段"People come and people go"英文开场制造情绪转折

@@ -1,0 +1,55 @@
+meta:
+  framework_id: yitianyitian-swg-v1
+  song_name: 一天一天
+  artist: 斯外戈
+  language: zh
+  total_segments: 5
+  rounds: 3
+  rhyme_style: 主歌押"i"韵（一七辙），副歌押"an/ian"韵（言前辙），叠字排比开头
+  main_rhyme_vowel: i（一七辙）/ an（言前辙）
+  tags: [流行, 甜蜜, 叠字排比, 日常叙事]
+
+segments:
+  - segment_id: S1
+    role: 主歌一
+    round: R1
+    line_range: L01-L06
+    char_pattern: 10-10-12-10-10-8
+    rhyme_summary: 偶韵押"i"韵（嚏/你/气/你/你/你），一七辙，第三句"天气"为掺韵
+
+  - segment_id: S2
+    role: 副歌
+    round: R1
+    line_range: L07-L15
+    char_pattern: 9-9-9-9-9-9-9-13-10
+    rhyme_summary: 排韵押"an/ian"韵（发现/蔓延/时间/眼前/陪伴/想念/不见/遥远/更甜），言前辙
+
+  - segment_id: S3
+    role: 主歌二（主歌一复现）
+    round: R2
+    line_range: L16-L21
+    char_pattern: 10-10-12-10-10-8
+    rhyme_summary: 与S1完全相同，一七辙偶韵复现
+
+  - segment_id: S4
+    role: 副歌（第二次）
+    round: R2
+    line_range: L22-L30
+    char_pattern: 9-9-9-9-9-9-9-13-10
+    rhyme_summary: 与S2完全相同，言前辙排韵复现
+
+  - segment_id: S5
+    role: 副歌（第三次/终）
+    round: R3
+    line_range: L31-L39
+    char_pattern: 9-9-9-9-9-9-9-13-10
+    rhyme_summary: 与S2完全相同，三次副歌叠加强化，情绪顶点
+
+rhyme_audit:
+  main_rhyme: an/ian（言前辙）为副歌主韵，i（一七辙）为主歌主韵
+  main_rhyme_pattern: 副歌排韵（9句全押an/ian），主歌偶韵（押i韵）
+  special_techniques:
+    - 叠字排比：副歌每句以"一X一X"开头（一天一天/一点一点/一遍一遍），形成强烈节奏感
+    - 双韵区切换：主歌i韵→副歌an韵，形成情绪层次对比
+    - 三次副歌：副歌完整重复三次，递进式情绪强化
+    - 长句收束：副歌第八句扩展至13字，打破节奏后收束

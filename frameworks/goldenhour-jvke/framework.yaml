@@ -1,0 +1,63 @@
+meta:
+  framework_id: goldenhour-jvke-v1
+  song_name: golden hour
+  artist: JVKE
+  language: en
+  total_segments: 6
+  rounds: 2
+  rhyme_style: 叙事流行，主歌AABB叙事押韵，副歌以"hour/time"为锚点，意象诗意（glitter/radiant/golden）
+  main_rhyme_vowel: aʊ（ow音，对应中文遥条辙）
+  tags: [流行, 爱情, 黄金时刻, 意象诗意, 叙事, 英文]
+
+segments:
+  - segment_id: S1
+    role: 主歌一（Verse 1）
+    round: R1
+    line_range: L01-L05
+    char_pattern: 8-14音节/行，叙事长句
+    rhyme_summary: lovers/Blonde/each other/Glover/mother，押"ʌ"韵（对应中文发花辙）；alibi散韵
+
+  - segment_id: S2
+    role: 预副歌一（Pre-Chorus 1）
+    round: R1
+    line_range: L06-L10
+    char_pattern: 6-9音节/行
+    rhyme_summary: alone/life/skin/night/you，散韵+意象堆叠，押"aɪ"掺韵
+
+  - segment_id: S3
+    role: 副歌（Chorus）
+    round: R1/R2
+    line_range: L11-L14
+    char_pattern: 4-7音节/行，短句
+    rhyme_summary: Shine/hour/time/hour，押"aʊ"韵（golden hour锚点）
+
+  - segment_id: S4
+    role: 主歌二（Verse 2）
+    round: R2
+    line_range: L15-L20
+    char_pattern: 8-14音节/行，叙事长句
+    rhyme_summary: lovers/summer/power/hours，押"ʌ/aʊ"韵；baddest/imagine/did，掺韵
+
+  - segment_id: S5
+    role: 预副歌二（Pre-Chorus 2）
+    round: R2
+    line_range: L21-L24
+    char_pattern: 6-9音节/行
+    rhyme_summary: life/face/eyes/light，押"aɪ"掺韵，意象升华
+
+  - segment_id: S6
+    role: 预副歌三+副歌（Pre-Chorus 3 + Chorus）
+    round: R2
+    line_range: L25-L32
+    char_pattern: 混合
+    rhyme_summary: 重复预副歌一+副歌，押"aʊ"韵收尾
+
+rhyme_audit:
+  main_rhyme: /aʊ/ ow音（遥条辙对应）
+  main_rhyme_pattern: 副歌ABAB押韵（Shine/hour/time/hour）；主歌AABB叙事押韵
+  special_techniques:
+    - 意象诗意（glitter for skin/radiant beam/golden hour）
+    - 叙事长句（sittin' in the car/feet up on the dash）
+    - 时间意象（golden hour/slow down time/minutes feel like hours）
+    - 光线意象贯穿（shine/glitter/glow/radiant/angel of light）
+    - 预副歌意象堆叠（alone/love of my life/glitter/beam/night）

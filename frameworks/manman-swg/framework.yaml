@@ -1,0 +1,76 @@
+meta:
+  framework_id: manman-swg-v1
+  song_name: 慢慢（音频纯享版）
+  artist: 斯外戈（原唱：Uu 刘梦妤）
+  language: zh
+  total_segments: 8
+  rounds: 3
+  rhyme_style: 偶韵为主，副歌"男孩/爱/期待/事外/离开"混用发花辙与怀来辙，主歌以言前辙收尾
+  main_rhyme_vowel: ai（怀来辙）
+  tags: [成长, 时光流逝, 双线叙事, 男孩女孩对照, 慢板抒情]
+
+segments:
+  - segment_id: S1
+    role: 引子/副歌前置
+    round: R1
+    line_range: L01-L05
+    char_pattern: 9/9/6/5/4
+    rhyme_summary: 男孩(ái)/爱(ài)/期待(ài)/事外(ài)/离开(āi) — 怀来辙排韵
+
+  - segment_id: S2
+    role: 主歌一
+    round: R1
+    line_range: L06-L13
+    char_pattern: 6/7/8/6/5/8/8/6
+    rhyme_summary: 长大(à)/礼物(u)/谎话(à)/理想(ǎng)/白卷(àn)/梦想家(ā) — 发花辙偶韵掺言前辙
+
+  - segment_id: S3
+    role: 预副歌
+    round: R1
+    line_range: L14-L19
+    char_pattern: 6/7/5/9/15/16
+    rhyme_summary: 漫长(áng)/方向(àng)/分岔口(ǒu) — 江阳辙散韵，长句堆叠制造情绪推进
+
+  - segment_id: S4
+    role: 副歌
+    round: R1
+    line_range: L20-L27
+    char_pattern: 10/6/9/6/13/6/11
+    rhyme_summary: 明天(iān)/并肩(iān)/眼眶里(ǐ)/某一天(iān)/想起(ǐ) — 言前辙排韵
+
+  - segment_id: S5
+    role: 副歌（双线展开）
+    round: R2
+    line_range: L28-L37
+    char_pattern: 9/9/10/4/9/9/9/4
+    rhyme_summary: 男孩/爱/期待/事外/离开 + 女孩/意外/依赖/宠爱/重来 — 怀来辙双线对照排韵
+
+  - segment_id: S6
+    role: 主歌二
+    round: R2
+    line_range: L38-L44
+    char_pattern: 9/5/6/5/4/13/15
+    rhyme_summary: 生活(uó)/越远(uǎn)/成熟感(ǎn)/临界点(iǎn)/陪伴(àn)/距离(ī) — 言前辙偶韵
+
+  - segment_id: S7
+    role: 预副歌二
+    round: R2
+    line_range: L45-L51
+    char_pattern: 8/4/7/5/7/9/13
+    rhyme_summary: 勇敢(ǎn)/雨天(iān)/撑伞(ǎn)/陪伴(àn)/浪漫(àn) — 言前辙排韵
+
+  - segment_id: S8
+    role: 副歌（终）
+    round: R3
+    line_range: L52-L67
+    char_pattern: 同S4+S5
+    rhyme_summary: 重复S4+S5押韵结构，情绪收束
+
+rhyme_audit:
+  main_rhyme: 怀来辙（ai/ei）+ 言前辙（an/ian）
+  main_rhyme_pattern: 引子排韵(ai) → 主歌偶韵(a/ang) → 预副歌散韵 → 副歌排韵(ian) → 双线副歌排韵(ai)
+  special_techniques:
+    - 双线叙事：男孩视角(他)与女孩视角(她)在S5形成镜像对照
+    - 标题词"慢慢"作为句首叠词锚点，贯穿全曲
+    - 长句堆叠（S3/S6）制造情绪临界感，与短句副歌形成张力
+    - 掺韵式准排韵：主歌内部发花辙与言前辙交替

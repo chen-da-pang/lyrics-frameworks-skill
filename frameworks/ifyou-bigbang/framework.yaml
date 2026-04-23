@@ -1,0 +1,69 @@
+meta:
+  framework_id: ifyou-bigbang-v1
+  song_name: IF YOU
+  artist: BIGBANG
+  language: ko
+  total_segments: 7
+  rounds: 3
+  rhyme_style: 韩语疑问句尾押韵，以-요/-까요结尾形成偶韵，副歌英韩混搭
+  main_rhyme_vowel: "-요 / -까요 (韩语敬语疑问尾音，对应中文辙：遥条辙)"
+  tags: [ballad, kpop, korean, bigbang, 失恋, 挽回]
+
+segments:
+  - segment_id: S1
+    role: 主歌一
+    round: R1
+    line_range: L01-L04
+    char_pattern: 7-10字/行，4行
+    rhyme_summary: 行尾-요偶韵（L02/L04押韵：없어요/흘러내려요）
+
+  - segment_id: S2
+    role: 主歌二
+    round: R1
+    line_range: L05-L07
+    char_pattern: 12-14字/行，3行
+    rhyme_summary: 行尾-까요/-어요排韵（사라질까요/나아질까요/낯설어요）
+
+  - segment_id: S3
+    role: 副歌
+    round: R1
+    line_range: L08-L13
+    char_pattern: 英文短句+韩文长句交替，6行
+    rhyme_summary: "If you"锚点重复，韩文行尾-면/-요偶韵（않았다면/없을까요/힘들다면/줘요）
+
+  - segment_id: S4
+    role: 主歌三
+    round: R2
+    line_range: L14-L17
+    char_pattern: 10-12字/行，4行
+    rhyme_summary: 行尾-요偶韵（느껴져요/맴돌아요/아까워요/말아요）
+
+  - segment_id: S5
+    role: 主歌四（桥段前）
+    round: R2
+    line_range: L18-L20
+    char_pattern: 12-14字/行，3行（与S2同型复现）
+    rhyme_summary: 与S2同韵型复现（사라질까요/나아질까요/낯설어요）
+
+  - segment_id: S6
+    role: 桥段
+    round: R3
+    line_range: L27-L34
+    char_pattern: 短句4-8字，8行，两人分唱
+    rhyme_summary: Daesung段-요/-어요排韵；Seungri段-요重复锚点强化
+
+  - segment_id: S7
+    role: 尾声
+    round: R3
+    line_range: L41-L42
+    char_pattern: 英文短句重复，2行
+    rhyme_summary: "If you"纯重复，淡出收尾
+
+rhyme_audit:
+  main_rhyme: "-요 / -까요"
+  main_rhyme_pattern: 偶韵为主（ABAB/AABB混用），副歌锚点重复
+  special_techniques:
+    - 英韩双语切换（If you锚点+韩文展开）
+    - 疑问句尾统一制造悬念感
+    - 多成员分唱强化情感层次
+    - 尾声纯英文淡出

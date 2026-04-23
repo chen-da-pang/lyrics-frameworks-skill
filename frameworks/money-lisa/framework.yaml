@@ -1,0 +1,84 @@
+meta:
+  framework_id: money-lisa-v1
+  song_name: MONEY
+  artist: LISA
+  language: en
+  total_segments: 8
+  rounds: 2
+  rhyme_style: 英文trap风格，主歌-self尾音排韵，预副歌-bands/-autograph/-feels偶韵，副歌纯锚点重复
+  main_rhyme_vowel: "-self (英文/ɛlf/音区，对应中文辙：言前辙)"
+  tags: [trap, kpop, english, lisa, money, flex, solo]
+
+segments:
+  - segment_id: S1
+    role: 主歌一
+    round: R1
+    line_range: L01-L04
+    char_pattern: 英文长句12-16词/行，4行
+    rhyme_summary: L02/L03/L04行尾-self排韵（me yeah/myself/myself/myself），L01散韵
+
+  - segment_id: S2
+    role: 副歌前钩（Refrain）
+    round: R1
+    line_range: L05-L06
+    char_pattern: 英文长句，2行完全重复
+    rhyme_summary: "Che-che-che-check"音节锚点+number/Yikes完全重复对
+
+  - segment_id: S3
+    role: 预副歌
+    round: R1
+    line_range: L07-L10
+    char_pattern: 英文句，4行
+    rhyme_summary: L07行尾-bands，L08行尾-autograph（-æf音区），L09/L10行尾-bills/-feels偶韵（/ɪlz/-/iːlz/近韵）
+
+  - segment_id: S4
+    role: 副歌
+    round: R1
+    line_range: L11-L14
+    char_pattern: "Money×4"重复，4行完全相同
+    rhyme_summary: 纯锚点重复，money单词循环
+
+  - segment_id: S5
+    role: 主歌二
+    round: R2
+    line_range: L15-L18
+    char_pattern: 英文长句，4行（与S1高度相似）
+    rhyme_summary: 与S1同韵型（-self排韵），L18变体（check×4+money）
+
+  - segment_id: S6
+    role: 副歌前钩（Refrain）复现
+    round: R2
+    line_range: L19-L20
+    char_pattern: 与S2完全相同
+    rhyme_summary: 与S2同型复现
+
+  - segment_id: S7
+    role: 预副歌复现
+    round: R2
+    line_range: L21-L24
+    char_pattern: 与S3完全相同
+    rhyme_summary: 与S3同型复现
+
+  - segment_id: S8
+    role: 桥段
+    round: R2
+    line_range: L29-L31
+    char_pattern: 英文长句，3行（与S1/S5相似）
+    rhyme_summary: -self排韵延续
+
+  - segment_id: S9
+    role: 尾声（Outro）
+    round: R2
+    line_range: L32-L33
+    char_pattern: "Money×4"重复，2行
+    rhyme_summary: 副歌锚点淡出
+
+rhyme_audit:
+  main_rhyme: "-self / money"
+  main_rhyme_pattern: 主歌-self排韵，副歌money锚点重复，Refrain音节锚点
+  special_techniques:
+    - "Che-che-che-check"口吃式音节锚点（Refrain特色）
+    - I'ma句式排比（主歌结构骨架）
+    - money单词纯重复副歌（极简锚点）
+    - 主歌二与主歌一高度镜像（变体重复）
+    - 桥段复用主歌句型（结构经济）

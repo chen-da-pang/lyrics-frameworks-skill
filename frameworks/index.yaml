@@ -235,3 +235,87 @@
     - 掺韵式准排韵
     - 结尾单句
   path: frameworks/pingxingxian/framework.yaml
+- framework_id: ifyou-bigbang-v1
+  song_name: IF YOU
+  artist: BIGBANG
+  language: ko
+  total_segments: 7
+  rounds: 3
+  rhyme_style: 韩语疑问句尾押韵，以-요/-까요结尾形成偶韵，副歌英韩混搭
+  main_rhyme_vowel: "-요/-까요（遥条辙）"
+  tags:
+    - ballad
+    - kpop
+    - korean
+    - bigbang
+    - 失恋
+    - 挽回
+  path: frameworks/ifyou-bigbang/framework.yaml
+- framework_id: fantasticbaby-v1
+  song_name: FANTASTIC BABY
+  artist: BIGBANG
+  language: ko
+  total_segments: 8
+  rounds: 3
+  rhyme_style: 韩英混搭舞曲，副歌纯英文锚点重复，主歌韩文-어/-아尾音排韵
+  main_rhyme_vowel: "-어/-라라라（发花辙/波梭辙）"
+  tags:
+    - dance
+    - kpop
+    - korean
+    - bigbang
+    - party
+    - hype
+  path: frameworks/fantasticbaby/framework.yaml
+- framework_id: money-lisa-v1
+  song_name: MONEY
+  artist: LISA
+  language: en
+  total_segments: 8
+  rounds: 2
+  rhyme_style: 英文trap风格，主歌-self尾音排韵，预副歌-bands/-autograph/-feels偶韵，副歌纯锚点重复
+  main_rhyme_vowel: "-self（言前辙）"
+  tags:
+    - trap
+    - kpop
+    - english
+    - lisa
+    - money
+    - flex
+    - solo
+  path: frameworks/money-lisa/framework.yaml
+- framework_id: ineedagirl-v1
+  song_name: I Need A Girl
+  artist: TAEYANG / G-DRAGON
+  language: ko
+  total_segments: 7
+  rounds: 2
+  rhyme_style: 韩英混搭R&B，英文段散韵，韩文段-줄偶韵，副歌英文锚点重复
+  main_rhyme_vowel: "-줄（由求辙）/ girl（英文/ɜːl/）"
+  tags:
+    - rnb
+    - kpop
+    - korean
+    - taeyang
+    - gdragon
+    - bigbang
+    - 渴望
+    - 爱情
+  path: frameworks/ineedagirl/framework.yaml
+- framework_id: haikuotiankong-v1
+  song_name: 海阔天空
+  artist: BEYOND
+  language: zh
+  total_segments: 5
+  rounds: 2
+  rhyme_style: 粤语摇滚，主歌遥条辙偶韵，副歌发花辙排韵，括号内心声制造内外对话
+  main_rhyme_vowel: "遥条辙（主歌）/ 发花辙（副歌）"
+  tags:
+    - rock
+    - cantonese
+    - beyond
+    - 理想
+    - 自由
+    - 经典
+    - 粤语
+  path: frameworks/haikuotiankong/framework.yaml

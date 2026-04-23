@@ -1,0 +1,62 @@
+meta:
+  framework_id: yinseyekong-v1
+  song_name: 银色夜空
+  artist: 斯外戈
+  language: zh
+  total_segments: 6
+  rounds: 3
+  rhyme_style: 中英混排，主歌押"ong/ong"韵（中东辙），散文段自由散韵，副歌英文押/iː/音区
+  main_rhyme_vowel: ong（中东辙）
+  tags: [流行, 中英混排, 意象派, 散文段]
+
+segments:
+  - segment_id: S1
+    role: 主歌一（Hook前置）
+    round: R1
+    line_range: L01-L08
+    char_pattern: 4-4-4-6-4-4-4-7
+    rhyme_summary: 句句押"ong"韵（空/中/容/中/动/同/通/空），排韵，中东辙
+
+  - segment_id: S2
+    role: 主歌二（散文段）
+    round: R1
+    line_range: L09-L18
+    char_pattern: 9-9-9-8-14-15-6-7-8-10
+    rhyme_summary: 散韵，长短句自由交替，口语化叙事，无固定韵脚
+
+  - segment_id: S3
+    role: 预副歌（英文段）
+    round: R1
+    line_range: L19-L23
+    char_pattern: 英文短句×5
+    rhyme_summary: 英文押/iː/音区（dream/me/star），对应中文"一七辙"，偶韵
+
+  - segment_id: S4
+    role: 副歌（主歌一复现）
+    round: R2
+    line_range: L24-L31
+    char_pattern: 4-4-4-6-4-4-4-7
+    rhyme_summary: 与S1完全相同，中东辙排韵复现
+
+  - segment_id: S5
+    role: 桥段（意象短段）
+    round: R2
+    line_range: L32-L35
+    char_pattern: 8-8-8-5
+    rhyme_summary: 押"ang"韵（样/上/糖），掺韵式，末句英文"Close your eyes"收束
+
+  - segment_id: S6
+    role: 副歌（终复现）
+    round: R3
+    line_range: L36-L51
+    char_pattern: 英文段×5 + 主歌一×8
+    rhyme_summary: 英文预副歌+中文主歌一完整复现，双层收尾
+
+rhyme_audit:
+  main_rhyme: ong（中东辙）
+  main_rhyme_pattern: 主歌/副歌排韵，散文段散韵，英文段/iː/音区偶韵
+  special_techniques:
+    - 中英混排：中文主歌与英文预副歌交替，形成语言层次对比
+    - 散文段：主歌二采用口语化长句，打破韵律规整感
+    - 前置Hook：主歌一即为副歌旋律，全曲多次复现
+    - 意象叠加：银色夜空/梵高/星空/粉色巧克力，视觉意象密集
