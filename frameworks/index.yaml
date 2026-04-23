@@ -15,6 +15,21 @@
     - 叠字副歌
     - 结尾回返主歌
   path: frameworks/zhufu-zhangxueyou/framework.yaml
+- framework_id: gaibianzijiwalili-v1
+  song_name: 改变自己
+  artist: 王力宏
+  total_segments: 9
+  rounds: 3
+  rhyme_style: 主歌宽韵偶韵，副歌衣期辙排韵一韵到底
+  main_rhyme_vowel: i（衣期辙）
+  tags:
+  - 流行
+  - 励志
+  - 三轮结构
+  - 预副歌
+  - 双主歌结构
+  - 中英混搭
+  path: frameworks/gaibianzijiwalili/framework.yaml
 - framework_id: wenwendexingfu-v1
   song_name: 稳稳的幸福
   artist: 陈奕迅

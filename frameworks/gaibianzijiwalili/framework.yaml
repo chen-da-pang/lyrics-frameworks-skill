@@ -1,0 +1,92 @@
+meta:
+  framework_id: gaibianzijiwalili-v1
+  song_name: 改变自己
+  artist: 王力宏
+  language: zh
+  total_segments: 9
+  rounds: 3
+  rhyme_style: 主歌宽韵偶韵，副歌衣期辙排韵一韵到底
+  main_rhyme_vowel: i（衣期辙）
+  tags:
+    - 流行
+    - 励志
+    - 三轮结构
+    - 预副歌
+    - 双主歌结构
+    - 中英混搭
+
+segments:
+  - segment_id: S1
+    role: 主歌一
+    round: R1
+    line_range: L01-L08
+    char_pattern: 5/6/7/5/5/6/5/6
+    rhyme_summary: 偶韵，宽韵，梭波辙/乜斜辙混用，生活细节叙事铺垫
+
+  - segment_id: S2
+    role: 主歌二
+    round: R1
+    line_range: L09-L16
+    char_pattern: 5/5/5/8/5/6/5/6
+    rhyme_summary: 偶韵，宽韵，中东辙/由求辙通韵，情绪推进至主题宣言
+
+  - segment_id: S3
+    role: 预副歌
+    round: R1
+    line_range: L17-L20
+    char_pattern: 6/7/8/5
+    rhyme_summary: 散韵，集体呼喊句型，节奏切换信号，衬词收尾
+
+  - segment_id: S4
+    role: 副歌
+    round: R1
+    line_range: L21-L29
+    char_pattern: 7/4/4/4/3/4/4/7/6
+    rhyme_summary: 衣期辙排韵为主，掺入乜斜辙（世界/L21/L28），严韵，一韵到底倾向，Hook宣言句群
+
+  - segment_id: S5
+    role: 主歌一（压缩回返）
+    round: R2
+    line_range: L30-L37
+    char_pattern: 5/6/9/4/5/6/5/6
+    rhyme_summary: 同S1结构，内容替换，偶韵宽韵
+    note: L30≈L01，L31-L32为新内容，L33-L37≈L05-L08
+
+  - segment_id: S6
+    role: 主歌二（压缩回返）
+    round: R2
+    line_range: L38-L44
+    char_pattern: 6/6/5/6/5/5/6
+    rhyme_summary: 同S2结构，内容替换，偶韵宽韵，比S2少一行
+
+  - segment_id: S7
+    role: 预副歌
+    round: R2
+    line_range: L45-L48
+    char_pattern: 6/7/8/5
+    rhyme_summary: 同S3，完全重复
+
+  - segment_id: S8
+    role: 副歌
+    round: R2
+    line_range: L49-L57
+    char_pattern: 7/4/4/4/3/4/4/7/6
+    rhyme_summary: 同S4，完全重复
+
+  - segment_id: S9
+    role: 副歌（扩展重复）
+    round: R3
+    line_range: L58-L66
+    char_pattern: 7/4/4/4/3/4/4/7/6
+    rhyme_summary: 同S4，第三次重复，收束全曲
+
+rhyme_audit:
+  main_rhyme: 衣期辙（i/ü）
+  main_rhyme_pattern: 掺韵式准排韵（副歌区衣期辙高密度，掺入乜斜辙"世界"）
+  verse_rhyme: 偶韵，宽韵，多辙混用
+  special_techniques:
+    - 掺韵（副歌L21/L28"世界"为乜斜辙插入衣期辙主韵段）
+    - 叠字强调（"努力努力"）
+    - 衬词（"NA NA NA NA NA"）
+    - 中英混搭（"KU SO"/"Down"/"COME ON"）
+  rhyme_density: 副歌极高，主歌低
