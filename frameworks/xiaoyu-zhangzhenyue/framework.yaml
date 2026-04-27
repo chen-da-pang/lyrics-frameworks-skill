@@ -1,0 +1,405 @@
+meta:
+  framework_id: xiaoyu-zhangzhenyue-v1
+  song_name: 小宇
+  artist: 张震岳
+  language: zh-tw
+  total_segments: 5
+  total_lines: 33
+  rounds: 2
+  rhyme_style: 主歌衣期辙（i）主韵，副歌江阳辙（ang）结构锚点（"怎麼樣"），分段换韵；主歌内部掺韵丰富（人辰辙ing、姑苏辙ü）
+  main_rhyme_vowel: i（衣期辙，主歌主韵）
+  tags:
+    - 流行
+    - 情歌
+    - 台湾流行
+    - 两轮结构
+    - 平行主歌结构
+    - 比喻对句
+    - 扩展副歌
+    - 条件句尾段
+    - 长短句交替
+
+segments:
+  - segment_id: S1
+    role: 主歌一
+    round: R1
+    line_range: L01-L08
+    char_pattern: 8/8/10/6/8/8/10/8
+    rhyme_summary: 衣期辙（i）主韵，妳/裡/地押韵；睛/停（ing）、遇/雨（ü）、雲（un）掺韵；长短句交替（10字+6字）
+    notes: L01/L15平行起句（"總有些X"），L05-L08为比喻对句（"我的愛就像一片X / 在你的X無處停"）
+
+  - segment_id: S2
+    role: 副歌
+    round: R1
+    line_range: L09-L14
+    char_pattern: 8/9/8/8/9/7
+    rhyme_summary: 江阳辙（ang）结构锚点（L09/L11"怎麼樣"），衣期辙（i）掺韵（L12/L13/L14）
+    notes: "不管X會怎麼樣 / 至少Y"排比结构，L13-L14为情感宣言收束
+
+  - segment_id: S3
+    role: 主歌二
+    round: R2
+    line_range: L15-L22
+    char_pattern: 8/8/10/6/8/8/11/8
+    rhyme_summary: 衣期辙（i）主韵，提/題/裡押韵；面（ian）、舟（ou）、停（ing）、灣（an）、蕩（ang）掺韵
+    notes: 与S1平行结构，L15≈L01，L19-L20≈L05-L06（比喻对句），L21比L07多1字（11字）
+
+  - segment_id: S4
+    role: 扩展副歌
+    round: R2
+    line_range: L23-L30
+    char_pattern: 9/9/9/8/9/9/9/9
+    rhyme_summary: 江阳辙（ang）结构锚点（L23/L25/L27/L29"怎麼樣"），衣期辙（i）掺韵（L26/L28/L30）
+    notes: S2的扩展版：L23-L26≈S2前4行（加"我"字强调），L27-L30为新增升级情感对句
+
+  - segment_id: S5
+    role: 尾段
+    round: R2
+    line_range: L31-L33
+    char_pattern: 9/5/7
+    rhyme_summary: 散韵，条件句收束
+    notes: "如果你還是沒法相信 / 真的沒關係 / 我會安靜的離去"，三句递进收束
+
+lines:
+  - id: L01
+    text: 總有些驚奇的際遇
+    char_count: 8
+    line_type: 时间场景引子句
+    semantic_role: 建立时间锚点
+    rhyme_end: 遇
+    rhyme_vowel: ü
+    in_main_rhyme: false
+    rhyme_stability: 散韵插句
+
+  - id: L02
+    text: 比方說當我遇見妳
+    char_count: 8
+    line_type: 叙述推进句
+    semantic_role: 建立场景
+    rhyme_end: 妳
+    rhyme_vowel: i
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+
+  - id: L03
+    text: 妳那雙溫柔剔透的眼睛
+    char_count: 10
+    line_type: 意象描写长句
+    semantic_role: 深化状态
+    rhyme_end: 睛
+    rhyme_vowel: ing
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L04
+    text: 出現在我夢裡
+    char_count: 6
+    line_type: 意象收束短句
+    semantic_role: 局部收束
+    rhyme_end: 裡
+    rhyme_vowel: i
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+
+  - id: L05
+    text: 我的愛就像一片雲
+    char_count: 8
+    line_type: 比喻起句
+    semantic_role: 铺垫状态
+    rhyme_end: 雲
+    rhyme_vowel: un
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L06
+    text: 在你的天空無處停
+    char_count: 8
+    line_type: 比喻延伸句
+    semantic_role: 深化状态
+    rhyme_end: 停
+    rhyme_vowel: ing
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L07
+    text: 多渴望化成陣陣的小雨
+    char_count: 10
+    line_type: 渴望宣言长句
+    semantic_role: 抬升
+    rhyme_end: 雨
+    rhyme_vowel: ü
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L08
+    text: 滋潤你心中的土地
+    char_count: 8
+    line_type: 意象收束句
+    semantic_role: 局部收束
+    rhyme_end: 地
+    rhyme_vowel: i
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+
+  - id: L09
+    text: 不管未來會怎麼樣
+    char_count: 8
+    line_type: Hook排比句
+    semantic_role: Hook
+    rhyme_end: 樣
+    rhyme_vowel: ang
+    in_main_rhyme: true
+    rhyme_stability: 结构锚点
+
+  - id: L10
+    text: 至少我們現在很開心
+    char_count: 9
+    line_type: 扩展确认句
+    semantic_role: 扩展确认
+    rhyme_end: 心
+    rhyme_vowel: in
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L11
+    text: 不管結局會怎麼樣
+    char_count: 8
+    line_type: Hook排比句
+    semantic_role: Hook
+    rhyme_end: 樣
+    rhyme_vowel: ang
+    in_main_rhyme: true
+    rhyme_stability: 结构锚点
+
+  - id: L12
+    text: 至少想念的人是妳
+    char_count: 8
+    line_type: 扩展确认句
+    semantic_role: 扩展确认
+    rhyme_end: 妳
+    rhyme_vowel: i
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L13
+    text: 我不會把他當作遊戲
+    char_count: 9
+    line_type: 主题宣言句
+    semantic_role: 主题宣言
+    rhyme_end: 戲
+    rhyme_vowel: i
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L14
+    text: 因為我真心對妳
+    char_count: 7
+    line_type: 收束句
+    semantic_role: 收束
+    rhyme_end: 妳
+    rhyme_vowel: i
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L15
+    text: 總有些話是不能提
+    char_count: 8
+    line_type: 时间场景引子句（平行L01）
+    semantic_role: 建立场景
+    rhyme_end: 提
+    rhyme_vowel: i
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+
+  - id: L16
+    text: 怕你會掉入選擇題
+    char_count: 8
+    line_type: 叙述推进句（平行L02）
+    semantic_role: 铺垫状态
+    rhyme_end: 題
+    rhyme_vowel: i
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+
+  - id: L17
+    text: 我把情感自私的那一面
+    char_count: 10
+    line_type: 意象描写长句（平行L03）
+    semantic_role: 深化状态
+    rhyme_end: 面
+    rhyme_vowel: ian
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L18
+    text: 隱藏在黑夜裡
+    char_count: 6
+    line_type: 意象收束短句（平行L04）
+    semantic_role: 局部收束
+    rhyme_end: 裡
+    rhyme_vowel: i
+    in_main_rhyme: true
+    rhyme_stability: 主韵连押
+
+  - id: L19
+    text: 我的愛就像一片舟
+    char_count: 8
+    line_type: 比喻起句（平行L05）
+    semantic_role: 铺垫状态
+    rhyme_end: 舟
+    rhyme_vowel: ou
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L20
+    text: 在你的心湖無處停
+    char_count: 8
+    line_type: 比喻延伸句（平行L06）
+    semantic_role: 深化状态
+    rhyme_end: 停
+    rhyme_vowel: ing
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L21
+    text: 尋尋覓覓一個美麗的港灣
+    char_count: 11
+    line_type: 渴望宣言长句（平行L07，多1字）
+    semantic_role: 抬升
+    rhyme_end: 灣
+    rhyme_vowel: an
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+    inner_rhyme: 尋尋覓覓叠字回环
+
+  - id: L22
+    text: 希望不再流浪漂蕩
+    char_count: 8
+    line_type: 意象收束句（平行L08）
+    semantic_role: 局部收束
+    rhyme_end: 蕩
+    rhyme_vowel: ang
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L23
+    text: 我不管未來會怎麼樣
+    char_count: 9
+    line_type: Hook排比句（S2扩展，加"我"）
+    semantic_role: Hook
+    rhyme_end: 樣
+    rhyme_vowel: ang
+    in_main_rhyme: true
+    rhyme_stability: 结构锚点
+
+  - id: L24
+    text: 至少我們現在很開心
+    char_count: 9
+    line_type: 扩展确认句
+    semantic_role: 扩展确认
+    rhyme_end: 心
+    rhyme_vowel: in
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L25
+    text: 我不管結局會怎麼樣
+    char_count: 9
+    line_type: Hook排比句
+    semantic_role: Hook
+    rhyme_end: 樣
+    rhyme_vowel: ang
+    in_main_rhyme: true
+    rhyme_stability: 结构锚点
+
+  - id: L26
+    text: 至少想念的人是妳
+    char_count: 8
+    line_type: 扩展确认句
+    semantic_role: 扩展确认
+    rhyme_end: 妳
+    rhyme_vowel: i
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L27
+    text: 我不管未來會怎麼樣
+    char_count: 9
+    line_type: Hook排比句（升级）
+    semantic_role: 抬升
+    rhyme_end: 樣
+    rhyme_vowel: ang
+    in_main_rhyme: true
+    rhyme_stability: 结构锚点
+
+  - id: L28
+    text: 但我每天都想見到妳
+    char_count: 9
+    line_type: 主题宣言句（升级）
+    semantic_role: 主题宣言
+    rhyme_end: 妳
+    rhyme_vowel: i
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L29
+    text: 我不管結局會怎麼樣
+    char_count: 9
+    line_type: Hook排比句（升级）
+    semantic_role: 抬升
+    rhyme_end: 樣
+    rhyme_vowel: ang
+    in_main_rhyme: true
+    rhyme_stability: 结构锚点
+
+  - id: L30
+    text: 我想真的跟你在一起
+    char_count: 9
+    line_type: 主题宣言句（升级）
+    semantic_role: 主题宣言
+    rhyme_end: 起
+    rhyme_vowel: i
+    in_main_rhyme: false
+    rhyme_stability: 掺韵插句
+
+  - id: L31
+    text: 如果你還是沒法相信
+    char_count: 9
+    line_type: 条件句
+    semantic_role: 情感转折
+    rhyme_end: 信
+    rhyme_vowel: in
+    in_main_rhyme: false
+    rhyme_stability: 散韵
+
+  - id: L32
+    text: 真的沒關係
+    char_count: 5
+    line_type: 克制收束短句
+    semantic_role: 收束
+    rhyme_end: 係
+    rhyme_vowel: i
+    in_main_rhyme: false
+    rhyme_stability: 散韵
+
+  - id: L33
+    text: 我會安靜的離去
+    char_count: 7
+    line_type: 收束句
+    semantic_role: 收束
+    rhyme_end: 去
+    rhyme_vowel: ü
+    in_main_rhyme: false
+    rhyme_stability: 散韵
+
+rhyme_audit:
+  main_rhyme: 衣期辙（i）
+  main_rhyme_pattern: 主歌偶韵为主（妳/裡/地，提/題/裡），副歌江阳辙（ang）结构锚点
+  special_techniques:
+    - S1/S3平行主歌结构（"總有些X"起句）
+    - 比喻对句（"我的愛就像一片X / 在你的X無處停"）
+    - 长短句交替（10字+6字对：L03/L04, L07/L08, L17/L18）
+    - 副歌"不管X怎麼樣"排比锚点
+    - S4为S2扩展版（加"我"字强调，新增升级对句）
+    - 叠字回环（L21"尋尋覓覓"）
+    - 条件句尾段（"如果你還是沒法相信"）

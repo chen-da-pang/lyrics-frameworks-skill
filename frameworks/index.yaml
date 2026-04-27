@@ -1,3 +1,22 @@
+- framework_id: xiaoyu-zhangzhenyue-v1
+  song_name: 小宇
+  artist: 张震岳
+  total_segments: 5
+  total_lines: 33
+  rounds: 2
+  rhyme_style: 主歌衣期辙（i）主韵，副歌江阳辙（ang）结构锚点，分段换韵；平行主歌+比喻对句+扩展副歌
+  main_rhyme_vowel: i（衣期辙）
+  tags:
+    - 流行
+    - 情歌
+    - 台湾流行
+    - 两轮结构
+    - 平行主歌结构
+    - 比喻对句
+    - 扩展副歌
+    - 条件句尾段
+    - 长短句交替
+  path: frameworks/xiaoyu-zhangzhenyue/framework.yaml
 - framework_id: beautyandabeat-v1
   song_name: Beauty And A Beat
   artist: Justin Bieber / Nicki Minaj
