@@ -582,3 +582,40 @@
   main_rhyme_vowel: iː（trust me/free锚）
   tags: [华语流行, 中英混合, 爱情宣言, 信任主题, 副歌排韵]
   path: frameworks/trustme-sunkis/framework.yaml
+- framework_id: songbie-lishutong-v1
+  song_name: 送别
+  artist: 李叔同
+  total_segments: 3
+  total_lines: 12
+  rounds: 1
+  rhyme_style: 短行版送别；开景段逐步收景，中段先拉远空间再转入酒别收情，尾段以问候和叮咛近韵收尾
+  main_rhyme_vowel: ai/ian/an → ia/iao/uo/o/uan/an → uan/uai
+  tags:
+    - 公版
+    - 民国学堂乐歌
+    - 短行版
+    - 单轮三段
+    - 景物递进
+    - 空间转人情
+    - 嘱托收尾
+  path: frameworks/songbie-lishutong/framework.yaml
+- framework_id: yueliangdaibiaowodexin-v1
+  song_name: 月亮代表我的心
+  artist: 邓丽君
+  total_segments: 4
+  total_lines: 19
+  rounds: 2
+  rhyme_style: 人辰辙 (en/in/un) 主干贯穿；主歌段在后半部实施破韵，再由 Hook 强拉回主韵；桥段平滑近韵链；主歌复刻且变体。
+  main_rhyme_vowel: en/in/un（人辰辙）
+  tags:
+    - 流行
+    - 情歌
+    - 经典
+    - 两轮结构
+    - 设问对举
+    - 破韵设计
+    - 近韵交织链
+    - Hook重复
+    - 叠词开头
+  path: frameworks/yueliangdaibiaowodexin/framework.yaml
+

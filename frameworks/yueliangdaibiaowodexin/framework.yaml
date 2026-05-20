@@ -1,0 +1,893 @@
+meta:
+  framework_id: yueliangdaibiaowodexin-v1
+  schema_version: 2
+  song_name: 月亮代表我的心
+  artist: 邓丽君
+  language: zh
+  source_type: classic-mandarin-pop-framework
+  source_url: ""
+  source_note: 本框架沿用邓丽君演唱版本，短行分行。
+  lineation_basis: short lyric lines
+  total_lines: 19
+  total_segments: 4
+  rounds: 2
+  rhyme_style: 人辰辙 (en/in/un) 主干贯穿；主歌段在后半部实施破韵，再由 Hook 强拉回主韵；桥段平滑近韵链；主歌复刻且变体。
+  main_rhyme_vowel: en/in/un (人辰辙)
+  tags:
+    - 流行
+    - 情歌
+    - 经典
+    - 两轮结构
+    - 设问对举
+    - 破韵设计
+    - 近韵交织链
+    - Hook重复
+    - 叠词开头
+
+segments:
+  - segment_id: S1
+    role: 主歌
+    round: R1
+    name: 主歌A·引入与情怀陈述
+    line_range: L01-L05
+    line_count: 5
+    char_pattern: 7-6-5-5-7
+    structural_task: 通过提问与追问切入，陈述情感真实度，并引出核心 Hook 句。
+    rhyme_pattern: 全部押主韵（人辰辙），保证开篇稳定听感。
+    rhyme_org: 一韵到底
+    rhyme_vowel: en -> en -> en -> en -> in
+    rhyme_strictness: 严韵
+    rhyme_tone: 音节押韵
+    rhyme_special: 问答对举；情感宣言并列；Hook收口
+    rhyme_scale: 分段主韵
+    rhyme_jie: 人辰辙
+    technique_summary:
+      - technique_id: T01
+        type: 对举
+        refs:
+          - L01
+          - L02
+        form: 问答对举
+        description: 你问我爱你有多深 / 我爱你有几分 形成设问与追问
+        fill_requirement: 必须保留提问与回答的并列结构
+      - technique_id: T02
+        type: 对举
+        refs:
+          - L03
+          - L04
+        form: 我的[名词]也真
+        description: 我的情也真 / 我的爱也真 形成情感平行宣告
+        fill_requirement: 保留相同句式结构的并列宣告
+
+  - segment_id: S2
+    role: 主歌
+    round: R1
+    name: 主歌B·承诺变体
+    line_range: L06-L10
+    line_count: 5
+    char_pattern: 7-6-5-5-7
+    structural_task: 承接S1，在第三四句变更为坚贞的忠诚承诺，保持Hook句落点。
+    rhyme_pattern: 第三四句实施破韵打破惯性，收尾Hook拉回人辰主韵。
+    rhyme_org: 后半破韵回收
+    rhyme_vowel: en -> en -> i -> ian -> in
+    rhyme_strictness: 宽韵
+    rhyme_tone: 音节押韵
+    rhyme_special: 首尾复刻；中段破韵；承诺对仗
+    rhyme_scale: 破韵回归
+    rhyme_jie: 人辰辙 / 一七辙 / 言前辙
+    technique_summary:
+      - technique_id: T03
+        type: 对举
+        refs:
+          - L08
+          - L09
+        form: 我的[名词]不[变动/形容词]
+        description: 我的情不移 / 我的爱不变 形成否定承诺对偶
+        fill_requirement: 必须保留平行的否定词承诺结构
+
+  - segment_id: S3
+    role: 桥段
+    round: R2
+    name: 桥段·记忆与感慨
+    line_range: L11-L14
+    line_count: 4
+    char_pattern: 6-7-6-7
+    structural_task: 通过动作和场景回忆，拉开时间跨度，将感情深切度推向高点。
+    rhyme_pattern: 采用近韵交织链 un -> in -> ing -> in，听感顺滑。
+    rhyme_org: 近韵混押
+    rhyme_vowel: un -> in -> ing -> in
+    rhyme_strictness: 宽韵
+    rhyme_tone: 音节押韵
+    rhyme_special: 叠词对举；情感反应；时间拉远
+    rhyme_scale: 桥段过渡
+    rhyme_jie: 人辰辙 / 中东辙
+    technique_summary:
+      - technique_id: T04
+        type: 对举
+        refs:
+          - L11
+          - L13
+        form: [AA叠字]的[一个/一段][名词]
+        description: 轻轻的一个吻 / 深深的一段情 形成叠词对举
+        fill_requirement: 必须保留 AA 的一 B 结构
+      - technique_id: T06
+        type: 叠词
+        refs:
+          - L11
+          - L13
+        form: AA叠词开头
+        description: 轻轻 / 深深 制造温柔情感氛围
+        fill_requirement: 保留首尾叠词节奏
+
+  - segment_id: S4
+    role: 主歌
+    round: R2
+    name: 主歌C·求证变体
+    line_range: L15-L19
+    line_count: 5
+    char_pattern: 7-6-5-5-7
+    structural_task: 回归主歌结构，在第三四句引导对方采取实证动作。
+    rhyme_pattern: 第三四句破韵，Hook拉回主韵。
+    rhyme_org: 后半破韵回收
+    rhyme_vowel: en -> en -> iang -> an -> in
+    rhyme_strictness: 宽韵
+    rhyme_tone: 音节押韵
+    rhyme_special: 行动指引对举；破韵拉回
+    rhyme_scale: 破韵回归
+    rhyme_jie: 人辰辙 / 江阳辙 / 言前辙
+    technique_summary:
+      - technique_id: T05
+        type: 对举
+        refs:
+          - L17
+          - L18
+        form: 你去[动词]一[动词]
+        description: 你去想一想 / 你去看一看 引导求证行动
+        fill_requirement: 保留 你去X一X 的动词叠词句式
+      - technique_id: T07
+        type: 重复与动作指引
+        refs:
+          - L17
+          - L18
+        form: A一A 重叠
+        description: 想一想 / 看一看
+        fill_requirement: 保留 A一A 重复节奏
+
+lines:
+  - line_id: L01
+    segment_id: S1
+    display_line: 你问我爱你有多深
+    char_count: 7
+    line_type: 设问引入
+    semantic_role: 建立对话
+    rhyme: en
+    rhyme_jie: 人辰辙
+    rhyme_group: S1-question
+    in_main_rhyme: true
+    rhyme_length: 单押
+    with_prev: false
+    with_next: true
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices: []
+    rhetorical_devices:
+      - type: 对举
+        target: L02
+        form: 设问对举
+    parallel_with:
+      - L02
+    parallel_pattern: 主谓宾 + 程度/数量提问
+    lyric_phrases:
+      - phrase_id: L01p1
+        text: 你问我爱你有多深
+        char_count: 7
+        end_char: 深
+        rhyme_vowel: en
+        rhyme_jie: 人辰辙
+        rhyme_group: S1-question
+        phrase_position: single_phrase
+        cadence_role: 设问起句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices: []
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L02
+    segment_id: S1
+    display_line: 我爱你有几分
+    char_count: 6
+    line_type: 追问引入
+    semantic_role: 建立对话
+    rhyme: en
+    rhyme_jie: 人辰辙
+    rhyme_group: S1-question
+    in_main_rhyme: true
+    rhyme_length: 单押
+    with_prev: true
+    with_next: false
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices: []
+    rhetorical_devices:
+      - type: 对举
+        target: L01
+        form: 设问对举
+    parallel_with:
+      - L01
+    parallel_pattern: 主谓宾 + 程度/数量提问
+    lyric_phrases:
+      - phrase_id: L02p1
+        text: 我爱你有几分
+        char_count: 6
+        end_char: 分
+        rhyme_vowel: en
+        rhyme_jie: 人辰辙
+        rhyme_group: S1-question
+        phrase_position: single_phrase
+        cadence_role: 追问承句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices: []
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L03
+    segment_id: S1
+    display_line: 我的情也真
+    char_count: 5
+    line_type: 情感陈述
+    semantic_role: 表达核心态度
+    rhyme: en
+    rhyme_jie: 人辰辙
+    rhyme_group: S1-declarative
+    in_main_rhyme: true
+    rhyme_length: 单押
+    with_prev: false
+    with_next: true
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices: []
+    rhetorical_devices:
+      - type: 对举
+        target: L04
+        form: 宣告对举
+    parallel_with:
+      - L04
+    parallel_pattern: 我的[名词]也真
+    lyric_phrases:
+      - phrase_id: L03p1
+        text: 我的情也真
+        char_count: 5
+        end_char: 真
+        rhyme_vowel: en
+        rhyme_jie: 人辰辙
+        rhyme_group: S1-declarative
+        phrase_position: single_phrase
+        cadence_role: 表白起句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices: []
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L04
+    segment_id: S1
+    display_line: 我的爱也真
+    char_count: 5
+    line_type: 情感陈述
+    semantic_role: 表达核心态度
+    rhyme: en
+    rhyme_jie: 人辰辙
+    rhyme_group: S1-declarative
+    in_main_rhyme: true
+    rhyme_length: 单押
+    with_prev: true
+    with_next: false
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices: []
+    rhetorical_devices:
+      - type: 对举
+        target: L03
+        form: 宣告对举
+    parallel_with:
+      - L03
+    parallel_pattern: 我的[名词]也真
+    lyric_phrases:
+      - phrase_id: L04p1
+        text: 我的爱也真
+        char_count: 5
+        end_char: 真
+        rhyme_vowel: en
+        rhyme_jie: 人辰辙
+        rhyme_group: S1-declarative
+        phrase_position: single_phrase
+        cadence_role: 表白对仗句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices: []
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L05
+    segment_id: S1
+    display_line: 月亮代表我的心
+    char_count: 7
+    line_type: Hook宣言句
+    semantic_role: 局部收束
+    rhyme: in
+    rhyme_jie: 人辰辙
+    rhyme_group: S1-hook
+    in_main_rhyme: true
+    rhyme_length: 单押
+    with_prev: false
+    with_next: false
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices: []
+    rhetorical_devices:
+      - type: 比喻
+        form: 月亮比喻
+    parallel_with: []
+    parallel_pattern: ""
+    lyric_phrases:
+      - phrase_id: L05p1
+        text: 月亮代表我的心
+        char_count: 7
+        end_char: 心
+        rhyme_vowel: in
+        rhyme_jie: 人辰辙
+        rhyme_group: S1-hook
+        phrase_position: single_phrase
+        cadence_role: 核心Hook句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices: []
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L06
+    segment_id: S2
+    display_line: 你问我爱你有多深
+    char_count: 7
+    line_type: 设问引入
+    semantic_role: 建立对话
+    rhyme: en
+    rhyme_jie: 人辰辙
+    rhyme_group: S2-question
+    in_main_rhyme: true
+    rhyme_length: 单押
+    with_prev: false
+    with_next: true
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices: []
+    rhetorical_devices: []
+    parallel_with:
+      - L07
+    parallel_pattern: 主谓宾 + 程度/数量提问
+    lyric_phrases:
+      - phrase_id: L06p1
+        text: 你问我爱你有多深
+        char_count: 7
+        end_char: 深
+        rhyme_vowel: en
+        rhyme_jie: 人辰辙
+        rhyme_group: S2-question
+        phrase_position: single_phrase
+        cadence_role: 设问起句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices: []
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L07
+    segment_id: S2
+    display_line: 我爱你有几分
+    char_count: 6
+    line_type: 追问引入
+    semantic_role: 建立对话
+    rhyme: en
+    rhyme_jie: 人辰辙
+    rhyme_group: S2-question
+    in_main_rhyme: true
+    rhyme_length: 单押
+    with_prev: true
+    with_next: false
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices: []
+    rhetorical_devices: []
+    parallel_with:
+      - L06
+    parallel_pattern: 主谓宾 + 程度/数量提问
+    lyric_phrases:
+      - phrase_id: L07p1
+        text: 我爱你有几分
+        char_count: 6
+        end_char: 分
+        rhyme_vowel: en
+        rhyme_jie: 人辰辙
+        rhyme_group: S2-question
+        phrase_position: single_phrase
+        cadence_role: 追问承句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices: []
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L08
+    segment_id: S2
+    display_line: 我的情不移
+    char_count: 5
+    line_type: 忠诚承诺
+    semantic_role: 表达核心态度
+    rhyme: i
+    rhyme_jie: 一七辙
+    rhyme_group: S2-break
+    in_main_rhyme: false
+    rhyme_length: 单押
+    with_prev: false
+    with_next: true
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices: []
+    rhetorical_devices:
+      - type: 对举
+        target: L09
+        form: 否定承诺对仗
+    parallel_with:
+      - L09
+    parallel_pattern: 我的[名词]不[变动/形容词]
+    lyric_phrases:
+      - phrase_id: L08p1
+        text: 我的情不移
+        char_count: 5
+        end_char: 移
+        rhyme_vowel: i
+        rhyme_jie: 一七辙
+        rhyme_group: S2-break
+        phrase_position: single_phrase
+        cadence_role: 承诺起句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices: []
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L09
+    segment_id: S2
+    display_line: 我的爱不变
+    char_count: 5
+    line_type: 忠诚承诺
+    semantic_role: 表达核心态度
+    rhyme: ian
+    rhyme_jie: 言前辙
+    rhyme_group: S2-break
+    in_main_rhyme: false
+    rhyme_length: 单押
+    with_prev: true
+    with_next: false
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices: []
+    rhetorical_devices:
+      - type: 对举
+        target: L08
+        form: 否定承诺对仗
+    parallel_with:
+      - L08
+    parallel_pattern: 我的[名词]不[变动/形容词]
+    lyric_phrases:
+      - phrase_id: L09p1
+        text: 我的爱不变
+        char_count: 5
+        end_char: 变
+        rhyme_vowel: ian
+        rhyme_jie: 言前辙
+        rhyme_group: S2-break
+        phrase_position: single_phrase
+        cadence_role: 承诺对仗句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices: []
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L10
+    segment_id: S2
+    display_line: 月亮代表我的心
+    char_count: 7
+    line_type: Hook宣言句
+    semantic_role: 局部收束
+    rhyme: in
+    rhyme_jie: 人辰辙
+    rhyme_group: S2-hook
+    in_main_rhyme: true
+    rhyme_length: 单押
+    with_prev: false
+    with_next: false
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices: []
+    rhetorical_devices: []
+    parallel_with: []
+    parallel_pattern: ""
+    lyric_phrases:
+      - phrase_id: L10p1
+        text: 月亮代表我的心
+        char_count: 7
+        end_char: 心
+        rhyme_vowel: in
+        rhyme_jie: 人辰辙
+        rhyme_group: S2-hook
+        phrase_position: single_phrase
+        cadence_role: 核心Hook句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices: []
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L11
+    segment_id: S3
+    display_line: 轻轻的一个吻
+    char_count: 6
+    line_type: 叙事回忆
+    semantic_role: 引入细节
+    rhyme: un
+    rhyme_jie: 人辰辙
+    rhyme_group: S3-chain
+    in_main_rhyme: true
+    rhyme_length: 单押
+    with_prev: false
+    with_next: true
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices:
+      - type: 叠词
+        form: AA叠词
+        note: 轻轻 制造轻柔氛围
+    rhetorical_devices:
+      - type: 对举
+        target: L13
+        form: 叠词回忆对偶
+    parallel_with:
+      - L13
+    parallel_pattern: "[AA叠字]的[数量]个/段[名词]"
+    lyric_phrases:
+      - phrase_id: L11p1
+        text: 轻轻的一个吻
+        char_count: 6
+        end_char: 吻
+        rhyme_vowel: un
+        rhyme_jie: 人辰辙
+        rhyme_group: S3-chain
+        phrase_position: single_phrase
+        cadence_role: 桥段起句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices:
+          - type: 叠词
+            form: AA叠词
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L12
+    segment_id: S3
+    display_line: 已经打动我的心
+    char_count: 7
+    line_type: 情绪推进
+    semantic_role: 状态描述
+    rhyme: in
+    rhyme_jie: 人辰辙
+    rhyme_group: S3-chain
+    in_main_rhyme: true
+    rhyme_length: 单押
+    with_prev: true
+    with_next: false
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices: []
+    rhetorical_devices: []
+    parallel_with: []
+    parallel_pattern: ""
+    lyric_phrases:
+      - phrase_id: L12p1
+        text: 已经打动我的心
+        char_count: 7
+        end_char: 心
+        rhyme_vowel: in
+        rhyme_jie: 人辰辙
+        rhyme_group: S3-chain
+        phrase_position: single_phrase
+        cadence_role: 情绪回应
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices: []
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L13
+    segment_id: S3
+    display_line: 深深的一段情
+    char_count: 6
+    line_type: 叙事回忆
+    semantic_role: 引入细节
+    rhyme: ing
+    rhyme_jie: 中东辙
+    rhyme_group: S3-chain
+    in_main_rhyme: true
+    rhyme_length: 单押
+    with_prev: false
+    with_next: true
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices:
+      - type: 叠词
+        form: AA叠词
+        note: 深深 制造深沉氛围
+    rhetorical_devices:
+      - type: 对举
+        target: L11
+        form: 叠词回忆对偶
+    parallel_with:
+      - L11
+    parallel_pattern: "[AA叠字]的[数量]个/段[名词]"
+    lyric_phrases:
+      - phrase_id: L13p1
+        text: 深深的一段情
+        char_count: 6
+        end_char: 情
+        rhyme_vowel: ing
+        rhyme_jie: 中东辙
+        rhyme_group: S3-chain
+        phrase_position: single_phrase
+        cadence_role: 桥段对偶起句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices:
+          - type: 叠词
+            form: AA叠词
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L14
+    segment_id: S3
+    display_line: 教我思念到如今
+    char_count: 7
+    line_type: 情绪推进
+    semantic_role: 局部收束
+    rhyme: in
+    rhyme_jie: 人辰辙
+    rhyme_group: S3-chain
+    in_main_rhyme: true
+    rhyme_length: 单押
+    with_prev: true
+    with_next: false
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices: []
+    rhetorical_devices: []
+    parallel_with: []
+    parallel_pattern: ""
+    lyric_phrases:
+      - phrase_id: L14p1
+        text: 教我思念到如今
+        char_count: 7
+        end_char: 今
+        rhyme_vowel: in
+        rhyme_jie: 人辰辙
+        rhyme_group: S3-chain
+        phrase_position: single_phrase
+        cadence_role: 情感收尾
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices: []
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L15
+    segment_id: S4
+    display_line: 你问我爱你有多深
+    char_count: 7
+    line_type: 设问引入
+    semantic_role: 建立对话
+    rhyme: en
+    rhyme_jie: 人辰辙
+    rhyme_group: S4-question
+    in_main_rhyme: true
+    rhyme_length: 单押
+    with_prev: false
+    with_next: true
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices: []
+    rhetorical_devices: []
+    parallel_with:
+      - L16
+    parallel_pattern: 主谓宾 + 程度/数量提问
+    lyric_phrases:
+      - phrase_id: L15p1
+        text: 你问我爱你有多深
+        char_count: 7
+        end_char: 深
+        rhyme_vowel: en
+        rhyme_jie: 人辰辙
+        rhyme_group: S4-question
+        phrase_position: single_phrase
+        cadence_role: 设问起句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices: []
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L16
+    segment_id: S4
+    display_line: 我爱你有几分
+    char_count: 6
+    line_type: 追问引入
+    semantic_role: 建立对话
+    rhyme: en
+    rhyme_jie: 人辰辙
+    rhyme_group: S4-question
+    in_main_rhyme: true
+    rhyme_length: 单押
+    with_prev: true
+    with_next: false
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices: []
+    rhetorical_devices: []
+    parallel_with:
+      - L15
+    parallel_pattern: 主谓宾 + 程度/数量提问
+    lyric_phrases:
+      - phrase_id: L16p1
+        text: 我爱你有几分
+        char_count: 6
+        end_char: 分
+        rhyme_vowel: en
+        rhyme_jie: 人辰辙
+        rhyme_group: S4-question
+        phrase_position: single_phrase
+        cadence_role: 追问承句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices: []
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L17
+    segment_id: S4
+    display_line: 你去想一想
+    char_count: 5
+    line_type: 动作指引
+    semantic_role: 表明求证行动
+    rhyme: iang
+    rhyme_jie: 江阳辙
+    rhyme_group: S4-break
+    in_main_rhyme: false
+    rhyme_length: 单押
+    with_prev: false
+    with_next: true
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices:
+      - type: 动作重叠
+        form: A一A
+        note: 想一想
+    rhetorical_devices:
+      - type: 对举
+        target: L18
+        form: 行动对偶
+    parallel_with:
+      - L18
+    parallel_pattern: 你去[动词]一[动词]
+    lyric_phrases:
+      - phrase_id: L17p1
+        text: 你去想一想
+        char_count: 5
+        end_char: 想
+        rhyme_vowel: iang
+        rhyme_jie: 江阳辙
+        rhyme_group: S4-break
+        phrase_position: single_phrase
+        cadence_role: 行动指引起句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices:
+          - type: 动作重叠
+            form: A一A
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L18
+    segment_id: S4
+    display_line: 你去看一看
+    char_count: 5
+    line_type: 动作指引
+    semantic_role: 表明求证行动
+    rhyme: an
+    rhyme_jie: 言前辙
+    rhyme_group: S4-break
+    in_main_rhyme: false
+    rhyme_length: 单押
+    with_prev: true
+    with_next: false
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices:
+      - type: 动作重叠
+        form: A一A
+        note: 看一看
+    rhetorical_devices:
+      - type: 对举
+        target: L17
+        form: 行动对偶
+    parallel_with:
+      - L17
+    parallel_pattern: 你去[动词]一[动词]
+    lyric_phrases:
+      - phrase_id: L18p1
+        text: 你去看一看
+        char_count: 5
+        end_char: 看
+        rhyme_vowel: an
+        rhyme_jie: 言前辙
+        rhyme_group: S4-break
+        phrase_position: single_phrase
+        cadence_role: 行动指役对仗句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices:
+          - type: 动作重叠
+            form: A一A
+        rhetorical_devices: []
+        parallel_with: []
+
+  - line_id: L19
+    segment_id: S4
+    display_line: 月亮代表我的心
+    char_count: 7
+    line_type: Hook宣言句
+    semantic_role: 局部收束
+    rhyme: in
+    rhyme_jie: 人辰辙
+    rhyme_group: S4-hook
+    in_main_rhyme: true
+    rhyme_length: 单押
+    with_prev: false
+    with_next: false
+    remote_rhyme: false
+    head_rhyme: []
+    sound_devices: []
+    rhetorical_devices: []
+    parallel_with: []
+    parallel_pattern: ""
+    lyric_phrases:
+      - phrase_id: L19p1
+        text: 月亮代表我的心
+        char_count: 7
+        end_char: 心
+        rhyme_vowel: in
+        rhyme_jie: 人辰辙
+        rhyme_group: S4-hook
+        phrase_position: single_phrase
+        cadence_role: 核心Hook句
+        internal_rhymes: []
+        head_rhyme: []
+        sound_devices: []
+        rhetorical_devices: []
+        parallel_with: []
+
+run_notes:
+  mode: model-led-framework-extraction-with-techniques
+  change_summary:
+    - 抽取《月亮代表我的心》标准华语流行两轮四段结构。
+    - 精确标注非尾韵声学设计及对仗平行关系（AA叠字、A一A重叠）。
+    - 完整录入 S1/S2/S4 主歌平行和变体映射关系。
