@@ -47,17 +47,17 @@ segments:
         refs:
           - L01
           - L02
-        form: 问答对举
-        description: 你问我爱你有多深 / 我爱你有几分 形成设问与追问
-        fill_requirement: 必须保留提问与回答的并列结构
+        form: 设问对举
+        description: 设问与呼应对偶句
+        fill_requirement: 句式对称的设问与呼应结构
       - technique_id: T02
         type: 对举
         refs:
           - L03
           - L04
-        form: 我的[名词]也真
-        description: 我的情也真 / 我的爱也真 形成情感平行宣告
-        fill_requirement: 保留相同句式结构的并列宣告
+        form: 定中主语 + 副词 + 相同形容词或动作
+        description: 句法平行并列宣告，句尾押相同韵脚字
+        fill_requirement: 保留主谓并列的平行宣告格式（名词意象可替换，无需绑定具体字眼）
 
   - segment_id: S2
     role: 主歌
@@ -81,9 +81,9 @@ segments:
         refs:
           - L08
           - L09
-        form: 我的[名词]不[变动/形容词]
-        description: 我的情不移 / 我的爱不变 形成否定承诺对偶
-        fill_requirement: 必须保留平行的否定词承诺结构
+        form: 否定形式承诺对仗
+        description: 用平行否定修饰词表达坚守
+        fill_requirement: 保留对称的否定修饰式忠诚/坚守承诺结构（无需绑定具体词汇，且尾字不押主韵）
 
   - segment_id: S3
     role: 桥段
@@ -107,17 +107,17 @@ segments:
         refs:
           - L11
           - L13
-        form: [AA叠字]的[一个/一段][名词]
-        description: 轻轻的一个吻 / 深深的一段情 形成叠词对举
-        fill_requirement: 必须保留 AA 的一 B 结构
+        form: 叠词修饰情境对举
+        description: 叠词开头引导的具象场景细节
+        fill_requirement: 保留首部叠词修饰量定或名词的结构
       - technique_id: T06
         type: 叠词
         refs:
           - L11
           - L13
-        form: AA叠词开头
-        description: 轻轻 / 深深 制造温柔情感氛围
-        fill_requirement: 保留首尾叠词节奏
+        form: 首部叠词修饰
+        description: 双字叠词开头制造情绪铺垫
+        fill_requirement: 句首使用叠词修饰
 
   - segment_id: S4
     role: 主歌
@@ -141,17 +141,17 @@ segments:
         refs:
           - L17
           - L18
-        form: 你去[动词]一[动词]
-        description: 你去想一想 / 你去看一看 引导求证行动
-        fill_requirement: 保留 你去X一X 的动词叠词句式
+        form: 动词重叠式指引对举
+        description: 重叠动词引导感受与验证
+        fill_requirement: 保持动词重叠印证格式（如“A一A”或重叠短语）
       - technique_id: T07
         type: 重复与动作指引
         refs:
           - L17
           - L18
-        form: A一A 重叠
-        description: 想一想 / 看一看
-        fill_requirement: 保留 A一A 重复节奏
+        form: 动词重叠印证
+        description: 行动与心智的重叠表达
+        fill_requirement: 保留动词重叠节奏
 
 lines:
   - line_id: L01
@@ -254,7 +254,7 @@ lines:
         form: 宣告对举
     parallel_with:
       - L04
-    parallel_pattern: 我的[名词]也真
+    parallel_pattern: 定中主语 + 副词 + 相同形容词或动作
     lyric_phrases:
       - phrase_id: L03p1
         text: 我的情也真
@@ -293,7 +293,7 @@ lines:
         form: 宣告对举
     parallel_with:
       - L03
-    parallel_pattern: 我的[名词]也真
+    parallel_pattern: 定中主语 + 副词 + 相同形容词或动作
     lyric_phrases:
       - phrase_id: L04p1
         text: 我的爱也真
@@ -441,7 +441,7 @@ lines:
         form: 否定承诺对仗
     parallel_with:
       - L09
-    parallel_pattern: 我的[名词]不[变动/形容词]
+    parallel_pattern: 并列定中名词 + 否定词 + 坚守状态
     lyric_phrases:
       - phrase_id: L08p1
         text: 我的情不移
@@ -480,7 +480,7 @@ lines:
         form: 否定承诺对仗
     parallel_with:
       - L08
-    parallel_pattern: 我的[名词]不[变动/形容词]
+    parallel_pattern: 并列定中名词 + 否定词 + 坚守状态
     lyric_phrases:
       - phrase_id: L09p1
         text: 我的爱不变
@@ -557,7 +557,7 @@ lines:
         form: 叠词回忆对偶
     parallel_with:
       - L13
-    parallel_pattern: "[AA叠字]的[数量]个/段[名词]"
+    parallel_pattern: "[AA叠词] + [量定关系词] + [名词意象]"
     lyric_phrases:
       - phrase_id: L11p1
         text: 轻轻的一个吻
@@ -636,7 +636,7 @@ lines:
         form: 叠词回忆对偶
     parallel_with:
       - L11
-    parallel_pattern: "[AA叠字]的[数量]个/段[名词]"
+    parallel_pattern: "[AA叠词] + [量定关系词] + [名词意象]"
     lyric_phrases:
       - phrase_id: L13p1
         text: 深深的一段情
@@ -787,7 +787,7 @@ lines:
         form: 行动对偶
     parallel_with:
       - L18
-    parallel_pattern: 你去[动词]一[动词]
+    parallel_pattern: 感受/验证指引的动词重叠式
     lyric_phrases:
       - phrase_id: L17p1
         text: 你去想一想
@@ -831,7 +831,7 @@ lines:
         form: 行动对偶
     parallel_with:
       - L17
-    parallel_pattern: 你去[动词]一[动词]
+    parallel_pattern: 感受/验证指引的动词重叠式
     lyric_phrases:
       - phrase_id: L18p1
         text: 你去看一看
